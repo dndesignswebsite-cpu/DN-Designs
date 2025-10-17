@@ -1,0 +1,10 @@
+.humburger-btn{
+    background-color: #CA2734;
+    color: white;
+    
+}
+
+.humburger-btn:hover{
+    background-color: #ed4d5a;
+    color: white;
+}

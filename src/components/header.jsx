@@ -22,7 +22,7 @@ function Header() {
 
     
         <button 
-          className="btn btn-primary" 
+          className="btn humburger-btn" 
           type="button" 
           data-bs-toggle="offcanvas" 
           data-bs-target="#offcanvasRight" 
