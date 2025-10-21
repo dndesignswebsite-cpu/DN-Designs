@@ -1,72 +1,94 @@
-import React from 'react'
-import { NavLink, useNavigate } from 'react-router-dom'
-import '../assets/css/header.css'
-import logo from '../assets/images/dn.png' 
+import React, { useState, useEffect } from 'react';
+import { NavLink, useNavigate } from 'react-router-dom';
+import '../assets/css/header.css';
+const TRANSITION_DURATION = 1000; 
 
-function Header() {
+function header() {
+
+
+   const [isAnimating, setIsAnimating] = useState(false); 
+    const [isVisible, setIsVisible] = useState(false);
+    
+    const [openSubmenu, setOpenSubmenu] = useState(null);
+
+    const toggleNav = () => {
+        if (isAnimating) {
+            setIsAnimating(false);
+            
+            setTimeout(() => {
+                setIsVisible(false);
+                document.body.style.overflowY = 'auto';
+            }, TRANSITION_DURATION); 
+
+        } else {
+            setIsVisible(true);
+            document.body.style.overflowY = 'hidden';
+
+            setTimeout(() => {
+                setIsAnimating(true);
+            }, 50); 
+        }
+    };
+    
+    const toggleSubMenu = (menuId) => {
+        setOpenSubmenu(openSubmenu === menuId ? null : menuId);
+    };
+
+    const handleLinkClick = () => {
+        if (isAnimating) {
+            toggleNav(); 
+            setOpenSubmenu(null);
+        }
+    };
+    
+    const handleSubmenuParentClick = (e, menuId) => {
+        if (e.target.tagName !== 'A' && e.target.closest('A') === null) {
+            toggleSubMenu(menuId);
+        }
+    };
+    
+    useEffect(() => {
+        return () => {
+            document.body.style.overflowY = 'auto';
+        };
+    }, []);
+
+
   return (
-    <div className="header-container">
-    
-      <div className="d-flex justify-content-between align-items-center px-3 py-2">
-    
-        <div className="logo">
-          <NavLink to="/">
-            <img 
-              src={logo}
-              alt="Logo" 
-              style={{ height: '100px' }} 
-              className='alogo'
-            />
-          </NavLink>
-        </div>
+    <div>
 
-    
-        <button 
-          className="btn humburger-btn" 
-          type="button" 
-          data-bs-toggle="offcanvas" 
-          data-bs-target="#offcanvasRight" 
-          aria-controls="offcanvasRight"
-        >
-          ☰ 
-        </button>
-      </div>
+            <header className="header">
+                <div className="logo">
+                    {/* <img src="https://placehold.co/100x40/D3172E/ffffff?text=DN+DESIGNS" alt="DN Designs Logo" /> */}
+                </div>
+                <button
+                    className={`nav-toggle-btn ${isAnimating ? 'is-active' : ''}`}
+                    onClick={toggleNav}
+                    aria-label="Toggle Navigation"
+                    aria-expanded={isAnimating}
+                >
+                    Let's Connect
+                    <span className="toggle-icon"></span>
+                </button>
+            </header>
 
-      
-      <div 
-        className="offcanvas offcanvas-end" 
-        tabIndex="-1" 
-        id="offcanvasRight" 
-        aria-labelledby="offcanvasRightLabel"
-      >
-        <div className="offcanvas-header">
-          <button 
-            type="button" 
-            className="btn-close text-reset" 
-            data-bs-dismiss="offcanvas" 
-            aria-label="Close"
-          ></button>
+            <nav 
+                className={`full-screen-nav ${isAnimating ? 'is-open' : ''}`} 
+                style={{ 
+                    visibility: isVisible ? 'visible' : 'hidden',
+                    pointerEvents: isVisible ? 'auto' : 'none'
+                }}
+            >
+                <div className="nav-content-wrapper">
+                    <ul className="nav-main-links">
+                        <li><NavLink to="/" onClick={handleLinkClick}>Home</NavLink></li>
+                        <li><NavLink to="/about" onClick={handleLinkClick}>About Us</NavLink></li>
+                        <li><NavLink to="/contact-us" onClick={handleLinkClick}>Contact</NavLink></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-        <div className="offcanvas-body">
-          <nav className="navbar navbar-light">
-            <div id="navbarNav">
-              <ul className="navbar-nav">
-                <li className="nav-item active" data-bs-dismiss="offcanvas">
-                  <NavLink to="/" className="nav-item nav-link">Home</NavLink>
-                </li>
-                <li className="nav-item" data-bs-dismiss="offcanvas">
-                  <NavLink to="/about" className="nav-item nav-link">About</NavLink>
-                </li>
-                <li className="nav-item" data-bs-dismiss="offcanvas">
-                  <NavLink to="/contact-us" className="nav-item nav-link">Contact Us</NavLink>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
   )
 }
 
-export default Header
+export default header
