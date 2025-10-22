@@ -1,0 +1,94 @@
+.hero {
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+.hero .container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.hero .col {
+  flex: 1;
+  min-width: 300px;
+}
+
+.left-hero{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+  font-size: 56px;
+  font-weight: bold;
+  font-family: Corbert;
+  color: #000;
+  /* line-height: 1.2; */
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-right: 15px;
+}
+
+.hero button:first-child {
+  background-color: #d62828;
+  color: white;
+}
+
+.hero button:first-child:hover {
+  background-color: #b71c1c;
+}
+
+.hero button:last-child {
+  background-color: #000;
+  color: white;
+}
+
+.hero button:last-child:hover {
+  background-color: #333;
+}
+
+.hero img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+
+@media (max-width: 992px) {
+  .hero .container {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 2.3rem;
+  }
+
+  .hero img {
+    margin-top: 30px;
+  }
+
+  .hero button{
+    margin:5px;
+  }
+}
