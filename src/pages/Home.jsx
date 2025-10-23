@@ -21,6 +21,91 @@ function Home() {
           </div>
         </div>
       </section>
+
+
+      <section className='our-constant-companions'>
+<div class="container text-center">
+  <div class="row align-items-start">
+  <h2>Our Constant Companions</h2>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+  </div>
+
+   <div class="row align-items-start">
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/wlues-1.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/wlues-1.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/wlues-1.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/wlues-1.png" className='img-fluid'></img>
+    </div>
+  </div>
+
+
+ <div class="row align-items-start">
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+  </div>
+
+
+ <div class="row align-items-start">
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+  </div>
+
+
+ <div class="row align-items-start">
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+    </div>
+  </div>
+
+</div>
+      </section>
     </div>
   )
 }

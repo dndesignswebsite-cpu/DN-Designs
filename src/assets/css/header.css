@@ -22,7 +22,7 @@ a {
 }
 
 .nav-toggle-btn {
-    position: relative; top: 10px; right: 10px; z-index: 301;
+    position: relative; top: 0px; right: 10px; z-index: 301;
     background-color: transparent; border: 2px solid var(--text-color);
     color: var(--text-color); padding: 10px 20px; cursor: pointer;
     font-size: 14px; font-weight: 600; border-radius: 5px;
@@ -77,6 +77,10 @@ a {
 
 .nav-main-links li a:hover { color: var(--primary-color); }
 
+.logo img {
+    height: 100px;
+}
+
 
 
 @media (max-width: 768px) {
@@ -84,4 +88,7 @@ a {
     .nav-main-links { font-size: 30px; }
     .nav-footer-info { flex-direction: column; }
     .contact-details { margin-bottom: 20px; }
+    .logo img {
+    height: 50px;
+}
 }

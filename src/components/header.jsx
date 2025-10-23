@@ -59,7 +59,7 @@ function header() {
 
             <header className="header">
                 <div className="logo">
-                    {/* <img src="https://placehold.co/100x40/D3172E/ffffff?text=DN+DESIGNS" alt="DN Designs Logo" /> */}
+                    <img src="https://dndesigns.co.in/wp-content/uploads/2022/09/dn.png" alt="DN Designs Logo" />
                 </div>
                 <button
                     className={`nav-toggle-btn ${isAnimating ? 'is-active' : ''}`}

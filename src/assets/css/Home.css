@@ -1,7 +1,3 @@
-.hero {
-  padding: 100px 0;
-  background-color: #fff;
-}
 
 .hero .container {
   display: flex;
@@ -28,18 +24,18 @@
   font-weight: bold;
   font-family: Corbert;
   color: #000;
-  /* line-height: 1.2; */
   margin-bottom: 20px;
 }
 
 .hero p {
-  color: #555;
-  font-size: 1.1rem;
+  width: 70%;
+  color: #666;
+  font-size: 18px;
   margin-bottom: 30px;
 }
 
 .hero button {
-  padding: 14px 28px;
+  padding: 14px 60px;
   font-size: 1rem;
   font-weight: 600;
   border: none;
@@ -71,10 +67,6 @@
   width: 100%;
   object-fit: cover;
 }
-
-
-
-
 @media (max-width: 992px) {
   .hero .container {
     flex-direction: column;
@@ -91,4 +83,33 @@
   .hero button{
     margin:5px;
   }
+
+  .hero{
+    margin-top:30px;
+  }
+}
+
+
+
+
+
+
+/*............ */
+.our-constant-companions{
+  margin-top: 100px;
+}
+.companies img{
+  width: 150px;
+  margin:10px;
+  border-radius:8px;
+  padding: 0px;
+    transition: filter 0.5s ease; /* smooth transition */
+    filter: grayscale(100%) brightness(0); /* black color effect */
+}
+
+.companies img:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  box-shadow: #000 0px 4px 15px -5px;
+  filter: none;
 }
