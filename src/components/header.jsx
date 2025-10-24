@@ -57,7 +57,7 @@ function header() {
   return (
     <div>
 
-            <header className="header">
+            <header className="header container">
                 <div className="logo">
                     <img src="https://dndesigns.co.in/wp-content/uploads/2022/09/dn.png" alt="DN Designs Logo" />
                 </div>
