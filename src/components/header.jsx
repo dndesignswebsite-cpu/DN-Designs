@@ -65,7 +65,7 @@ function header() {
                     <img src="https://dndesigns.co.in/wp-content/uploads/2022/09/dn.png" alt="DN Designs Logo" />
                 </div>
                 </div>
-                <div className='col'>
+                <div className='col nav-toggle-column'>
                 <button
                     className={`nav-toggle-btn ${isAnimating ? 'is-active' : ''}`}
                     onClick={toggleNav}
