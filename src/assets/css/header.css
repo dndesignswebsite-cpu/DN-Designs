@@ -1,6 +1,6 @@
 
 :root {
-    --primary-color: #D3172E; 
+    --primary-color: #ca2734; 
     --text-color: #333;
     --nav-bg-color: #1a1a1a; 
     --nav-link-color: #ffffff; 
@@ -16,17 +16,32 @@ a {
 
 
 .header {
-    position: relative; top: 0; left: 0; width: 100%; display: flex;
-    justify-content: space-between; align-items: center; padding: 20px 40px;
+    position: relative; top: 0; left: 0; 
+    width: 100%; display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 40px;
     z-index: 300; 
+}
+.nav-toggle-column{
+align-items: end;
+
 }
 
 .nav-toggle-btn {
-    position: relative; top: 0px; right: 10px; z-index: 301;
-    background-color: transparent; border: 2px solid var(--text-color);
-    color: var(--text-color); padding: 10px 20px; cursor: pointer;
-    font-size: 14px; font-weight: 600; border-radius: 5px;
-    transition: all 0.3s ease; display: flex; align-items: center;
+    position: relative; top: 0px; right: 10px; 
+    z-index: 301;
+    background-color: transparent; 
+    border: 2px solid var(--text-color);
+    color: var(--text-color); 
+    padding: 10px 20px; 
+    cursor: pointer;
+    font-size: 14px; 
+    font-weight: 600; 
+    border-radius: 5px;
+    transition: all 0.3s ease; 
+    display: flex; 
+    align-items: center;
 }
 
 .nav-toggle-btn.is-active {
