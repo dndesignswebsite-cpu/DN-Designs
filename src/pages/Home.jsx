@@ -183,7 +183,7 @@ function Home() {
     </section>
 
 
- <section className="testimonial">
+ {/* <section className="testimonial">
       <div style={{ width: "400px", margin: "auto" }}>
         <Swiper
           slidesPerView={1}
@@ -216,7 +216,7 @@ function Home() {
           </SwiperSlide>
         </Swiper>
       </div>
-    </section>
+    </section> */}
 
 
 <section className='our-brand'>
