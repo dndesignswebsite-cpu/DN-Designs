@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../assets/css/Home.css"
 
 function Home() {
+  const [showMore, setShowMore] = useState(false);
+
   return (
      <div>
       <section className="hero">
@@ -106,6 +108,74 @@ function Home() {
 
 </div>
       </section>
+
+
+
+      <section className="our-work">
+      <div className="container-fluid">
+        <h2 className="text-center mb-4">Our Work</h2>
+        <div className="row">
+          <div className="col-6">
+            <img
+              src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
+              className="img-fluid"
+              alt=""
+            />
+          </div>
+          <div className="col-3">
+            <img
+              src="https://dndesigns.co.in/wp-content/uploads/2019/02/2-3.jpg"
+              className="img-fluid"
+              alt=""
+            />
+          </div>
+          <div className="col-3">
+            <img
+              src="https://dndesigns.co.in/wp-content/uploads/2019/02/thames-graphic-webiste-750x1050-1.jpg"
+              className="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+
+        
+        {showMore && (
+          <div className="row mt-4">
+            <div className="col-6">
+              <img
+                src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
+                className="img-fluid"
+                alt=""
+              />
+            </div>
+            <div className="col-3">
+              <img
+                src="https://dndesigns.co.in/wp-content/uploads/2019/02/2-3.jpg"
+                className="img-fluid"
+                alt=""
+              />
+            </div>
+            <div className="col-3">
+              <img
+                src="https://dndesigns.co.in/wp-content/uploads/2019/02/thames-graphic-webiste-750x1050-1.jpg"
+                className="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        )}
+
+        
+        <div className="mt-3">
+          <button
+            className="btn btn-primary"
+            onClick={() => setShowMore(!showMore)}
+          >
+            {showMore ? "Show Less" : "Show More"}
+          </button>
+        </div>
+      </div>
+    </section>
     </div>
   )
 }
