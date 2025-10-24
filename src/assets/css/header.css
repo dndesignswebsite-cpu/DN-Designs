@@ -3,7 +3,7 @@
     --text-color: #000000;
     --nav-bg-color: #1a1a1a;
     --nav-link-color: #ffffff;
-    --transition-speed: 1s;
+    --transition-speed: 0.7s;
     --hamburger-top: 70px;
     --hamburger-right: 180px;
 }
@@ -30,10 +30,6 @@ a {
     height: 80px;
 }
 
-.nav-toggle-column {
-    align-items: end;
-
-}
 
 .nav-toggle-btn {
     position: relative;
@@ -139,6 +135,7 @@ a {
 }
 
 .nav-main-links {
+    font-family:Corbert;
     color: var(--text-color);
     list-style: none;
     padding: 0;
