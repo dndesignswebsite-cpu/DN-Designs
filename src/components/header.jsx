@@ -60,9 +60,12 @@ function header() {
             <header className="header">
                 <div className="container">
                     <div className='row'>
+                        <div className='col'>
                 <div className="logo">
                     <img src="https://dndesigns.co.in/wp-content/uploads/2022/09/dn.png" alt="DN Designs Logo" />
                 </div>
+                </div>
+                <div className='col'>
                 <button
                     className={`nav-toggle-btn ${isAnimating ? 'is-active' : ''}`}
                     onClick={toggleNav}
@@ -72,6 +75,7 @@ function header() {
                     Let's Connect
                     <span className="toggle-icon"></span>
                 </button>
+                </div>
                 </div>
                 </div>
             </header>
