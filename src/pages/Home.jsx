@@ -1,6 +1,12 @@
 import React, { useState } from 'react'
 import "../assets/css/Home.css"
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Pagination, Navigation } from "swiper/modules";
+
 function Home() {
   const [showMore, setShowMore] = useState(false);
 
@@ -164,8 +170,7 @@ function Home() {
             </div>
           </div>
         )}
-
-        
+      
         <div className="mt-3">
           <button
             className="btn btn-primary"
@@ -176,6 +181,72 @@ function Home() {
         </div>
       </div>
     </section>
+
+
+ <section className="testimonial">
+      <div style={{ width: "400px", margin: "auto" }}>
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={10}
+          loop={true}
+          navigation={true}
+          modules={[Navigation]}
+          className="custom-swiper"
+        >
+          <SwiperSlide>
+            <img
+              src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
+              alt="slide 1"
+              className="img-fluid"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
+              alt="slide 2"
+              className="img-fluid"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
+              alt="slide 3"
+              className="img-fluid"
+            />
+          </SwiperSlide>
+        </Swiper>
+      </div>
+    </section>
+
+
+<section className='our-brand'>
+<h2>Our Brand</h2>
+<div>
+  <img
+        src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
+              alt="slide 2"
+              className="img-fluid"
+            />
+</div>
+
+<div>
+  <img
+        src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
+              alt="slide 2"
+              className="img-fluid"
+            />
+</div>
+
+<div>
+  <img
+        src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
+              alt="slide 2"
+              className="img-fluid"
+            />
+</div>
+
+</section>
+
     </div>
   )
 }
