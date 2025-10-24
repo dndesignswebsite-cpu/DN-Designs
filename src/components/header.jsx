@@ -66,9 +66,7 @@ function header() {
                     onClick={toggleNav}
                     aria-label="Toggle Navigation"
                     aria-expanded={isAnimating}
-                >
-                    Let's Connect
-                    <span className="toggle-icon"></span>
+                ><span className="toggle-icon"></span>
                 </button>
             </header>
 
