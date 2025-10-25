@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   max-width: 1300px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
 .hero .col {
@@ -114,3 +114,53 @@
   filter: none;
 }
 
+/* our work */
+:root {
+    --cards: 4;
+    --cardHeight: 87vh;
+    --cardTopPadding: 1.5em;
+    --cardMargin: 4vw;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+#card1 {
+    --index: 1;
+}
+#card2 {
+    --index: 2;
+}
+#card3 {
+    --index: 3;
+}
+#card4 {
+    --index: 4;
+}
+
+.card {
+    position: sticky;
+    top: 0;
+    padding-top: calc(var(--index) * var(--cardTopPadding));
+}
+
+
+.card-body {
+    box-sizing: border-box;
+    height: var(--cardHeight);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+
+.card-body img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 40px; 
+}

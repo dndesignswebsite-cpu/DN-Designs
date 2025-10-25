@@ -31,6 +31,38 @@ function Home() {
       </section>
 
 
+
+      <section className='our-work'>
+<div class="container">
+<h2 className='text-center'>Our Brand Journals</h2>
+    <ul id="cards">
+        <li class="card" id="card1">
+            <div class="card-body">
+                <img src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg" alt="Image for Card 1"/>
+            </div>
+        </li>
+        <li class="card" id="card2">
+            <div class="card-body">
+                <img src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg" alt="Image for Card 2"/>
+            </div>
+        </li>
+        <li class="card" id="card3">
+            <div class="card-body">
+                <img src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg" alt="Image for Card 3"/>
+            </div>
+        </li>
+        <li class="card" id="card4">
+            <div class="card-body">
+                <img src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg" alt="Image for Card 4"/>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</section>
+
+
+
       <section className='our-constant-companions'>
 <div class="container text-center">
   <div class="row align-items-start">
@@ -217,35 +249,6 @@ function Home() {
         </Swiper>
       </div>
     </section> */}
-
-
-<section className='our-brand'>
-<h2>Our Brand</h2>
-<div>
-  <img
-        src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
-              alt="slide 2"
-              className="img-fluid"
-            />
-</div>
-
-<div>
-  <img
-        src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
-              alt="slide 2"
-              className="img-fluid"
-            />
-</div>
-
-<div>
-  <img
-        src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
-              alt="slide 2"
-              className="img-fluid"
-            />
-</div>
-
-</section>
 
     </div>
   )
