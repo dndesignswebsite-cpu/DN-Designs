@@ -92,39 +92,23 @@
 
 
 
+/* our brand */
 
-
-/*............ */
-.our-constant-companions{
-  margin-top: 100px;
-}
-.companies img{
-  width: 150px;
-  margin:10px;
-  border-radius:8px;
-  padding: 0px;
-    transition: filter 0.5s ease; 
-    filter: grayscale(100%) brightness(0);
+.our-brand{
+  padding-top: 70px;
 }
 
-.companies img:hover{
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
-  box-shadow: #000 0px 4px 15px -5px;
-  filter: none;
-}
-
-/* our work */
 :root {
     --cards: 4;
-    --cardHeight: 87vh;
-    --cardTopPadding: 1.5em;
-    --cardMargin: 4vw;
+    --cardHeight: 95vh;
+    --cardTopPadding: 0em;
+    --cardMargin: 0vw;
 }
 
 .container {
     width: 90%;
     margin: 0 auto;
+    
 }
 
 
@@ -143,24 +127,211 @@
 
 .card {
     position: sticky;
-    top: 0;
-    padding-top: calc(var(--index) * var(--cardTopPadding));
+    top: 20px;
+    border: none;
+    border-radius: 40px;
+}
+
+#cards{
+  margin-top: 50px;
 }
 
 
 .card-body {
     box-sizing: border-box;
-    height: var(--cardHeight);
+    height: 95vh;
     display: flex; 
     justify-content: center;
     align-items: center;
     transition: all 0.5s;
+    padding: 0;
+    position: relative;
 }
 
 
 .card-body img {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
     border-radius: 40px; 
+    
 }
+
+.brand-overlay{
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4; 
+  border-radius: 40px;
+}
+
+.our-brand-content{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+padding: 50px;
+  bottom: 30px;
+}
+
+.our-brand-content h3{
+      color: rgb(255, 255, 255);
+    font-family: Corbert, sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.brand-buttons{
+  display: flex;
+  gap: 20px;
+}
+
+.brand-buttons button{
+      border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+    background: transparent;
+    flex: 1 1 0; /* sab equal space lenge */
+     max-width: 200px;
+  margin: 5px;
+}
+
+.our-brand-content p{
+      color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+    margin-top:10px;
+}
+
+.our-brand-heading{
+  font-size: 50px;
+  font-family: Corbert, sans-serif;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+@media(max-width:768px){
+  .our-brand{
+    display:none;
+  }
+}
+
+
+
+/*......our-constant-companions...... */
+.our-constant-companions{
+  margin-top: 100px;
+}
+.companies img{
+  width: 150px;
+  margin:10px;
+  border-radius:8px;
+  padding: 0px;
+    transition: filter 0.5s ease; 
+    filter: grayscale(100%) brightness(90%);
+}
+
+.companies{
+  margin-top: 20px;
+}
+
+.companies img:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  box-shadow: #000 0px 4px 15px -5px;
+  filter: none;
+}
+
+
+
+/* our work */
+
+
+
+ .imag-cont {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      display:block;
+      height: 100%;
+      border: 1px solid #D8D5D5;
+      border-radius: 10px;
+      cursor: pointer;
+      
+    }
+
+    .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none; 
+}
+
+
+    .imag-cont:hover .overlay {
+        opacity: 1;
+             }
+
+    .imag-cont img {
+      width: 100%;
+      height: 100%;
+      transition: transform 0.5s ease;
+     object-fit: cover;
+    }
+
+
+    
+    .overlay-box {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      color: #fff;
+      padding: 10px ;
+      box-sizing: border-box;
+      transform: translateY(100%);
+      transition: transform 0.5s ease;
+    }
+
+    .imag-cont:hover .overlay-box {
+      transform: translateY(0px);
+    }
+
+    .overlay-title {
+        font-family:Corbert;
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0px 0px 0px 10px;
+     
+    }
+    
+    .Pras{
+        color:white;
+        font-family:Roboto;
+        margin: 0px 0px 0px 10px;
+    }
+
+
+       .showmore-btn{
+        font-family:Roboto;
+        cursor: pointer;
+        background-color: #ca2734;
+        border:2px solid #ca2734;
+        padding:5px 20px;
+        border-radius: 50px 50px;
+    }
+    .showmorebtn:hover{
+         background-color: black;
+         border:2px solid black;
+         
+    }

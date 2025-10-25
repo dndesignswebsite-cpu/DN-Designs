@@ -32,28 +32,73 @@ function Home() {
 
 
 
-      <section className='our-work'>
+      <section className='our-brand'>
 <div class="container">
-<h2 className='text-center'>Our Brand Journals</h2>
+<h2 className='text-center our-brand-heading'>Our Brand Journals</h2>
     <ul id="cards">
         <li class="card" id="card1">
             <div class="card-body">
-                <img src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg" alt="Image for Card 1"/>
+                <img src="https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg" alt="Image for Card 1" className='img-fluid'/>
+                <div className='brand-overlay'>
+                <div className='our-brand-content'>
+                  <h3>Grin Care</h3>
+                  <div className='brand-buttons'>
+                    <button>Brand Identity</button>
+                    <button>UI/UX</button>
+                    <button>Website</button>
+                  </div>
+                  <p>For Rithm’s Enlite, a brand with sparkling mineral water and prebiotic drink range, we designed a thoughtful and eye-catching brand identity, including can design, logo design and character design. We created the character and the overall brand design around the brand name to promote the refreshing and calming properties of the product.</p>
+                </div>
+                </div>
             </div>
         </li>
         <li class="card" id="card2">
             <div class="card-body">
-                <img src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg" alt="Image for Card 2"/>
+                <img src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg" alt="Image for Card 2" className='img-fluid'/>
+                <div className='brand-overlay'>
+                <div className='our-brand-content'>
+                  <h3>Grin Care</h3>
+                  <div className='brand-buttons'>
+                    <button>Brand Identity</button>
+                    <button>UI/UX</button>
+                    <button>Website</button>
+                  </div>
+                  <p>For Rithm’s Enlite, a brand with sparkling mineral water and prebiotic drink range, we designed a thoughtful and eye-catching brand identity, including can design, logo design and character design. We created the character and the overall brand design around the brand name to promote the refreshing and calming properties of the product.</p>
+                </div>
+                </div>
             </div>
         </li>
         <li class="card" id="card3">
             <div class="card-body">
-                <img src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg" alt="Image for Card 3"/>
+                <img src="https://dndesigns.co.in/wp-content/uploads/2025/08/Nectarpure.jpg" alt="Image for Card 3" className='img-fluid'/>
+                <div className='brand-overlay'>
+                <div className='our-brand-content'>
+                  <h3>Grin Care</h3>
+                  <div className='brand-buttons'>
+                    <button>Brand Identity</button>
+                    <button>UI/UX</button>
+                    <button>Website</button>
+                  </div>
+                  <p>For Rithm’s Enlite, a brand with sparkling mineral water and prebiotic drink range, we designed a thoughtful and eye-catching brand identity, including can design, logo design and character design. We created the character and the overall brand design around the brand name to promote the refreshing and calming properties of the product.</p>
+                </div>
+                </div>
             </div>
         </li>
         <li class="card" id="card4">
             <div class="card-body">
-                <img src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg" alt="Image for Card 4"/>
+                <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/13.jpg" alt="Image for Card 4" className='img-fluid'/>
+                <div className='brand-overlay'>
+                <div className='our-brand-content'>
+                  <h3>Grin Care</h3>
+                  <div className='brand-buttons'>
+                    <button>Brand Identity</button>
+                    <button>UI/UX</button>
+                    <button>Website</button>
+                    <button>Website</button>
+                  </div>
+                  <p>For Rithm’s Enlite, a brand with sparkling mineral water and prebiotic drink range, we designed a thoughtful and eye-catching brand identity, including can design, logo design and character design. We created the character and the overall brand design around the brand name to promote the refreshing and calming properties of the product.</p>
+                </div>
+                </div>
             </div>
         </li>
     </ul>
@@ -66,19 +111,20 @@ function Home() {
       <section className='our-constant-companions'>
 <div class="container text-center">
   <div class="row align-items-start">
-  <h2>Our Constant Companions</h2>
+  <h2 className='our-brand-heading'>Our Constant Companions</h2>
     <div class="col-6 col-md-3 companies">
       <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
     </div>
     <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+      <img src="https://dndesigns.co.in/wp-content/uploads/2024/08/audi.png" className='img-fluid'></img>
     </div>
     <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/PB_Business.png" className='img-fluid'></img>
     </div>
     <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/iOrganic-Logo-NEW-web.png" className='img-fluid'></img>
     </div>
+    
   </div>
 
    <div class="row align-items-start">
@@ -86,61 +132,61 @@ function Home() {
       <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/wlues-1.png" className='img-fluid'></img>
     </div>
     <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/wlues-1.png" className='img-fluid'></img>
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/iOrganic-Logo-NEW-web-1.png" className='img-fluid'></img>
     </div>
     <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/wlues-1.png" className='img-fluid'></img>
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/enlite.png" className='img-fluid'></img>
     </div>
     <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/wlues-1.png" className='img-fluid'></img>
-    </div>
-  </div>
-
-
- <div class="row align-items-start">
-    <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
-    </div>
-    <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
-    </div>
-    <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
-    </div>
-    <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/nectarpure.png" className='img-fluid'></img>
     </div>
   </div>
 
 
  <div class="row align-items-start">
     <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+      <img src="https://dndesigns.co.in/wp-content/uploads/2023/10/smartyum.png" className='img-fluid'></img>
     </div>
     <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/Thames.png" className='img-fluid'></img>
     </div>
     <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/veikk.png" className='img-fluid'></img>
     </div>
     <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/enliiv.png" className='img-fluid'></img>
     </div>
   </div>
 
 
  <div class="row align-items-start">
     <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/bobalist.png" className='img-fluid'></img>
     </div>
     <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/Nature-balance.png" className='img-fluid'></img>
     </div>
     <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/Untitled-1.png" className='img-fluid'></img>
     </div>
     <div class="col-6 col-md-3 companies">
-      <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/qualiteq.png" className='img-fluid'></img>
+    </div>
+  </div>
+
+
+ <div class="row align-items-start">
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/rungta.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/floris.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/david.png" className='img-fluid'></img>
+    </div>
+    <div class="col-6 col-md-3 companies">
+      <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/david.png" className='img-fluid'></img>
     </div>
   </div>
 
@@ -152,60 +198,213 @@ function Home() {
       <section className="our-work">
       <div className="container-fluid">
         <h2 className="text-center mb-4">Our Work</h2>
-        <div className="row">
-          <div className="col-6">
-            <img
-              src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
-              className="img-fluid"
-              alt=""
-            />
+        <div className="row mt-4">
+          <div className="col-sm-12 col-md-6">
+                  <div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">Rithm's Enlite</div>
+      <p class="Pras">Bubbles with benefits</p>
+    </div>
+  </div>
+
           </div>
-          <div className="col-3">
-            <img
-              src="https://dndesigns.co.in/wp-content/uploads/2019/02/2-3.jpg"
-              className="img-fluid"
-              alt=""
-            />
+          <div className="col-sm-12 col-md-3">
+     <div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2019/02/2-3.jpg" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">NectarPure</div>
+            <p class="Pras">A Revolution in Nutritional Absorption</p>
+    </div>
+    
+  </div>
           </div>
-          <div className="col-3">
-            <img
-              src="https://dndesigns.co.in/wp-content/uploads/2019/02/thames-graphic-webiste-750x1050-1.jpg"
-              className="img-fluid"
-              alt=""
-            />
+          <div className="col-sm-12 col-md-3">
+          <div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2019/02/thames-graphic-webiste-750x1050-1.jpg" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">Thames</div>
+            <p class="Pras">For the Love of Protein</p>
+    </div>
+    
+  </div>
           </div>
         </div>
 
+                <div className="row mt-4">
+          <div className="col-sm-12 col-md-3">
+                     <div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2019/02/thames-graphic-webiste-750x1050-1.jpg" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">Thames</div>
+            <p class="Pras">For the Love of Protein</p>
+    </div>
+  </div>
+          </div>
+          <div className="col-sm-12 col-md-6">
+            <div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2025/08/nature-balance.jpg" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">Nature's Balance</div>
+      <p class="Pras">Fuel your day the green way</p>
+    </div>
+    
+  </div>
+          </div>
+          <div className="col-sm-12 col-md-3">
+          <div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2019/02/VEIKK.jpg" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">Veikk</div>
+            <p class="Pras">Photography</p>
+    </div>
+    
+  </div>
+          </div>
+        </div>
+
+
+        <div className="row mt-4">
+          <div className="col-sm-12 col-md-6">
+            <div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/greenhorn-manu.jpg" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">Green Horn</div>
+      <p class="Pras">Smart Energy, Bold You</p>
+    </div>
+    
+  </div>
+          </div>
+          <div className="col-sm-12 col-md-6">
+            <div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2025/08/kalprishi.jpg" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">Kalprishi</div>
+            <p class="Pras">Flavours that celebrate</p>
+    </div>
+    
+  </div>
+          </div>
+        </div>
+
+
         
         {showMore && (
+          <div>
           <div className="row mt-4">
-            <div className="col-6">
-              <img
-                src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
-                className="img-fluid"
-                alt=""
-              />
+            <div className="col-sm-12 col-md-6">
+             <div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2025/04/5.jpg" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">The Bobalist</div>
+      <p class="Pras">Pop the boba, feel the Fun</p>
+    </div>
+    
+  </div>
             </div>
-            <div className="col-3">
-              <img
-                src="https://dndesigns.co.in/wp-content/uploads/2019/02/2-3.jpg"
-                className="img-fluid"
-                alt=""
-              />
+            <div className="col-sm-12 col-md-3">
+            <div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2019/02/9.jpg" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">iOrganic</div>
+            <p class="Pras">Ideal food for you</p>
+    </div>
+    
+  </div>
             </div>
-            <div className="col-3">
-              <img
-                src="https://dndesigns.co.in/wp-content/uploads/2019/02/thames-graphic-webiste-750x1050-1.jpg"
-                className="img-fluid"
-                alt=""
-              />
+            <div className="col-sm-12 col-md-3">
+           
+  
+  <div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2019/02/3-2.jpg" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">Koshish</div>
+            <p class="Pras">Vasudhaiva Kutumvakam</p>
+    </div>
+    
+  </div>
             </div>
+          </div>
+
+<div className="row mt-4">
+            <div className="col-sm-12 col-md-3">
+<div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2019/02/Logo.jpg" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">Deeproot</div>
+            <p class="Pras">One crunch, many flavours</p>
+    </div>
+    
+  </div>
+            </div>
+            <div className="col-sm-12 col-md-6">
+        <div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2025/04/5.jpg" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">The Bobalist</div>
+      <p class="Pras">Pop the boba, feel the Fun</p>
+    </div>
+    
+  </div>
+            </div>
+            <div className="col-sm-12 col-md-3">
+           
+  
+  <div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2019/02/smartyums-1.jpg" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">Smart Yums</div>
+            <p class="Pras">Food of the Future</p>
+    </div>
+    
+  </div>
+            </div>
+          </div>
+
+          <div className="row mt-4">
+            <div className="col-sm-12 col-md-6">
+        <div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2025/08/Wlues.jpg" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">Wlue's</div>
+      <p class="Pras">Only for winners</p>
+    </div>
+    
+  </div>
+            </div>
+            <div className="col-sm-12 col-md-6">
+        <div class="imag-cont">
+    <img src="https://dndesigns.co.in/wp-content/uploads/2024/10/ezgif.com-speed-1.gif" alt="demo"/>
+    <div class="overlay"></div>
+    <div class="overlay-box">
+      <div class="overlay-title">iOrganic</div>
+            <p class="Pras">Ideal food for you</p>
+    </div>
+    
+  </div>
+            </div>
+          </div>
           </div>
         )}
       
-        <div className="mt-3">
+        <div className="mt-3 text-center">
           <button
-            className="btn btn-primary"
+            className="showmore-btn"
             onClick={() => setShowMore(!showMore)}
           >
             {showMore ? "Show Less" : "Show More"}
@@ -249,6 +448,7 @@ function Home() {
         </Swiper>
       </div>
     </section> */}
+
 
     </div>
   )
