@@ -465,7 +465,7 @@ function Home() {
 <div class="container">
   <div class="row g-0 align-items-center points-row">
     <div class="col-4 points-left">
-      <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/350x1100.jpg'/>
+      <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/350x1100.jpg' className='img-fluid'/>
     </div>
     <div class="col-8 points-right">
     <div className='points'>

@@ -196,7 +196,7 @@ padding: 50px;
     color: rgb(255, 255, 255);
     font-family: Roboto, sans-serif;
     background: transparent;
-    flex: 1 1 0; /* sab equal space lenge */
+    flex: 1 1 0;
      max-width: 200px;
   margin: 5px;
 }
@@ -372,7 +372,7 @@ padding: 50px;
 .points-left img{
   width: 100%;
   border-radius: 20px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .points-left{
   padding-right: 10px;
