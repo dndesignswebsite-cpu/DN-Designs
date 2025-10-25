@@ -422,42 +422,6 @@ function Home() {
     </section>
 
 
- {/* <section className="testimonial">
-      <div style={{ width: "400px", margin: "auto" }}>
-        <Swiper
-          slidesPerView={1}
-          spaceBetween={10}
-          loop={true}
-          navigation={true}
-          modules={[Navigation]}
-          className="custom-swiper"
-        >
-          <SwiperSlide>
-            <img
-              src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
-              alt="slide 1"
-              className="img-fluid"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
-              alt="slide 2"
-              className="img-fluid"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
-              alt="slide 3"
-              className="img-fluid"
-            />
-          </SwiperSlide>
-        </Swiper>
-      </div>
-    </section> */}
-
-
 
 {/*.....points...... */}
 
@@ -512,6 +476,69 @@ function Home() {
   </div>
 </div>
 </section>
+
+
+
+{/* testinomial */}
+ <section className="testimonial">
+      <div className='container'>
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={10}
+           autoplay={{
+          delay: 500,
+          disableOnInteraction: false,
+        }}
+          loop={true}
+          navigation={true}
+          modules={[Navigation]}
+          className="custom-swiper"
+        >
+          <SwiperSlide>
+           <div class="row align-items-start">
+    <div class="col">
+      <p>testimonial</p>
+      <h3>What they say about us</h3>
+      <h2>Mr Vineet Tiwari</h2>
+      <p>Founder, The Bobalist</p>
+    </div>
+    <div class="col">
+     <img src='https://dndesigns.co.in/wp-content/uploads/2025/09/1662129811700.jpg'/>
+    </div>
+    <div class="col">
+      <p>To establish your online presence, a visually appealing, SEO-optimised and user-friendly website is essential. It boosts your brand image and generates business.</p>
+    </div>
+  </div>
+          </SwiperSlide>
+          <SwiperSlide>
+           <div class="row align-items-start">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="row align-items-start">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+    </section>
     </div>
   )
 }

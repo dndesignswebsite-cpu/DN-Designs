@@ -378,6 +378,17 @@ padding: 50px;
   padding-right: 10px;
 }
 
+@media(max-width:768px){
+  .points-left{
+    display: none;
+  }
+}
+
+
+
+/* testinomails */
+
+
 
 
 
