@@ -12,6 +12,8 @@ function Home() {
 
   return (
      <div>
+
+     {/*.....hero...... */}
       <section className="hero">
         <div class="container">
           <div class="row align-items-start">
@@ -31,6 +33,7 @@ function Home() {
       </section>
 
 
+{/*.....our brands...... */}
 
       <section className='our-brand'>
 <div class="container">
@@ -108,10 +111,13 @@ function Home() {
 
 
 
+{/*.....our-constant-companions...... */}
+
       <section className='our-constant-companions'>
 <div class="container text-center">
   <div class="row align-items-start">
   <h2 className='our-brand-heading'>Our Constant Companions</h2>
+  
     <div class="col-6 col-md-3 companies">
       <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/holidayinn_logo.png" className='img-fluid'></img>
     </div>
@@ -195,6 +201,8 @@ function Home() {
 
 
 
+
+{/*.....our work...... */}
       <section className="our-work">
       <div className="container-fluid">
         <h2 className="text-center mb-4">Our Work</h2>
@@ -450,6 +458,60 @@ function Home() {
     </section> */}
 
 
+
+{/*.....points...... */}
+
+<section className='point'>
+<div class="container">
+  <div class="row g-0 align-items-center points-row">
+    <div class="col-4 points-left">
+      <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/350x1100.jpg'/>
+    </div>
+    <div class="col-8 points-right">
+    <div className='points'>
+      <h2>1</h2>
+      <h3>Branding</h3>
+      <div className='points-para'>
+        <p>It is a significant challenge to create a space for your product in the market. It requires strategic thinking, creative skills, and a relentless pursuit of goals.</p>
+        <p>Worried? Don’t be, for we are here.</p>
+      </div>
+       <div className='points-para'>
+        <p>We provide end-to-end branding services.</p>
+        <p>  Brand Identity Design
+  Packaging Design
+  Catalogue Design</p>
+      </div>
+    </div>
+
+      <div className='points'>
+      <h2>2</h2>
+      <h3>Communication Strategy</h3>
+      <div className='points-para'>
+        <p>Customers must be aware of your excellent product. Communication, therefore, is crucial to establishing and strengthening your brand’s presence in the market.</p>
+        <p>What are you waiting for then? Connect with us today.</p>
+      </div>
+       <div className='points-para'>
+        <p>It is a significant challenge to create a space for your product in the market. It requires strategic thinking, creative skills, and a relentless pursuit of goals.</p>
+        <p>Worried? Don’t be, for we are here.</p>
+      </div>
+    </div>
+
+      <div className='points'>
+      <h2>3</h2>
+      <h3>Web Design</h3>
+      <div className='points-para'>
+        <p>It is a significant challenge to create a space for your product in the market. It requires strategic thinking, creative skills, and a relentless pursuit of goals.</p>
+        <p>Worried? Don’t be, for we are here.</p>
+      </div>
+       <div className='points-para'>
+        <p>It is a significant challenge to create a space for your product in the market. It requires strategic thinking, creative skills, and a relentless pursuit of goals.</p>
+        <p>Worried? Don’t be, for we are here.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</section>
     </div>
   )
 }

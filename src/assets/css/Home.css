@@ -162,8 +162,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: black;
-  opacity: 0.4; 
+   background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1; 
   border-radius: 40px;
 }
 
@@ -173,6 +173,7 @@
   flex-direction: column;
 padding: 50px;
   bottom: 30px;
+  
 }
 
 .our-brand-content h3{
@@ -335,3 +336,51 @@ padding: 50px;
          border:2px solid black;
          
     }
+
+
+/*.....points...... */
+
+
+.points{
+  display: flex;
+  background-color: rgb(241, 241, 241);
+  border-radius:32px;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+.points-right h2{
+    font-size: 180px;
+    margin-bottom: -25px;
+   font-weight: 700;
+   color: rgb(0, 0, 0);
+}
+.points-right h3{
+      color: rgb(0, 0, 0);
+    font-family: Corbert, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 30px;
+}
+
+.points-para{
+  font-size: 16px;
+  color: #666;
+  margin: 10px;
+}
+
+.points-left img{
+  width: 100%;
+  border-radius: 20px;
+  height: 100vh;
+}
+.points-left{
+  padding-right: 10px;
+}
+
+
+
+
+
+
+
