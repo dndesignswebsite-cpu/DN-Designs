@@ -1,0 +1,38 @@
+.service-hero{
+    padding-top: 70px;
+}
+
+.talk-to-us{
+    background-color: #CA2734;
+    font-family: "Roboto", Sans-serif;
+    border-radius: 100px 100px 100px 100px;
+    padding: 15px 25px 10px 25px;
+    color: #fff;
+    border: none;
+}
+
+.service-hero h1{
+    font-size: 62px;
+    color: #000;
+    font-family: Corbert;
+    font-weight: 700;
+    padding:20px 0px;
+}
+
+.service-hero p{
+         margin-top: 30px;
+         color: #000000;
+         line-height: 32px;
+         font-size: 20px;
+}
+
+
+/* our services */
+
+.our{
+    color:#ca2734;
+    font-size:62px;
+    font-family: Corbert;
+    font-weight: 700;
+}
+
