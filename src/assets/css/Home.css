@@ -75,7 +75,7 @@
   width: 100%;
   object-fit: cover;
   z-index: 1; 
-  animation: anime 1s ease forwards;
+  animation: anime 1.5s ease forwards;
   height: 100%;
 }
 
