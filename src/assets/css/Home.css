@@ -215,10 +215,44 @@ padding: 50px;
   color: rgb(0, 0, 0);
 }
 
-@media(max-width:768px){
+.mobile-view-our-brand{
+  display:none;
+}
+
+@media(max-width:867px){
   .our-brand{
     display:none;
   }
+
+  .mobile-view-our-brand{
+  display:block;
+}
+}
+
+
+/* our brand mobile view */
+
+
+.mobile-view-our-brand-h3{
+      color: #CA2734;
+    font-family: "Corbert", Sans-serif;
+    font-size: 32px;
+}
+
+.our-brand-mobile-btn{
+      border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #CA2734;
+    border-radius: 6px 6px 6px 6px;
+    padding: 10px;
+}
+
+.our-brand-mobile-btn-up button{
+   width: 50%;
+}
+.our-brand-mobile-btn-bottom{
+  width:100%;
+  padding: 10px;
 }
 
 
@@ -386,6 +420,81 @@ padding: 50px;
 
 /* testinomails */
 
+
+.testi-left-content{
+  height: 100%;
+  background-color: #CA2734;
+  padding: 40px;
+  border-radius: 10px 0 0 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  font-family: Corbert;
+}
+
+.testi-icon{
+  display: flex;
+}
+
+.testi-icon img{
+  height: 40px;
+  width: 40px;
+}
+
+.testi-left-content h3{
+  font-size: 26px;
+  font-family: Corbert, sans-serif;
+}
+
+.colon-img{
+  height: auto;
+  width: 200px;
+}
+
+.testi-main-img{
+  margin: 0;
+  padding: 0;
+}
+.testi-main-img img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.testi-slide{
+  height: 500px;
+}
+
+.testi-right-content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5em;
+  padding: 50px;
+  box-shadow: #000 50px 4px 50px -5px;
+}
+
+.rating-icons{
+  display: flex;
+}
+
+@media(max-width:768px){
+  .testi-slide{
+  height: 700px;
+}
+
+.testi-left-content{
+  height: 50%;
+}
+}
 
 
 

@@ -106,8 +106,52 @@ function Home() {
         </li>
     </ul>
 </div>
-
 </section>
+
+{/* our brand mobile view */}
+
+<section className='mobile-view-our-brand'>
+      <div class="container">
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <img src='https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg' className='img-fluid'/>
+      <h2 className='mobile-view-our-brand-h3'>Rithm’s Enlite</h2>
+      <div className='our-brand-mobile-btn-up'><button className='our-brand-mobile-btn'>Brand Identity</button>
+      <button className='our-brand-mobile-btn'>Packaging</button>
+      </div>
+      <div><button className='our-brand-mobile-btn our-brand-mobile-btn-bottom'>Communication Design</button></div>
+      <p>For Rithm’s Enlite, a brand with sparkling mineral water and prebiotic drink range, we designed a thoughtful and eye-catching brand identity, including can design, logo design and character design. We created the character and the overall brand design around the brand name to promote the refreshing and calming properties of the product.</p>
+    </div>
+     <div class="col-12 col-md-6">
+      <img src='https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg' className='img-fluid'/>
+      <h2 className='mobile-view-our-brand-h3'>Rithm’s Enlite</h2>
+      <div className='our-brand-mobile-btn-up'><button className='our-brand-mobile-btn'>Brand Identity</button>
+      <button className='our-brand-mobile-btn'>Packaging</button>
+      </div>
+      <div><button className='our-brand-mobile-btn our-brand-mobile-btn-bottom'>Communication Design</button></div>
+      <p>For Rithm’s Enlite, a brand with sparkling mineral water and prebiotic drink range, we designed a thoughtful and eye-catching brand identity, including can design, logo design and character design. We created the character and the overall brand design around the brand name to promote the refreshing and calming properties of the product.</p>
+    </div>
+    <div class="col-12 col-md-6">
+      <img src='https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg' className='img-fluid'/>
+      <h2 className='mobile-view-our-brand-h3'>Rithm’s Enlite</h2>
+      <div className='our-brand-mobile-btn-up'><button className='our-brand-mobile-btn'>Brand Identity</button>
+      <button className='our-brand-mobile-btn'>Packaging</button>
+      </div>
+      <div><button className='our-brand-mobile-btn our-brand-mobile-btn-bottom'>Communication Design</button></div>
+      <p>For Rithm’s Enlite, a brand with sparkling mineral water and prebiotic drink range, we designed a thoughtful and eye-catching brand identity, including can design, logo design and character design. We created the character and the overall brand design around the brand name to promote the refreshing and calming properties of the product.</p>
+    </div>
+     <div class="col-12 col-md-6">
+      <img src='https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg' className='img-fluid'/>
+      <h2 className='mobile-view-our-brand-h3'>Rithm’s Enlite</h2>
+      <div className='our-brand-mobile-btn-up'><button className='our-brand-mobile-btn'>Brand Identity</button>
+      <button className='our-brand-mobile-btn'>Packaging</button>
+      </div>
+      <div><button className='our-brand-mobile-btn our-brand-mobile-btn-bottom'>Communication Design</button></div>
+      <p>For Rithm’s Enlite, a brand with sparkling mineral water and prebiotic drink range, we designed a thoughtful and eye-catching brand identity, including can design, logo design and character design. We created the character and the overall brand design around the brand name to promote the refreshing and calming properties of the product.</p>
+    </div>
+  </div>
+</div>
+    </section>
 
 
 
@@ -424,7 +468,7 @@ function Home() {
 
 
 {/*.....points...... */}
-
+{/* 
 <section className='point'>
 <div class="container">
   <div class="row g-0 align-items-center points-row">
@@ -476,7 +520,7 @@ function Home() {
   </div>
 </div>
 </section>
-
+ */}
 
 
 {/* testinomial */}
@@ -495,18 +539,30 @@ function Home() {
           className="custom-swiper"
         >
           <SwiperSlide>
-           <div class="row align-items-start">
-    <div class="col">
-      <p>testimonial</p>
-      <h3>What they say about us</h3>
+           <div class="row align-items-start testi-slide">
+    <div class="col-6 col-md-4 testi-left-content">
+    <div className='testi-icon'>
+    <img src='https://images.vexels.com/media/users/3/223246/isolated/preview/a5e1b4a04c71beac7b6d7537dd007b35-like-icon-flat.png'/>
+      <p>TESTIMONIAL</p>
+      </div>
+      <h3>WHAT THEY SAY<br></br> ABOUT US</h3>
+      <img src='https://images.vexels.com/media/users/3/223246/isolated/preview/a5e1b4a04c71beac7b6d7537dd007b35-like-icon-flat.png' className='img-fluid colon-img'/>
       <h2>Mr Vineet Tiwari</h2>
       <p>Founder, The Bobalist</p>
+      
     </div>
-    <div class="col">
-     <img src='https://dndesigns.co.in/wp-content/uploads/2025/09/1662129811700.jpg'/>
+    <div class="col-6 col-md-4 testi-main-img">
+     <img src='https://dndesigns.co.in/wp-content/uploads/2025/09/1662129811700.jpg' className='img-fluid'/>
     </div>
-    <div class="col">
-      <p>To establish your online presence, a visually appealing, SEO-optimised and user-friendly website is essential. It boosts your brand image and generates business.</p>
+    <div class="col-12 col-md-4 testi-right-content">
+      <p><i>To establish your online presence, a visually appealing, SEO-optimised and user-friendly website is essential. It boosts your brand image and generates business.</i></p>
+       <div className="text-warning fs-3 rating-icons">
+        <i className="bi bi-star-fill"></i>
+        <i className="bi bi-star-fill"></i>
+        <i className="bi bi-star-fill"></i>
+        <i className="bi bi-star-half"></i>
+        <i className="bi bi-star"></i>
+      </div>
     </div>
   </div>
           </SwiperSlide>
@@ -539,6 +595,10 @@ function Home() {
         </Swiper>
       </div>
     </section>
+
+
+
+    
     </div>
   )
 }
