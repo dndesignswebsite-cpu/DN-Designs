@@ -1,4 +1,3 @@
-
 .hero .container {
   display: flex;
   flex-wrap: wrap;
@@ -12,11 +11,11 @@
   min-width: 300px;
 }
 
-.left-hero{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.left-hero {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero h1 {
@@ -80,425 +79,464 @@
     margin-top: 30px;
   }
 
-  .hero button{
-    margin:5px;
+  .hero button {
+    margin: 5px;
   }
 
-  .hero{
-    margin-top:50px;
+  .hero {
+    margin-top: 50px;
   }
 }
 
-
-
-
 /* our brand */
 
-.our-brand{
+.our-brand {
   padding-top: 70px;
 }
 
 :root {
-    --cards: 4;
-    --cardHeight: 95vh;
-    --cardTopPadding: 0em;
-    --cardMargin: 0vw;
+  --cards: 4;
+  --cardHeight: 95vh;
+  --cardTopPadding: 0em;
+  --cardMargin: 0vw;
 }
 
 .container {
-    width: 90%;
-    margin: 0 auto;  
+  width: 90%;
+  margin: 0 auto;
 }
-
 
 #card1 {
-    --index: 1;
+  --index: 1;
 }
 #card2 {
-    --index: 2;
+  --index: 2;
 }
 #card3 {
-    --index: 3;
+  --index: 3;
 }
 #card4 {
-    --index: 4;
+  --index: 4;
 }
 
 .card {
-    position: sticky;
-    top: 20px;
-    border: none;
-    border-radius: 40px;
+  position: sticky;
+  top: 20px;
+  border: none;
+  border-radius: 40px;
 }
 
-#cards{
+#cards {
   margin-top: 50px;
 }
 
-
 .card-body {
-    box-sizing: border-box;
-    height: 95vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s;
-    padding: 0;
-    position: relative;
+  box-sizing: border-box;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  padding: 0;
+  position: relative;
 }
-
 
 .card-body img {
-    width: 100%;
-    height: 100%;
-    border-radius: 40px; 
-    
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
 }
 
-.brand-overlay{
-    position: absolute;
+.brand-overlay {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-   background-color: rgba(0, 0, 0, 0.4);
-  opacity: 1; 
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
   border-radius: 40px;
 }
 
-.our-brand-content{
-  position:absolute;
+.our-brand-content {
+  position: absolute;
   display: flex;
   flex-direction: column;
-padding: 50px;
+  padding: 50px;
   bottom: 30px;
-  
 }
 
-.our-brand-content h3{
-      color: rgb(255, 255, 255);
-    font-family: Corbert, sans-serif;
-    font-size: 70px;
-    font-weight: 700;
+.our-brand-content h3 {
+  color: rgb(255, 255, 255);
+  font-family: Corbert, sans-serif;
+  font-size: 70px;
+  font-weight: 700;
 }
 
-.brand-buttons{
+.brand-buttons {
   display: flex;
   gap: 20px;
 }
 
-.brand-buttons button{
-      border-style: solid;
-    border-width: 1px;
-    border-color: rgb(255, 255, 255);
-    border-radius: 100px;
-    color: rgb(255, 255, 255);
-    font-family: Roboto, sans-serif;
-    background: transparent;
-    flex: 1 1 0;
-     max-width: 200px;
+.brand-buttons button {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  color: rgb(255, 255, 255);
+  font-family: Roboto, sans-serif;
+  background: transparent;
+  flex: 1 1 0;
+  max-width: 200px;
   margin: 5px;
 }
 
-.our-brand-content p{
-      color: rgb(255, 255, 255);
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    line-height: 1.4em;
-    margin-top:10px;
+.our-brand-content p {
+  color: rgb(255, 255, 255);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  margin-top: 10px;
 }
 
-.our-brand-heading{
+.our-brand-heading {
   font-size: 50px;
   font-family: Corbert, sans-serif;
   font-weight: 700;
   color: rgb(0, 0, 0);
 }
 
-.mobile-view-our-brand{
-  display:none;
+.mobile-view-our-brand {
+  display: none;
 }
 
-@media(max-width:867px){
-  .our-brand{
-    display:none;
+@media (max-width: 867px) {
+  .our-brand {
+    display: none;
   }
 
-  .mobile-view-our-brand{
-  display:block;
+  .mobile-view-our-brand {
+    display: block;
+  }
 }
-}
-
 
 /* our brand mobile view */
 
-
-.mobile-view-our-brand-h3{
-      color: #CA2734;
-    font-family: "Corbert", Sans-serif;
-    font-size: 32px;
+.mobile-view-our-brand-h3 {
+  color: #ca2734;
+  font-family: "Corbert", Sans-serif;
+  font-size: 32px;
 }
 
-.our-brand-mobile-btn{
-      border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #CA2734;
-    border-radius: 6px 6px 6px 6px;
-    padding: 10px;
-}
-
-.our-brand-mobile-btn-up button{
-   width: 50%;
-}
-.our-brand-mobile-btn-bottom{
-  width:100%;
+.our-brand-mobile-btn {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #ca2734;
+  border-radius: 6px 6px 6px 6px;
   padding: 10px;
 }
 
-
+.our-brand-mobile-btn-up button {
+  width: 50%;
+}
+.our-brand-mobile-btn-bottom {
+  width: 100%;
+  padding: 10px;
+}
 
 /*......our-constant-companions...... */
-.our-constant-companions{
+.our-constant-companions {
   margin-top: 100px;
 }
-.companies img{
+.companies img {
   width: 150px;
-  margin:10px;
-  border-radius:8px;
+  margin: 10px;
+  border-radius: 8px;
   padding: 0px;
-    transition: filter 0.5s ease; 
-    filter: grayscale(100%) brightness(90%);
+  transition: filter 0.5s ease;
+  filter: grayscale(100%) brightness(90%);
 }
 
-.companies{
+.companies {
   margin-top: 20px;
 }
 
-.companies img:hover{
+.companies img:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease;
   box-shadow: #000 0px 4px 15px -5px;
   filter: none;
 }
 
-
-
 /* our work */
 
+.imag-cont {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  height: 100%;
+  border: 1px solid #d8d5d5;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
-
- .imag-cont {
-      position: relative;
-      width: 100%;
-      overflow: hidden;
-      display:block;
-      height: 100%;
-      border: 1px solid #D8D5D5;
-      border-radius: 10px;
-      cursor: pointer;  
-    }
-
-    .overlay {
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); 
+  background-color: rgba(0, 0, 0, 0.7);
   opacity: 0;
   transition: opacity 0.3s ease;
-  pointer-events: none; 
+  pointer-events: none;
 }
 
+.imag-cont:hover .overlay {
+  opacity: 1;
+}
 
-    .imag-cont:hover .overlay {
-        opacity: 1;
-             }
+.imag-cont img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+  object-fit: cover;
+}
 
-    .imag-cont img {
-      width: 100%;
-      height: 100%;
-      transition: transform 0.5s ease;
-     object-fit: cover;
-    }
+.overlay-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+}
 
+.imag-cont:hover .overlay-box {
+  transform: translateY(0px);
+}
 
-    
-    .overlay-box {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      color: #fff;
-      padding: 10px ;
-      box-sizing: border-box;
-      transform: translateY(100%);
-      transition: transform 0.5s ease;
-    }
+.overlay-title {
+  font-family: Corbert;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px 0px 0px 10px;
+}
 
-    .imag-cont:hover .overlay-box {
-      transform: translateY(0px);
-    }
+.Pras {
+  color: white;
+  font-family: Roboto;
+  margin: 0px 0px 0px 10px;
+}
 
-    .overlay-title {
-        font-family:Corbert;
-      font-size: 20px;
-      font-weight: 700;
-      margin: 0px 0px 0px 10px;
-     
-    }
-    
-    .Pras{
-        color:white;
-        font-family:Roboto;
-        margin: 0px 0px 0px 10px;
-    }
-
-
-       .showmore-btn{
-        font-family:Roboto;
-        cursor: pointer;
-        background-color: #ca2734;
-        border:2px solid #ca2734;
-        padding:5px 20px;
-        border-radius: 50px 50px;
-    }
-    .showmorebtn:hover{
-         background-color: black;
-         border:2px solid black;
-         
-    }
-
+.showmore-btn {
+  font-family: Roboto;
+  cursor: pointer;
+  background-color: #ca2734;
+  border: 2px solid #ca2734;
+  padding: 5px 20px;
+  border-radius: 50px 50px;
+}
+.showmorebtn:hover {
+  background-color: black;
+  border: 2px solid black;
+}
 
 /*.....points...... */
 
-
-.points{
+.points {
   display: flex;
   background-color: rgb(241, 241, 241);
-  border-radius:32px;
+  border-radius: 32px;
   padding: 20px;
   margin: 20px 0px;
 }
 
-.points-right h2{
-    font-size: 180px;
-    margin-bottom: -25px;
-   font-weight: 700;
-   color: rgb(0, 0, 0);
+.points-right h2 {
+  font-size: 180px;
+  margin-bottom: -25px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
 }
-.points-right h3{
-      color: rgb(0, 0, 0);
-    font-family: Corbert, sans-serif;
-    font-size: 25px;
-    font-weight: 700;
-    margin: 30px;
+.points-right h3 {
+  color: rgb(0, 0, 0);
+  font-family: Corbert, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 30px;
 }
 
-.points-para{
+.points-para {
   font-size: 16px;
   color: #666;
   margin: 10px;
 }
 
-.points-left img{
+.points-left img {
   width: 100%;
   border-radius: 20px;
   height: 100vh;
 }
-.points-left{
+.points-left {
   padding-right: 10px;
 }
 
-@media(max-width:768px){
-  .points-left{
+@media (max-width: 768px) {
+  .points-left {
     display: none;
   }
 }
 
-
-
 /* testinomails */
 
+.testimonial {
+  padding: 40px 0;
+  font-family: "Inter", sans-serif;
+}
 
-.testi-left-content{
+.testi-slide {
+  min-height: 500px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.testi-left-content {
   height: 100%;
-  background-color: #CA2734;
+  background-color: #ca2734;
   padding: 40px;
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px 10px 0 0;
   margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   color: #fff;
-  font-family: Corbert;
 }
 
-.testi-icon{
+.testi-icon {
   display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 30px;
 }
 
-.testi-icon img{
-  height: 40px;
-  width: 40px;
+.testi-icon img {
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
 }
 
-.testi-left-content h3{
+.testi-left-content p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.testi-left-content h3 {
   font-size: 26px;
-  font-family: Corbert, sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  margin-left: 30px;
 }
 
-.colon-img{
-  height: auto;
-  width: 200px;
+.colon-img {
+  display: none;
+  margin-left: 30px;
 }
 
-.testi-main-img{
+.quote-mark {
+  font-size: 120px;
+  line-height: 0.7;
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: 900;
+  margin-left: 30px;
+}
+.testi-main-img {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
+
+.founder-name {
+  margin-left: 30px;
+}
+
 .testi-main-img img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
   margin: 0;
   padding: 0;
 }
-
-.testi-slide{
-  height: 500px;
-}
-
-.testi-right-content{
+.testi-right-content {
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-content: center;
   justify-content: center;
   text-align: center;
   font-size: 20px;
-  line-height: 1.5em;
+  line-height: 1.6em;
   padding: 50px;
-  box-shadow: #000 50px 4px 50px -5px;
+  border-radius: 0 0 10px 10px;
+  background-color: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-.rating-icons{
+.testi-right-content p {
+  padding: 20px;
+}
+
+.testi-right-content p i {
+  font-style: italic;
+  color: #333;
+  max-width: 90%;
+}
+
+.rating-icons {
   display: flex;
+  color: #ffc107;
+  font-size: 24px;
 }
 
-@media(max-width:768px){
-  .testi-slide{
-  height: 700px;
+.rating-icons i {
+  margin: 0 1px;
 }
 
-.testi-left-content{
-  height: 50%;
+@media (min-width: 768px) {
+  .testi-slide {
+    height: 500px;
+  }
+
+  .testi-left-content {
+    border-radius: 10px 0 0 10px;
+  }
+  .testi-main-img {
+    border-radius: 0;
+  }
+  .testi-right-content {
+    border-radius: 0 10px 10px 0;
+  }
 }
+.testimonial .row {
+  margin: 0;
+  overflow: hidden;
 }
 
+.testimonial .row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
 
+@media(max-width:767px){
+  .testi-slide {
+    max-height: 1000px;
+  }
 
-
-
-
-
+  .testi-left-content {
+    border-radius: 10px 0 0 10px;
+  }
+}
