@@ -24,9 +24,10 @@ function Home() {
                 <button>Explore Our Work</button>
               </div>
             </div>
-            <div class="col">
-              <img src="https://dndesigns.co.in/wp-content/uploads/2025/09/hgefef.png"></img>
-            </div>
+            <div class="col hero-img">
+             <img src="https://dndesigns.co.in/wp-content/uploads/2025/09/gkjeg.png" className="hero-bg-img"></img>
+              <img src="https://dndesigns.co.in/wp-content/uploads/2025/09/hgefef.png" className="hero-img-main"></img>
+             </div>
           </div>
         </div>
       </section>
