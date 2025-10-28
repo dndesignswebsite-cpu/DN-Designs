@@ -1,10 +1,12 @@
+body{
+  overflow-x: hidden;
+}
 .hero .container {
   display: flex;
   flex-wrap: wrap;
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
-  overflow-x: hidden;
 }
 
 .hero .col {
