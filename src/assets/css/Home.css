@@ -76,7 +76,7 @@
   object-fit: cover;
   z-index: 1; 
   animation: anime 1.5s ease forwards;
-  height: 100%;
+  height: 97%;
 }
 
 @keyframes anime {
@@ -525,13 +525,13 @@
 
 .testi-right-content p i {
   font-style: italic;
-  color: #333;
+  color: #000;
   max-width: 90%;
 }
 
 .rating-icons {
   display: flex;
-  color: #ffc107;
+  color: yellow;
   font-size: 24px;
 }
 
