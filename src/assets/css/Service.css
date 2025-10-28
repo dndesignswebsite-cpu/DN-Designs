@@ -2,6 +2,17 @@
     padding-top: 70px;
 }
 
+.talk-to-us-div{
+    display: flex;
+    justify-content: end;
+}
+
+@media(max-width:767px){
+    .talk-to-us-div{
+        justify-content: start;
+    }
+}
+
 .talk-to-us{
     background-color: #CA2734;
     font-family: "Roboto", Sans-serif;
@@ -29,10 +40,236 @@
 
 /* our services */
 
+.our-service{
+    padding:100px 0px;
+}
+
+.our-service h2{
+    color: #000000;
+    font-family: "Corbert", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
 .our{
     color:#ca2734;
     font-size:62px;
     font-family: Corbert;
     font-weight: 700;
 }
+
+
+
+
+.service-card {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.service-card .front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  transition: transform 0.4s ease;
+  padding: 20px;
+}
+
+.front img{
+    height: 360px;
+    width: 100%;
+    border:2px solid grey;
+    border-radius:20px;
+}
+
+.front h3{
+    color:black;
+      padding:20px 0px 8px 10px;
+      font-size:25px;
+      font-family:Corbert;
+      font-weight:500;
+      margin: 0px;
+      
+}
+
+.front p{
+     color:black;
+      padding:0px 0px 10px 10px;
+      font-size:26px;
+      font-family:Corbert;
+      font-weight:500;
+      margin: 0px;
+      padding-bottom: 10px;
+}
+
+.service-card .back {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:#ca2734;
+  color: white;
+  transition: bottom 0.6s ease;
+}
+
+.service-card:hover .front {
+  transform: translateY(-100%);
+}
+
+.service-card:hover .back {
+  bottom: 0;
+}
+
+.hr{
+    height: 3px;
+    background-color: #fff;
+    
+}
+
+.back-up{
+    padding: 50px 30px;
+}
+
+.back-up h3{
+    color:#fff;
+      padding:20px 0px 8px 10px;
+      font-size:25px;
+      font-family:Corbert;
+      font-weight:500;
+      margin: 0px;
+      
+}
+
+.back-up p{
+     color:#fff;
+      padding:0px 0px 10px 10px;
+      font-size:26px;
+      font-family:Corbert;
+      font-weight:500;
+      margin: 0px;
+      padding-bottom: 10px;
+}
+
+.back-down{
+    color:White;
+      padding:20px 0px 8px 10px;
+      font-size:20px;
+      font-family:Corbert;
+      font-weight:500;
+      margin: 0px;
+}
+
+.page-linking{
+     color:White!important;
+      position: relative;
+      text-decoration: none;
+ }
+ 
+.page-linking::after {
+  content: "";
+  position: absolute;
+  top:30px;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s ease;
+}
+
+.page-linking:hover::after {
+  width: 100%;
+}
+
+@media(max-width:767px){
+    .our-service h2{
+    font-size: 35px;
+}
+.our{
+    font-size: 45px;
+}
+
+.front img{
+    height: 260px;
+}
+
+.service-card{
+    height: 400px;
+    margin: 20px 0;
+}
+}
+
+
+
+/*  Approach project  */
+
+.appr-pro{
+    padding-top: 100px;
+}
+
+.appr-pro h2{
+    font-size: 56px;
+    font-family: Corbert;
+    font-weight: 700;
+}
+
+.appr-pro p{
+     margin-top: 10px;
+         color: #000000;
+         line-height: 32px;
+         font-size: 18px;
+         width: 80%;
+}
+.every-pr{
+    color:#ca2734;
+}
+
+
+.app-pro-div{
+    display: flex;
+    flex-direction: column;
+     justify-content: flex-end;
+    height: 300px;
+    border: 1px solid grey;
+    /* margin: calc(300px / 20); */
+}
+
+.app-pro-div h3{
+    font-size: 24px;
+    font-family: Corbert;
+    font-weight: 500;
+    color:#ca2734
+}
+
+.app-pro-div p{
+    font-size: 16px;
+    line-height: 1.2em;
+    font-weight: 400;
+}
+
+
+@media(max-width:767px){
+    .appr-pro{
+    padding-top: 50px;
+}
+
+.appr-pro h2{
+    font-size: 45px;
+}
+
+.appr-pro p{
+    width: 100%;
+}
+}
+
 
