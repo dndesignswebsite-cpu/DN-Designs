@@ -1,3 +1,10 @@
+.uper-links{
+    padding: 10px 0;
+    font-size: 16px;
+    font-family: Corbert;
+    color: #000;
+}
+
 .service-hero{
     padding-top: 70px;
 }
@@ -5,6 +12,7 @@
 .talk-to-us-div{
     display: flex;
     justify-content: end;
+    padding: 20px 0;
 }
 
 @media(max-width:767px){
@@ -22,6 +30,12 @@
     border: none;
 }
 
+.talk-to-us::after{
+    content: '\2192';
+    padding-left: 10px;
+    font-weight: 300;
+}
+
 .service-hero h1{
     font-size: 62px;
     color: #000;
@@ -33,8 +47,10 @@
 .service-hero p{
          margin-top: 30px;
          color: #000000;
-         line-height: 32px;
+         line-height: 1.7em;
          font-size: 20px;
+         font-family: Roboto;
+
 }
 
 
