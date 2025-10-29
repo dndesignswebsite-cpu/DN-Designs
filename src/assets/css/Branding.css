@@ -1,81 +1,181 @@
-.uper-links{
-    padding: 10px 0;
-    font-size: 16px;
-    font-family: Corbert;
-    color: #000;
+.uper-links {
+  padding: 10px 0;
+  font-size: 16px;
+  font-family: Corbert;
+  color: #000;
 }
 
-.branding-hero{
-    padding-top: 70px;
+.branding-hero {
+  padding-top: 70px;
 }
 
-.talk-to-us-div{
-    display: flex;
-    justify-content: end;
-    padding: 20px 0;
+.talk-to-us-div {
+  display: flex;
+  justify-content: end;
+  padding: 20px 0;
 }
 
-@media(max-width:767px){
-    .talk-to-us-div{
-        justify-content: start;
-    }
+@media (max-width: 767px) {
+  .talk-to-us-div {
+    justify-content: start;
+  }
 }
 
-.talk-to-us{
-    background-color: #CA2734;
-    font-family: "Roboto", Sans-serif;
-    border-radius: 100px 100px 100px 100px;
-    padding: 15px 25px 10px 25px;
-    color: #fff;
-    border: none;
+.talk-to-us {
+  background-color: #ca2734;
+  font-family: "Roboto", Sans-serif;
+  border-radius: 100px 100px 100px 100px;
+  padding: 15px 25px 10px 25px;
+  color: #fff;
+  border: none;
 }
 
-.talk-to-us::after{
-    content: '\2192';
-    padding-left: 10px;
-    font-weight: 300;
+.talk-to-us::after {
+  content: "\2192";
+  padding-left: 10px;
+  font-weight: 300;
 }
 
-.branding-hero h1{
-    font-size: 62px;
-    color: #000;
-    font-family: Corbert;
-    font-weight: 700;
-    padding:20px 0 0 0;
+.branding-hero h1 {
+  font-size: 62px;
+  color: #000;
+  font-family: Corbert;
+  font-weight: 700;
+  padding: 20px 0 0 0;
 }
 
-.branding-hero h3{
-    font-size: 35px;
-    color: #000;
-    font-family: Corbert;
-    font-weight: 500;
-   
+.branding-hero h3 {
+  font-size: 35px;
+  color: #000;
+  font-family: Corbert;
+  font-weight: 500;
 }
 
-.branding-hero p{
-         margin-top: 30px;
-         color: #000000;
-         line-height: 1.7em;
-         font-size: 20px;
-         font-family: Roboto;
-
+.branding-hero p {
+  margin-top: 30px;
+  color: #000000;
+  line-height: 1.7em;
+  font-size: 20px;
+  font-family: Roboto;
 }
 
 /* Our Portfolio */
 
-.portfolio{
-    padding: 90px 0;
+.port-row {
+  padding: 15px 0;
+}
+
+.port-div {
+  border: 1px solid #a8a8a8;
+  padding: 0;
+  border-radius: 12px;
+}
+
+.port-div img {
+  margin: 0;
+  padding: 0;
+  border-radius: 12px 12px 0 0;
+}
+
+.portfolio {
+  padding: 90px 0;
+}
+
+.portfolio h2 {
+  color: #000000;
+  font-family: "Corbert", Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2em;
+  padding-bottom: 20px;
+}
+
+.every-pr {
+  color: #ca2734;
+}
+
+.potfolio-div-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-port-btn {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #ca2734;
+  border-radius: 6px 6px 6px 6px;
+  padding: 10px;
+}
+
+.our-port-btn-up {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.our-port-btn-up button {
+  font-family: Corbert;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #ca2734;
+  border-radius: 6px 6px 6px 6px;
+  font-size: 18px;
+}
+
+.port-content {
+  padding: 20px;
+}
+.port-div-headg h3 {
+  color: #ca2734;
+  font-family: "Corbert", Sans-serif;
+  font-size: 32px;
+}
+
+.port-content p {
+  color: #888888;
+  font-family: "Roboto", Sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  padding-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .our-port-btn-up button {
+    font-size: 14px;
+  }
+
+  .port-div-headg h3 {
+    font-size: 24px;
+  }
+  .our-port-btn {
+    padding: 5px;
+  }
+  .port-content {
+    padding: 15px;
+  }
+  .potfolio-div-btns {
+    flex-direction: column;
+  }
+
+  .port-div {
+    margin: 10px 0;
+  }
+}
+
+/* branding-that */
+.branding-that {
+  padding: 80px 0;
+}
+
+.branding-that h2 {
+  color: #000000;
+  font-family: "Corbert", Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2em;
+  padding-bottom: 20px;
 }
 
 
-.portfolio h2{
-    color: #000000;
-    font-family: "Corbert", Sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 1.2em;
-}
 
-.every-pr{
-    color:#CA2734
-}
+

@@ -30,14 +30,144 @@ function Branding() {
       <h2 className="text-center">
               Our<span className="every-pr"> Work Portfolio</span>
             </h2>
-        <div className='row'>
-            <div className='col-6'>
-
+        <div className='row port-row'>
+            <div className='col-12 col-md-6 px-2 '>
+            <div className=' port-div'>
+            <img
+                src="https://dndesigns.co.in/wp-content/uploads/2025/08/Enlite-3.jpg"
+                className="img-fluid"
+              />
+              <div className='port-content'>
+              <div className='potfolio-div-btns'>
+              <div className='port-div-headg'><h3>Enlite</h3></div>
+                <div className="our-port-btn-up">
+                <button className="our-port-btn">Brand Identity</button>
+                <button className="our-port-btn">Packaging</button>
+              </div>
+              </div>
+             
+              <p>Enlite’s sparkling mineral water and prebiotic drink range, meant to refresh and rejuvenate customers, required a captivating brand identity, including can and logo design, to attract a young audience. We offered them just that.
+              </p>
+              </div>
             </div>
-            <div className='col-6'>
-
+            </div>
+         <div className='col-12 col-md-6 px-2 '>
+            <div className=' port-div'>
+            <img
+                src="https://dndesigns.co.in/wp-content/uploads/2025/08/I-organic.jpg"
+                className="img-fluid"
+              />
+              <div className='port-content'>
+              <div className='potfolio-div-btns'>
+              <div className='port-div-headg'><h3>Enlite</h3></div>
+                <div className="our-port-btn-up">
+                <button className="our-port-btn">Brand Identity</button>
+                <button className="our-port-btn">Packaging</button>
+              </div>
+              </div>
+             
+              <p>Enlite’s sparkling mineral water and prebiotic drink range, meant to refresh and rejuvenate customers, required a captivating brand identity, including can and logo design, to attract a young audience. We offered them just that.
+              </p>
+              </div>
+            </div>
             </div>
         </div>
+
+        <div className='row port-row'>
+            <div className='col-12 col-md-6 px-2 '>
+            <div className=' port-div'>
+            <img
+                src="https://dndesigns.co.in/wp-content/uploads/2025/08/Enlite-3.jpg"
+                className="img-fluid"
+              />
+              <div className='port-content'>
+              <div className='potfolio-div-btns'>
+              <div className='port-div-headg'><h3>Enlite</h3></div>
+                <div className="our-port-btn-up">
+                <button className="our-port-btn">Brand Identity</button>
+                <button className="our-port-btn">Packaging</button>
+              </div>
+              </div>
+             
+              <p>Enlite’s sparkling mineral water and prebiotic drink range, meant to refresh and rejuvenate customers, required a captivating brand identity, including can and logo design, to attract a young audience. We offered them just that.
+              </p>
+              </div>
+            </div>
+            </div>
+         <div className='col-12 col-md-6 px-2 '>
+            <div className=' port-div'>
+            <img
+                src="https://dndesigns.co.in/wp-content/uploads/2025/06/Deeproots.jpg"
+                className="img-fluid"
+              />
+              <div className='port-content'>
+              <div className='potfolio-div-btns'>
+              <div className='port-div-headg'><h3>Enlite</h3></div>
+                <div className="our-port-btn-up">
+                <button className="our-port-btn">Brand Identity</button>
+                <button className="our-port-btn">Packaging</button>
+              </div>
+              </div>
+             
+              <p>Enlite’s sparkling mineral water and prebiotic drink range, meant to refresh and rejuvenate customers, required a captivating brand identity, including can and logo design, to attract a young audience. We offered them just that.
+              </p>
+              </div>
+            </div>
+            </div>
+        </div>
+
+        <div className='row port-row'>
+            <div className='col-12 col-md-6 px-2 '>
+            <div className=' port-div'>
+            <img
+                src="https://dndesigns.co.in/wp-content/uploads/2025/06/Thames.jpg"
+                className="img-fluid"
+              />
+              <div className='port-content'>
+              <div className='potfolio-div-btns'>
+              <div className='port-div-headg'><h3>Enlite</h3></div>
+                <div className="our-port-btn-up">
+                <button className="our-port-btn">Brand Identity</button>
+                <button className="our-port-btn">Packaging</button>
+              </div>
+              </div>
+             
+              <p>Enlite’s sparkling mineral water and prebiotic drink range, meant to refresh and rejuvenate customers, required a captivating brand identity, including can and logo design, to attract a young audience. We offered them just that.
+              </p>
+              </div>
+            </div>
+            </div>
+         <div className='col-12 col-md-6 px-2 '>
+            <div className=' port-div'>
+            <img
+                src="https://dndesigns.co.in/wp-content/uploads/2025/06/Smartyums.jpg"
+                className="img-fluid"
+              />
+              <div className='port-content'>
+              <div className='potfolio-div-btns'>
+              <div className='port-div-headg'><h3>Smartyums</h3></div>
+                <div className="our-port-btn-up">
+                <button className="our-port-btn">Brand Identity</button>
+                <button className="our-port-btn">Packaging</button>
+              </div>
+              </div>
+             
+              <p>Enlite’s sparkling mineral water and prebiotic drink range, meant to refresh and rejuvenate customers, required a captivating brand identity, including can and logo design, to attract a young audience. We offered them just that.
+              </p>
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+      </section>
+
+
+{/* branding that */}
+      <section className='branding-that'>
+      <div className='container'>
+        <h2 className="text-center">
+              Our<span className="every-pr"> Work Portfolio</span>
+            </h2>
       </div>
       </section>
 
