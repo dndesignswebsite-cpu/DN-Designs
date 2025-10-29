@@ -1,0 +1,93 @@
+
+.horizontal-scroll {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.horizontal-panel {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+}
+
+.panel-item {
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.branding-that-div {
+  position: relative;
+  width: 90%;
+  height: 80%;
+  margin:10px;
+}
+
+.branding-that-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 40px;
+}
+
+.brand-that-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 40px;
+}
+
+.our-brand-that-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  bottom: 30px;
+  color: white;
+}
+
+.our-brand-that-content h3 {
+  font-family: "Corbert", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.brand-that-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.brand-that-buttons button {
+  border: 1px solid white;
+  border-radius: 100px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  background: transparent;
+  padding: 6px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.brand-that-buttons button:hover {
+  background: white;
+  color: black;
+}
+
+.our-brand-that-content p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 600px;
+}

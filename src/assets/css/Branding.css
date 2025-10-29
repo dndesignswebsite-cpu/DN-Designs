@@ -162,7 +162,7 @@
   }
 }
 
-/* branding-that */
+/* branding-that
 .branding-that {
   padding: 80px 0;
 }
@@ -176,6 +176,75 @@
   padding-bottom: 20px;
 }
 
+.branding-that-div{
+    position: relative;
+}
+
+.branding-that-div img{
+    border-radius: 40px;
+}
 
 
+
+.brand-that-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+  border-radius: 40px;
+}
+
+.our-brand-that-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  bottom: 30px;
+}
+
+.our-brand-that-content h3 {
+  color: rgb(255, 255, 255);
+  font-family: Corbert, sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.brand-that-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.brand-that-buttons button {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  color: rgb(255, 255, 255);
+  font-family: Roboto, sans-serif;
+  background: transparent;
+  flex: 1 1 0;
+  max-width: 200px;
+  margin: 5px;
+}
+
+.our-brand-that-content p {
+  color: rgb(255, 255, 255);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  margin-top: 10px;
+}
+
+.our-brand-that-heading {
+  font-size: 50px;
+  font-family: Corbert, sans-serif;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+ */
+
+/* scroll anime */
 

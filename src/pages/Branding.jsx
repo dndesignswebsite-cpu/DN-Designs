@@ -1,5 +1,6 @@
 import React from 'react'
 import "../assets/css/Branding.css"
+ import HorizontalScroll from './HorizontalScroll'
 
 function Branding() {
   return (
@@ -162,14 +163,122 @@ function Branding() {
       </section>
 
 
-{/* branding that */}
+{/* branding that
       <section className='branding-that'>
       <div className='container'>
         <h2 className="text-center">
               Our<span className="every-pr"> Work Portfolio</span>
             </h2>
+
+            
+            <div className='branding-that-div'>
+                <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/13.jpg'
+                className='img-fluid'
+                ></img>
+                   <div className="brand-that-overlay">
+                  <div className="our-brand-that-content">
+                    <h3>Grin Care</h3>
+                    <div className="brand-that-buttons">
+                      <button>Brand Identity</button>
+                      <button>UI/UX</button>
+                      <button>Website</button>
+                      <button>Website</button>
+                    </div>
+                    <p>
+                      For Rithm’s Enlite, a brand with sparkling mineral water
+                      and prebiotic drink range, we designed a thoughtful and
+                      eye-catching brand identity, including can design, logo
+                      design and character design. We created the character and
+                      the overall brand design around the brand name to promote
+                      the refreshing and calming properties of the product.
+                    </p>
+                  </div>
+                </div>
+            </div>
+
+
+            
+            <div className='branding-that-div'>
+                <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/13.jpg'
+                className='img-fluid'
+                ></img>
+                   <div className="brand-that-overlay">
+                  <div className="our-brand-that-content">
+                    <h3>Grin Care</h3>
+                    <div className="brand-that-buttons">
+                      <button>Brand Identity</button>
+                      <button>UI/UX</button>
+                      <button>Website</button>
+                      <button>Website</button>
+                    </div>
+                    <p>
+                      For Rithm’s Enlite, a brand with sparkling mineral water
+                      and prebiotic drink range, we designed a thoughtful and
+                      eye-catching brand identity, including can design, logo
+                      design and character design. We created the character and
+                      the overall brand design around the brand name to promote
+                      the refreshing and calming properties of the product.
+                    </p>
+                  </div>
+                </div>
+            </div>
+
+           
+            <div className='branding-that-div'>
+                <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/13.jpg'
+                className='img-fluid'
+                ></img>
+                   <div className="brand-that-overlay">
+                  <div className="our-brand-that-content">
+                    <h3>Grin Care</h3>
+                    <div className="brand-that-buttons">
+                      <button>Brand Identity</button>
+                      <button>UI/UX</button>
+                      <button>Website</button>
+                      <button>Website</button>
+                    </div>
+                    <p>
+                      For Rithm’s Enlite, a brand with sparkling mineral water
+                      and prebiotic drink range, we designed a thoughtful and
+                      eye-catching brand identity, including can design, logo
+                      design and character design. We created the character and
+                      the overall brand design around the brand name to promote
+                      the refreshing and calming properties of the product.
+                    </p>
+                  </div>
+                </div>
+            </div>
+
+            
+
+            <div className='branding-that-div'>
+                <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/13.jpg'
+                className='img-fluid'
+                ></img>
+                   <div className="brand-that-overlay">
+                  <div className="our-brand-that-content">
+                    <h3>Grin Care</h3>
+                    <div className="brand-that-buttons">
+                      <button>Brand Identity</button>
+                      <button>UI/UX</button>
+                      <button>Website</button>
+                      <button>Website</button>
+                    </div>
+                    <p>
+                      For Rithm’s Enlite, a brand with sparkling mineral water
+                      and prebiotic drink range, we designed a thoughtful and
+                      eye-catching brand identity, including can design, logo
+                      design and character design. We created the character and
+                      the overall brand design around the brand name to promote
+                      the refreshing and calming properties of the product.
+                    </p>
+                  </div>
+                </div>
+            </div>
+            
       </div>
-      </section>
+      </section> */}
+      <HorizontalScroll/>
 
     </div>
   )
