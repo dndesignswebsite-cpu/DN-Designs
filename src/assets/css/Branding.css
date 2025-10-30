@@ -180,6 +180,8 @@
 .branding-that-div{
     position: relative;
     margin: 20px;
+    border-radius: 40px;
+    
 }
 
 .branding-that-div img{
@@ -197,6 +199,8 @@
   background-color: rgba(0, 0, 0, 0.4);
   opacity: 1;
   border-radius: 40px;
+  
+  
 }
 
 .our-brand-that-content {
@@ -205,6 +209,7 @@
   flex-direction: column;
   padding: 50px;
   bottom: 30px;
+  padding: 40px;
 }
 
 .our-brand-that-content h3 {
@@ -250,6 +255,7 @@
 .horizontal-scroll-container {
   height: 100vh;
   overflow: hidden;
+
 }
 
 .track {
@@ -274,4 +280,15 @@
     align-items: center;
 }
 
+.horizontal-scroll-area {
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    
+}
+
+.horizontal-scroll-container {
+   
+    height: 90vh; 
+    overflow: hidden;
+}
 
