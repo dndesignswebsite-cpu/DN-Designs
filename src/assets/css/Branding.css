@@ -252,20 +252,9 @@
   color: rgb(0, 0, 0);
 }
 
-.horizontal-scroll-container {
-  height: 100vh;
-  overflow: hidden;
 
-}
 
-.track {
-  display: flex;
-  width: 200vw !important; 
-  height: 50% !important;
-   flex-wrap: nowrap;
-   padding: 20px 0 !important;
-   margin: 190px 0 20px 0;
-}
+
 
 .slide {
   width: 100vw;
@@ -289,8 +278,14 @@
 }
 
 .horizontal-scroll-container {
-    height: 90vh; 
+    height: 100vh; 
     overflow: hidden;
-    padding: 20px;
+    padding: 70px;
 }
 
+.track {
+  display: flex;
+  width: 200vw; 
+  height: 100%;
+   flex-wrap: nowrap;
+}
