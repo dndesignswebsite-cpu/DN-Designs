@@ -162,7 +162,8 @@
   }
 }
 
-/* branding-that
+/* branding-that */
+
 .branding-that {
   padding: 80px 0;
 }
@@ -178,6 +179,7 @@
 
 .branding-that-div{
     position: relative;
+    margin: 20px;
 }
 
 .branding-that-div img{
@@ -244,7 +246,32 @@
   font-weight: 700;
   color: rgb(0, 0, 0);
 }
- */
 
-/* scroll anime */
+.horizontal-scroll-container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+  width: 400vw; 
+  height: 100%;
+   flex-wrap: nowrap;
+}
+
+.slide {
+  width: 100vw;
+  height: 100vh; 
+  flex-shrink: 0;
+}
+
+.scroll-slide {
+    width: 100vw; 
+    flex-shrink: 0; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 

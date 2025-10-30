@@ -1,8 +1,27 @@
 import React from 'react'
 import "../assets/css/Branding.css"
- import HorizontalScroll from './HorizontalScroll'
+ import HorizontalScroll from '../components/HorizontalScroll'
 
 function Branding() {
+
+  const slidesData = [
+    { title: "The Bobalist", img: 'https://dndesigns.co.in/wp-content/uploads/2025/06/14.jpg',
+       para:"For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water "
+     
+     },
+    { title: "Grin Care", img: 'https://dndesigns.co.in/wp-content/uploads/2025/06/11h.jpg',
+       para:"For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water "
+     
+     },
+    { title: "Nature's Balance", img: 'https://dndesigns.co.in/wp-content/uploads/2025/06/12.jpg',
+       para:"For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water "
+     
+     },
+    { title: "Nectarpure", img: 'https://dndesigns.co.in/wp-content/uploads/2025/06/13.jpg',
+      para:"For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water For Rithm’s Enlite, a brand with sparkling mineral water "
+     },
+];
+
   return (
     <div>
       <div className="container uper-links"><a href="#">Home</a> &nbsp; &gt; &nbsp; Branding</div>
@@ -278,7 +297,43 @@ function Branding() {
             
       </div>
       </section> */}
-      <HorizontalScroll/>
+
+<section className='branding-that'>
+  <div className='container'>
+    <h2 className="text-center">
+              Our<span className="every-pr"> Work Portfolio</span>
+            </h2>
+  </div>
+
+     <section className='horizontal-scroll-area'>
+        <HorizontalScroll>
+          {slidesData.map((slide, index) => (
+            
+            <div key={index} className='scroll-slide'>
+                <div className='branding-that-div'>
+                    <img 
+                        src={slide.img}
+                        className='img-fluid'
+                    />
+                    <div className="brand-that-overlay">
+                        <div className="our-brand-that-content">
+                            <h3>{slide.title}</h3>
+                            <div className="brand-that-buttons">
+                                <button>Brand Identity</button>
+                                <button>UI/UX</button>
+                                <button>Website</button>
+                                <button>Website</button>
+                            </div>
+                            <p>{slide.para}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          ))}
+        </HorizontalScroll>
+      </section>
+      </section>
+      
 
     </div>
   )
