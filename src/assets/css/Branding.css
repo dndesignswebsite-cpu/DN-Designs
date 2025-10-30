@@ -261,10 +261,10 @@
 .track {
   display: flex;
   width: 200vw !important; 
-  height: 70% !important;
+  height: 50% !important;
    flex-wrap: nowrap;
    padding: 20px 0 !important;
-   margin: 115px 0 20px 0;
+   margin: 190px 0 20px 0;
 }
 
 .slide {
