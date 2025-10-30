@@ -1,6 +1,7 @@
 import React from 'react'
 import "../assets/css/Branding.css"
  import HorizontalScroll from '../components/HorizontalScroll'
+ import OurConstant from "../components/OurConstant"
 
 function Branding() {
 
@@ -335,8 +336,155 @@ function Branding() {
         </HorizontalScroll>
       </section>
       </section>
-      
 
+
+      {/* branding identity */}
+      <section className='branding-identity'>
+      <div className='container'>
+      {/* first row */}
+        <div className='row my-3'>
+       <h2 className='text-center'><span className='every-pr'>Branding </span> is   VALUE</h2> 
+          <div className='col-12 col-md-12 col-lg-4 px-3'>
+            <div className='identity-div'>
+              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/2-3.jpg' className='img-fluid'/>
+              <div className='identity-div-content'>
+              <h3>Brand Identity</h3>
+              <p>Let’s create an impactful brand identity for your business. Trust us, it’s important. It is how customers will recognise and connect with your product and distinguish it from others in the market.</p>
+            </div>
+             </div>
+          </div>
+          <div className='col-12 col-md-12 col-lg-4 px-3'>
+             <div className='identity-div'>
+              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/2-3.jpg' className='img-fluid'/>
+              <div className='identity-div-content'>
+              <h3>Brand Identity</h3>
+              <p>Let’s create an impactful brand identity for your business. Trust us, it’s important. It is how customers will recognise and connect with your product and distinguish it from others in the market.</p>
+            </div>
+             </div>
+          </div>
+          <div className='col-12 col-md-12 col-lg-4 px-3'>
+             <div className='identity-div'>
+              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/2-3.jpg' className='img-fluid'/>
+              <div className='identity-div-content'>
+              <h3>Brand Identity</h3>
+              <p>Let’s create an impactful brand identity for your business. Trust us, it’s important. It is how customers will recognise and connect with your product and distinguish it from others in the market.</p>
+            </div>
+             </div>
+          </div>
+        </div>
+
+           {/* second row */}
+           <div className='row my-4'> 
+          <div className='col-12 col-md-12 col-lg-4 px-3'>
+            <div className='identity-div'>
+              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/2-3.jpg' className='img-fluid'/>
+              <div className='identity-div-content'>
+              <h3>Brand Identity</h3>
+              <p>Let’s create an impactful brand identity for your business. Trust us, it’s important. It is how customers will recognise and connect with your product and distinguish it from others in the market.</p>
+            </div>
+             </div>
+          </div>
+          <div className='col-12 col-md-12 col-lg-4 px-3'>
+             <div className='identity-div'>
+              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/2-3.jpg' className='img-fluid'/>
+              <div className='identity-div-content'>
+              <h3>Brand Identity</h3>
+              <p>Let’s create an impactful brand identity for your business. Trust us, it’s important. It is how customers will recognise and connect with your product and distinguish it from others in the market.</p>
+            </div>
+             </div>
+          </div>
+          <div className='col-12 col-md-12 col-lg-4 px-3'>
+             <div className='identity-div'>
+              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/2-3.jpg' className='img-fluid'/>
+              <div className='identity-div-content'>
+              <h3>Brand Identity</h3>
+              <p>Let’s create an impactful brand identity for your business. Trust us, it’s important. It is how customers will recognise and connect with your product and distinguish it from others in the market.</p>
+            </div>
+             </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      
+{/* our constant */}
+                 <OurConstant/>
+
+
+                 {/* marque */}
+                <section className='marque-sec'>
+              <marquee className="noun-mar" direction="left" scrollamount="12"> A Noun in Your Life, A Verb in Ours
+               </marquee>
+                </section>
+
+
+                {/* Creating Your Brand */}
+                 <section className="creating-your-brand">
+        <div class="container sticky-con">
+          <h2 className="text-center our-brand-heading-a">Creating Your Brand Story,
+<span className='every-pr'><br/>Your Way</span></h2>
+          <ul id="cards-create">
+            <li class="card-create" id="card1-create">
+              <div class="card-body-create row">
+                   <div className='col-2 create-number'>01</div>
+                   <div className='col-10'>
+                    <h2>Brand Understanding</h2>
+                    <p>If anything has to stand the test of time, it needs to begin with a firm footing. In branding, this beginning is understanding the product/business. We sit down with you for a deep discussion to understand your product or service as well as your vision and mission. This helps us make a good start and prepares us for an exciting journey ahead.</p>
+                   </div>
+                  </div>
+            </li>
+
+              <li class="card-create" id="card2-create">
+              <div class="card-body-create">
+                   <div class="card-body-create row">
+                   <div className='col-2 create-number'>01</div>
+                   <div className='col-10'>
+                    <h2>Brand Understanding</h2>
+                    <p>If anything has to stand the test of time, it needs to begin with a firm footing. In branding, this beginning is understanding the product/business. We sit down with you for a deep discussion to understand your product or service as well as your vision and mission. This helps us make a good start and prepares us for an exciting journey ahead.</p>
+                   </div>
+                  </div>
+                  </div>
+            </li>
+
+              <li class="card-create" id="card3-create">
+              <div class="card-body-create">
+                   <div class="card-body-create row">
+                   <div className='col-2 create-number'>01</div>
+                   <div className='col-10'>
+                    <h2>Brand Understanding</h2>
+                    <p>If anything has to stand the test of time, it needs to begin with a firm footing. In branding, this beginning is understanding the product/business. We sit down with you for a deep discussion to understand your product or service as well as your vision and mission. This helps us make a good start and prepares us for an exciting journey ahead.</p>
+                   </div>
+                  </div>
+                  </div>
+            </li>
+
+             <li class="card-create" id="card4-create">
+              <div class="card-body-create">
+                    <div class="card-body-create row">
+                   <div className='col-2 create-number'>01</div>
+                   <div className='col-10'>
+                    <h2>Brand Understanding</h2>
+                    <p>If anything has to stand the test of time, it needs to begin with a firm footing. In branding, this beginning is understanding the product/business. We sit down with you for a deep discussion to understand your product or service as well as your vision and mission. This helps us make a good start and prepares us for an exciting journey ahead.</p>
+                   </div>
+                  </div>
+                  </div>
+            </li>
+
+
+              <li class="card-create" id="card5-create">
+              <div class="card-body-create">
+                  <div class="card-body-create row">
+                   <div className='col-2 create-number'>01</div>
+                   <div className='col-10'>
+                    <h2>Brand Understanding</h2>
+                    <p>If anything has to stand the test of time, it needs to begin with a firm footing. In branding, this beginning is understanding the product/business. We sit down with you for a deep discussion to understand your product or service as well as your vision and mission. This helps us make a good start and prepares us for an exciting journey ahead.</p>
+                   </div>
+                  </div>
+                  </div>
+            </li>  
+            </ul>
+            </div>
+            </section>
+<OurConstant/>
     </div>
   )
 }

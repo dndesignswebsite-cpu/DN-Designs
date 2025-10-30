@@ -136,7 +136,7 @@ body{
   --cardMargin: 0vw;
 }
 
-.container {
+.our-brand .container {
   width: 90%;
   margin: 0 auto;
 }
@@ -286,29 +286,6 @@ body{
 }
 
 /*......our-constant-companions...... */
-.our-constant-companions {
-  margin-top: 100px;
-}
-.companies img {
-  width: 150px;
-  margin: 10px;
-  border-radius: 8px;
-  padding: 0px;
-  transition: filter 0.5s ease;
-  filter: grayscale(100%) brightness(90%);
-}
-
-.companies {
-  margin-top: 20px;
-}
-
-.companies img:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
-  box-shadow: #000 0px 4px 15px -5px;
-  filter: none;
-}
-
 /* our work */
 
 .imag-cont {

@@ -280,7 +280,6 @@
 .horizontal-scroll-container {
     height: 100vh; 
     overflow: hidden;
-    padding: 70px;
 }
 
 .track {
@@ -289,3 +288,182 @@
   height: 100%;
    flex-wrap: nowrap;
 }
+
+/*  branding identity  */
+
+.branding-identity{
+  padding: 80px 0;
+}
+.branding-identity h2{
+   color: #000000;
+  font-family: "Corbert", Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2em;
+  padding-bottom: 20px;
+}
+
+.identity-div{
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.identity-div img{
+  border-radius: 20px;
+}
+
+identity-div-content{
+  padding: 20px;
+}
+
+.identity-div-content h3{
+      color: #000000;
+    font-family: "Corbert", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+.identity-div-content p{
+  color: #888888;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+    padding: 5px 10px;
+}
+
+
+/* marque */
+
+.marque-sec{
+  padding: 80px 0;
+}
+
+.noun-mar{
+          vertical-align: middle;
+        font-family: Corbert;
+        font-weight: 700;
+        font-size: 150px;
+        padding: 40px 0px 40px 0px;
+}
+
+
+/* creating-your-brand */
+
+.creating-your-brand{
+  padding: 50px 0;
+  
+}
+
+
+/* .our-brand .container {
+  width: 100%;
+  margin: 0 auto;
+ 
+} */
+
+#card1-create {
+  --index: 1;
+  background-color: red;
+  top: 170px;
+  margin-top: 20px;
+}
+#card2-create {
+  --index: 2;
+  background-color: green;
+  top: 220px;
+  margin-top: 20px;
+}
+#card3-create {
+  --index: 3;
+  background-color: blue;
+  top: 270px;
+  margin-top: 20px;
+}
+#card4-create {
+  --index: 4;
+  top: 320px;
+  background-color: yellow;
+  margin-top: 20px;
+}
+
+
+#card5-create {
+  --index: 5;
+  top: 370px;
+  background-color: aqua;
+  margin-top: 20px;
+}
+
+.card-create {
+  position: sticky;
+  top: 50%;
+  border: none;
+  border-radius: 40px;
+  margin-top: 100px;
+  list-style: none;
+}
+
+#cards-create {
+  margin-top: 50px;
+}
+
+.card-body-create {
+  box-sizing: border-box;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  padding: 0;
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+.our-brand-heading-a {
+  position: sticky;
+  top: 0;
+  padding: 30px 0;
+  text-align: center;
+  color: #000000;
+  font-family: "Corbert", Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2em;
+  padding-bottom: 20px;
+  
+}
+
+.sticky-con{
+  position: sticky;
+  top: 0;
+}
+
+
+.card-body-create{
+  padding: 20px;
+}
+
+.create-number{
+  color: #CA2734;
+    font-family: "corbert bold", Sans-serif;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.card-body-create h2{
+      color: #000000;
+    font-family: "corbert bold", Sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.card-body-create p{
+      color: #888888;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
