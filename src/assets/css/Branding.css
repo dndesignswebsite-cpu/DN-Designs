@@ -199,8 +199,6 @@
   background-color: rgba(0, 0, 0, 0.4);
   opacity: 1;
   border-radius: 40px;
-  
-  
 }
 
 .our-brand-that-content {
@@ -274,24 +272,19 @@
 .horizontal-scroll-area {
     padding-top: 50px; 
     padding-bottom: 50px;
-    height: 90%;
+    height: 100%;
 }
 
 .horizontal-scroll-container {
-    height: 95vh; 
+    height: 100vh; 
     overflow: hidden;
-    margin: 60px 0;
-     display: flex;
-  align-items: center;
-  justify-content: center;
+    margin: 20px 0;
 }
 
 .track {
   display: flex;
-  align-items: center;
-  justify-content: center;
   width: 200vw; 
-  height: 90%;
+  height: 100%;
    flex-wrap: nowrap;
    /* margin-bottom: 40px; */
 }
