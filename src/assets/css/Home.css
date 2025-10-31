@@ -2,18 +2,16 @@ body{
   overflow-x: hidden;
 }
 .hero .container {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+  padding-top: 50px;
+  padding-bottom: 50px;
 
-.hero .col {
-  flex: 1;
-  min-width: 300px;
 }
+.hero-rows{
+display: flex !important;
+justify-content: center;
+align-items: center;
 
+}
 .left-hero {
   height: 100%;
   display: flex;
@@ -26,14 +24,14 @@ body{
   font-weight: bold;
   font-family: Corbert;
   color: #000;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .hero p {
   width: 70%;
   color: #666;
   font-size: 18px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .hero button {
@@ -103,7 +101,9 @@ body{
 
 @media (max-width: 992px) {
   .hero .container {
-    flex-direction: column;
+     padding-top: 40px;
+  padding-bottom: 40px;
+
   }
 
   .hero h1 {
@@ -116,10 +116,6 @@ body{
 
   .hero button {
     margin: 5px;
-  }
-
-  .hero {
-    margin-top: 50px;
   }
 }
 

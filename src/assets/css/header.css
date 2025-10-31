@@ -22,7 +22,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     z-index: 300;
 }
 
@@ -154,7 +155,8 @@ a {
 
 @media (max-width: 768px) {
     .header {
-        padding: 15px 20px;
+       padding-top: 20px;
+    padding-bottom: 20px;
     }
 
     .nav-main-links {

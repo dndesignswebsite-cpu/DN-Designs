@@ -16,7 +16,7 @@ function Home() {
       {/*.....hero...... */}
       <section className="hero">
         <div class="container">
-          <div class="row align-items-start">
+          <div class="row hero-rows ">
             <div class="col left-hero">
               <h1>We Build Brands That Inspire Confidence and Drive Profit</h1>
               <p>Let’s collaborate and craft a truly standout brand for you.</p>
