@@ -252,7 +252,7 @@ function Branding() {
             </h2>
   </div>
 
-     <section className='horizontal-scroll-area'>
+     <section className='horizontal-scroll-area m-5 p-5'>
         <HorizontalScroll>
           {slidesData.map((slide, index) => (
             

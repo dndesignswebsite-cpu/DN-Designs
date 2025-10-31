@@ -133,7 +133,7 @@
 
 .port-content p {
   color: #888888;
-  font-family: "Roboto-Regu", Sans-serif;
+  font-family: "Roboto-Regular", Sans-serif;
   font-size: 16px;
   line-height: 1.4em;
   padding-top: 20px;
@@ -199,8 +199,6 @@
   background-color: rgba(0, 0, 0, 0.4);
   opacity: 1;
   border-radius: 40px;
-  
-  
 }
 
 .our-brand-that-content {
@@ -274,11 +272,11 @@
 .horizontal-scroll-area {
     padding-top: 50px; 
     padding-bottom: 50px;
-    height: 90%;
+    height: 100%;
 }
 
 .horizontal-scroll-container {
-    height: 95vh; 
+    height: 100vh; 
     overflow: hidden;
     margin: 20px 0;
 }
@@ -286,9 +284,9 @@
 .track {
   display: flex;
   width: 200vw; 
-  height: 90%;
+  height: 100%;
    flex-wrap: nowrap;
-   margin-bottom: 40px;
+   /* margin-bottom: 40px; */
 }
 
 /*  branding identity  */
