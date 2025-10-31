@@ -285,7 +285,7 @@
 .track {
   display: flex;
   width: 200vw; 
-  height: 90%;
+  height: 90vh;
    flex-wrap: nowrap;
    margin-top: 40px;
 }
