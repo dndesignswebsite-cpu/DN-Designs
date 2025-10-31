@@ -15,9 +15,9 @@ function Home() {
     <div>
       {/*.....hero...... */}
       <section className="hero">
-        <div class="container">
-          <div class="row hero-rows ">
-            <div class="col left-hero">
+        <div className="container">
+          <div className="row hero-rows">
+            <div className="col left-hero">
               <h1>We Build Brands That Inspire Confidence and Drive Profit</h1>
               <p>Let’s collaborate and craft a truly standout brand for you.</p>
               <div>
@@ -25,10 +25,16 @@ function Home() {
                 <button>Explore Our Work</button>
               </div>
             </div>
-            <div class="col hero-img">
-             <img src="https://dndesigns.co.in/wp-content/uploads/2025/09/gkjeg.png" className="hero-bg-img"></img>
-              <img src="https://dndesigns.co.in/wp-content/uploads/2025/09/hgefef.png" className="hero-img-main"></img>
-             </div>
+            <div className="col hero-img">
+              <img
+                src="https://dndesigns.co.in/wp-content/uploads/2025/09/gkjeg.png"
+                className="hero-bg-img"
+              ></img>
+              <img
+                src="https://dndesigns.co.in/wp-content/uploads/2025/09/hgefef.png"
+                className="hero-img-main"
+              ></img>
+            </div>
           </div>
         </div>
       </section>
@@ -36,11 +42,11 @@ function Home() {
       {/*.....our brands...... */}
 
       <section className="our-brand">
-        <div class="container">
+        <div className="container">
           <h2 className="text-center our-brand-heading">Our Brand Journals</h2>
           <ul id="cards">
-            <li class="card" id="card1">
-              <div class="card-body">
+            <li className="card" id="card1">
+              <div className="card-body">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg"
                   alt="Image for Card 1"
@@ -66,13 +72,15 @@ function Home() {
                 </div>
               </div>
             </li>
-            <li class="card" id="card2">
-              <div class="card-body">
-                <img
-                  src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
-                  alt="Image for Card 2"
-                  className="img-fluid"
-                />
+            <li className="card" id="card2">
+              <div className="card-body">
+                <video className="img-fluid" autoPlay muted loop playsInline>
+                  <source
+                    src="https://dndesigns.co.in/wp-content/uploads/2025/09/final.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
                 <div className="brand-overlay">
                   <div className="our-brand-content">
                     <h3>Grin Care</h3>
@@ -93,8 +101,8 @@ function Home() {
                 </div>
               </div>
             </li>
-            <li class="card" id="card3">
-              <div class="card-body">
+            <li className="card" id="card3">
+              <div className="card-body">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2025/08/Nectarpure.jpg"
                   alt="Image for Card 3"
@@ -120,8 +128,8 @@ function Home() {
                 </div>
               </div>
             </li>
-            <li class="card" id="card4">
-              <div class="card-body">
+            <li className="card" id="card4">
+              <div className="card-body">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2025/06/13.jpg"
                   alt="Image for Card 4"
@@ -155,9 +163,9 @@ function Home() {
       {/* our brand mobile view */}
 
       <section className="mobile-view-our-brand">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-md-6">
               <img
                 src="https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg"
                 className="img-fluid"
@@ -181,7 +189,7 @@ function Home() {
                 properties of the product.
               </p>
             </div>
-            <div class="col-12 col-md-6">
+            <div className="col-12 col-md-6">
               <img
                 src="https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg"
                 className="img-fluid"
@@ -205,7 +213,7 @@ function Home() {
                 properties of the product.
               </p>
             </div>
-            <div class="col-12 col-md-6">
+            <div className="col-12 col-md-6">
               <img
                 src="https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg"
                 className="img-fluid"
@@ -229,7 +237,7 @@ function Home() {
                 properties of the product.
               </p>
             </div>
-            <div class="col-12 col-md-6">
+            <div className="col-12 col-md-6">
               <img
                 src="https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg"
                 className="img-fluid"
@@ -259,8 +267,7 @@ function Home() {
 
       {/*.....our-constant-companions...... */}
 
-     
-      <OurConstant/>
+      <OurConstant />
 
       {/*.....our work...... */}
       <section className="our-work">
@@ -268,41 +275,41 @@ function Home() {
           <h2 className="text-center mb-4">Our Work</h2>
           <div className="row mt-4">
             <div className="col-sm-12 col-md-6">
-              <div class="imag-cont">
+              <div className="imag-cont">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
                   alt="demo"
                 />
-                <div class="overlay"></div>
-                <div class="overlay-box">
-                  <div class="overlay-title">Rithm's Enlite</div>
-                  <p class="Pras">Bubbles with benefits</p>
+                <div className="overlay"></div>
+                <div className="overlay-box">
+                  <div className="overlay-title">Rithm's Enlite</div>
+                  <p className="Pras">Bubbles with benefits</p>
                 </div>
               </div>
             </div>
             <div className="col-sm-12 col-md-3">
-              <div class="imag-cont">
+              <div className="imag-cont">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2019/02/2-3.jpg"
                   alt="demo"
                 />
-                <div class="overlay"></div>
-                <div class="overlay-box">
-                  <div class="overlay-title">NectarPure</div>
-                  <p class="Pras">A Revolution in Nutritional Absorption</p>
+                <div className="overlay"></div>
+                <div className="overlay-box">
+                  <div className="overlay-title">NectarPure</div>
+                  <p className="Pras">A Revolution in Nutritional Absorption</p>
                 </div>
               </div>
             </div>
             <div className="col-sm-12 col-md-3">
-              <div class="imag-cont">
+              <div className="imag-cont">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2019/02/thames-graphic-webiste-750x1050-1.jpg"
                   alt="demo"
                 />
-                <div class="overlay"></div>
-                <div class="overlay-box">
-                  <div class="overlay-title">Thames</div>
-                  <p class="Pras">For the Love of Protein</p>
+                <div className="overlay"></div>
+                <div className="overlay-box">
+                  <div className="overlay-title">Thames</div>
+                  <p className="Pras">For the Love of Protein</p>
                 </div>
               </div>
             </div>
@@ -310,41 +317,41 @@ function Home() {
 
           <div className="row mt-4">
             <div className="col-sm-12 col-md-3">
-              <div class="imag-cont">
+              <div className="imag-cont">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2019/02/thames-graphic-webiste-750x1050-1.jpg"
                   alt="demo"
                 />
-                <div class="overlay"></div>
-                <div class="overlay-box">
-                  <div class="overlay-title">Thames</div>
-                  <p class="Pras">For the Love of Protein</p>
+                <div className="overlay"></div>
+                <div className="overlay-box">
+                  <div className="overlay-title">Thames</div>
+                  <p className="Pras">For the Love of Protein</p>
                 </div>
               </div>
             </div>
             <div className="col-sm-12 col-md-6">
-              <div class="imag-cont">
+              <div className="imag-cont">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2025/08/nature-balance.jpg"
                   alt="demo"
                 />
-                <div class="overlay"></div>
-                <div class="overlay-box">
-                  <div class="overlay-title">Nature's Balance</div>
-                  <p class="Pras">Fuel your day the green way</p>
+                <div className="overlay"></div>
+                <div className="overlay-box">
+                  <div className="overlay-title">Nature's Balance</div>
+                  <p className="Pras">Fuel your day the green way</p>
                 </div>
               </div>
             </div>
             <div className="col-sm-12 col-md-3">
-              <div class="imag-cont">
+              <div className="imag-cont">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2019/02/VEIKK.jpg"
                   alt="demo"
                 />
-                <div class="overlay"></div>
-                <div class="overlay-box">
-                  <div class="overlay-title">Veikk</div>
-                  <p class="Pras">Photography</p>
+                <div className="overlay"></div>
+                <div className="overlay-box">
+                  <div className="overlay-title">Veikk</div>
+                  <p className="Pras">Photography</p>
                 </div>
               </div>
             </div>
@@ -352,28 +359,28 @@ function Home() {
 
           <div className="row mt-4">
             <div className="col-sm-12 col-md-6">
-              <div class="imag-cont">
+              <div className="imag-cont">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2025/07/greenhorn-manu.jpg"
                   alt="demo"
                 />
-                <div class="overlay"></div>
-                <div class="overlay-box">
-                  <div class="overlay-title">Green Horn</div>
-                  <p class="Pras">Smart Energy, Bold You</p>
+                <div className="overlay"></div>
+                <div className="overlay-box">
+                  <div className="overlay-title">Green Horn</div>
+                  <p className="Pras">Smart Energy, Bold You</p>
                 </div>
               </div>
             </div>
             <div className="col-sm-12 col-md-6">
-              <div class="imag-cont">
+              <div className="imag-cont">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2025/08/kalprishi.jpg"
                   alt="demo"
                 />
-                <div class="overlay"></div>
-                <div class="overlay-box">
-                  <div class="overlay-title">Kalprishi</div>
-                  <p class="Pras">Flavours that celebrate</p>
+                <div className="overlay"></div>
+                <div className="overlay-box">
+                  <div className="overlay-title">Kalprishi</div>
+                  <p className="Pras">Flavours that celebrate</p>
                 </div>
               </div>
             </div>
@@ -383,41 +390,41 @@ function Home() {
             <div>
               <div className="row mt-4">
                 <div className="col-sm-12 col-md-6">
-                  <div class="imag-cont">
+                  <div className="imag-cont">
                     <img
                       src="https://dndesigns.co.in/wp-content/uploads/2025/04/5.jpg"
                       alt="demo"
                     />
-                    <div class="overlay"></div>
-                    <div class="overlay-box">
-                      <div class="overlay-title">The Bobalist</div>
-                      <p class="Pras">Pop the boba, feel the Fun</p>
+                    <div className="overlay"></div>
+                    <div className="overlay-box">
+                      <div className="overlay-title">The Bobalist</div>
+                      <p className="Pras">Pop the boba, feel the Fun</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-12 col-md-3">
-                  <div class="imag-cont">
+                  <div className="imag-cont">
                     <img
                       src="https://dndesigns.co.in/wp-content/uploads/2019/02/9.jpg"
                       alt="demo"
                     />
-                    <div class="overlay"></div>
-                    <div class="overlay-box">
-                      <div class="overlay-title">iOrganic</div>
-                      <p class="Pras">Ideal food for you</p>
+                    <div className="overlay"></div>
+                    <div className="overlay-box">
+                      <div className="overlay-title">iOrganic</div>
+                      <p className="Pras">Ideal food for you</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-12 col-md-3">
-                  <div class="imag-cont">
+                  <div className="imag-cont">
                     <img
                       src="https://dndesigns.co.in/wp-content/uploads/2019/02/3-2.jpg"
                       alt="demo"
                     />
-                    <div class="overlay"></div>
-                    <div class="overlay-box">
-                      <div class="overlay-title">Koshish</div>
-                      <p class="Pras">Vasudhaiva Kutumvakam</p>
+                    <div className="overlay"></div>
+                    <div className="overlay-box">
+                      <div className="overlay-title">Koshish</div>
+                      <p className="Pras">Vasudhaiva Kutumvakam</p>
                     </div>
                   </div>
                 </div>
@@ -425,41 +432,41 @@ function Home() {
 
               <div className="row mt-4">
                 <div className="col-sm-12 col-md-3">
-                  <div class="imag-cont">
+                  <div className="imag-cont">
                     <img
                       src="https://dndesigns.co.in/wp-content/uploads/2019/02/Logo.jpg"
                       alt="demo"
                     />
-                    <div class="overlay"></div>
-                    <div class="overlay-box">
-                      <div class="overlay-title">Deeproot</div>
-                      <p class="Pras">One crunch, many flavours</p>
+                    <div className="overlay"></div>
+                    <div className="overlay-box">
+                      <div className="overlay-title">Deeproot</div>
+                      <p className="Pras">One crunch, many flavours</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-12 col-md-6">
-                  <div class="imag-cont">
+                  <div className="imag-cont">
                     <img
                       src="https://dndesigns.co.in/wp-content/uploads/2025/04/5.jpg"
                       alt="demo"
                     />
-                    <div class="overlay"></div>
-                    <div class="overlay-box">
-                      <div class="overlay-title">The Bobalist</div>
-                      <p class="Pras">Pop the boba, feel the Fun</p>
+                    <div className="overlay"></div>
+                    <div className="overlay-box">
+                      <div className="overlay-title">The Bobalist</div>
+                      <p className="Pras">Pop the boba, feel the Fun</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-12 col-md-3">
-                  <div class="imag-cont">
+                  <div className="imag-cont">
                     <img
                       src="https://dndesigns.co.in/wp-content/uploads/2019/02/smartyums-1.jpg"
                       alt="demo"
                     />
-                    <div class="overlay"></div>
-                    <div class="overlay-box">
-                      <div class="overlay-title">Smart Yums</div>
-                      <p class="Pras">Food of the Future</p>
+                    <div className="overlay"></div>
+                    <div className="overlay-box">
+                      <div className="overlay-title">Smart Yums</div>
+                      <p className="Pras">Food of the Future</p>
                     </div>
                   </div>
                 </div>
@@ -467,28 +474,28 @@ function Home() {
 
               <div className="row mt-4">
                 <div className="col-sm-12 col-md-6">
-                  <div class="imag-cont">
+                  <div className="imag-cont">
                     <img
                       src="https://dndesigns.co.in/wp-content/uploads/2025/08/Wlues.jpg"
                       alt="demo"
                     />
-                    <div class="overlay"></div>
-                    <div class="overlay-box">
-                      <div class="overlay-title">Wlue's</div>
-                      <p class="Pras">Only for winners</p>
+                    <div className="overlay"></div>
+                    <div className="overlay-box">
+                      <div className="overlay-title">Wlue's</div>
+                      <p className="Pras">Only for winners</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-12 col-md-6">
-                  <div class="imag-cont">
+                  <div className="imag-cont">
                     <img
                       src="https://dndesigns.co.in/wp-content/uploads/2024/10/ezgif.com-speed-1.gif"
                       alt="demo"
                     />
-                    <div class="overlay"></div>
-                    <div class="overlay-box">
-                      <div class="overlay-title">iOrganic</div>
-                      <p class="Pras">Ideal food for you</p>
+                    <div className="overlay"></div>
+                    <div className="overlay-box">
+                      <div className="overlay-title">iOrganic</div>
+                      <p className="Pras">Ideal food for you</p>
                     </div>
                   </div>
                 </div>
@@ -580,12 +587,12 @@ function Home() {
           >
             <SwiperSlide>
               <div>
-                <div class="custom-swiper">
-                  <div class="swiper-slide">
-                    <div class="row align-items-stretch testi-slide shadow-lg rounded-xl">
-                      <div class="col-6 col-md-4 testi-left-content">
+                <div className="custom-swiper">
+                  <div className="swiper-slide">
+                    <div className="row align-items-stretch testi-slide shadow-lg rounded-xl">
+                      <div className="col-6 col-md-4 testi-left-content">
                         <div>
-                          <div class="testi-icon">
+                          <div className="testi-icon">
                             <img
                               src="https://images.vexels.com/media/users/3/223246/isolated/preview/a5e1b4a04c71beac7b6d7537dd007b35-like-icon-flat.png"
                               alt="Icon"
@@ -598,25 +605,25 @@ function Home() {
                             <br />
                             ABOUT US
                           </h3>
-                          <div class="quote-mark">&#x201C;</div>
+                          <div className="quote-mark">&#x201C;</div>
                         </div>
 
                         <div className="founder-name">
-                          <h2 class="fs-4 fw-bold mb-0">Mr. Vineet Tiwari</h2>
-                          <p class="fs-6 opacity-75">Founder, The Bobalist</p>
+                          <h2 className="fs-4 fw-bold mb-0">Mr. Vineet Tiwari</h2>
+                          <p className="fs-6 opacity-75">Founder, The Bobalist</p>
                         </div>
                       </div>
 
-                      <div class="col-6 col-md-4 testi-main-img">
+                      <div className="col-6 col-md-4 testi-main-img">
                         <img
                           src="https://dndesigns.co.in/wp-content/uploads/2025/09/TDG06181.jpg"
                           alt="Testimonial Person"
-                          class="img-fluid"
+                          className="img-fluid"
                           onerror="this.onerror=null; this.src='https://placehold.co/800x600/6b7280/ffffff?text=User+Photo';"
                         />
                       </div>
 
-                      <div class="col-12 col-md-4 testi-right-content">
+                      <div className="col-12 col-md-4 testi-right-content">
                         <p>
                           <i>
                             "Our association with DN Designs was very fruitful.
@@ -627,12 +634,12 @@ function Home() {
                           </i>
                         </p>
 
-                        <div class="rating-icons">
-                          <i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-half"></i>
-                          <i class="bi bi-star"></i>
+                        <div className="rating-icons">
+                          <i className="bi bi-star-fill"></i>
+                          <i className="bi bi-star-fill"></i>
+                          <i className="bi bi-star-fill"></i>
+                          <i className="bi bi-star-half"></i>
+                          <i className="bi bi-star"></i>
                         </div>
                       </div>
                     </div>
@@ -641,13 +648,13 @@ function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-               <div>
-                <div class="custom-swiper">
-                  <div class="swiper-slide">
-                    <div class="row align-items-stretch testi-slide shadow-lg rounded-xl">
-                      <div class="col-6 col-md-4 testi-left-content">
+              <div>
+                <div className="custom-swiper">
+                  <div className="swiper-slide">
+                    <div className="row align-items-stretch testi-slide shadow-lg rounded-xl">
+                      <div className="col-6 col-md-4 testi-left-content">
                         <div>
-                          <div class="testi-icon">
+                          <div className="testi-icon">
                             <img
                               src="https://images.vexels.com/media/users/3/223246/isolated/preview/a5e1b4a04c71beac7b6d7537dd007b35-like-icon-flat.png"
                               alt="Icon"
@@ -660,25 +667,25 @@ function Home() {
                             <br />
                             ABOUT US
                           </h3>
-                          <div class="quote-mark">&#x201C;</div>
+                          <div className="quote-mark">&#x201C;</div>
                         </div>
 
                         <div className="founder-name">
-                          <h2 class="fs-4 fw-bold mb-0">Mr. Vineet Tiwari</h2>
-                          <p class="fs-6 opacity-75">Founder, The Bobalist</p>
+                          <h2 className="fs-4 fw-bold mb-0">Mr. Vineet Tiwari</h2>
+                          <p className="fs-6 opacity-75">Founder, The Bobalist</p>
                         </div>
                       </div>
 
-                      <div class="col-6 col-md-4 testi-main-img">
+                      <div className="col-6 col-md-4 testi-main-img">
                         <img
                           src="https://dndesigns.co.in/wp-content/uploads/2025/09/1662129811700.jpg"
                           alt="Testimonial Person"
-                          class="img-fluid"
+                          className="img-fluid"
                           onerror="this.onerror=null; this.src='https://placehold.co/800x600/6b7280/ffffff?text=User+Photo';"
                         />
                       </div>
 
-                      <div class="col-12 col-md-4 testi-right-content">
+                      <div className="col-12 col-md-4 testi-right-content">
                         <p>
                           <i>
                             "Our association with DN Designs was very fruitful.
@@ -689,12 +696,12 @@ function Home() {
                           </i>
                         </p>
 
-                        <div class="rating-icons">
-                          <i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-half"></i>
-                          <i class="bi bi-star"></i>
+                        <div className="rating-icons">
+                          <i className="bi bi-star-fill"></i>
+                          <i className="bi bi-star-fill"></i>
+                          <i className="bi bi-star-fill"></i>
+                          <i className="bi bi-star-half"></i>
+                          <i className="bi bi-star"></i>
                         </div>
                       </div>
                     </div>
@@ -703,13 +710,13 @@ function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-               <div>
-                <div class="custom-swiper">
-                  <div class="swiper-slide">
-                    <div class="row align-items-stretch testi-slide shadow-lg rounded-xl">
-                      <div class="col-6 col-md-4 testi-left-content">
+              <div>
+                <div className="custom-swiper">
+                  <div className="swiper-slide">
+                    <div className="row align-items-stretch testi-slide shadow-lg rounded-xl">
+                      <div className="col-6 col-md-4 testi-left-content">
                         <div>
-                          <div class="testi-icon">
+                          <div className="testi-icon">
                             <img
                               src="https://images.vexels.com/media/users/3/223246/isolated/preview/a5e1b4a04c71beac7b6d7537dd007b35-like-icon-flat.png"
                               alt="Icon"
@@ -722,25 +729,25 @@ function Home() {
                             <br />
                             ABOUT US
                           </h3>
-                          <div class="quote-mark">&#x201C;</div>
+                          <div className="quote-mark">&#x201C;</div>
                         </div>
 
                         <div className="founder-name">
-                          <h2 class="fs-4 fw-bold mb-0">Mr. Vineet Tiwari</h2>
-                          <p class="fs-6 opacity-75">Founder, The Bobalist</p>
+                          <h2 className="fs-4 fw-bold mb-0">Mr. Vineet Tiwari</h2>
+                          <p className="fs-6 opacity-75">Founder, The Bobalist</p>
                         </div>
                       </div>
 
-                      <div class="col-6 col-md-4 testi-main-img">
+                      <div className="col-6 col-md-4 testi-main-img">
                         <img
                           src="https://dndesigns.co.in/wp-content/uploads/2025/09/1737743837430.jpg"
                           alt="Testimonial Person"
-                          class="img-fluid"
+                          className="img-fluid"
                           onerror="this.onerror=null; this.src='https://placehold.co/800x600/6b7280/ffffff?text=User+Photo';"
                         />
                       </div>
 
-                      <div class="col-12 col-md-4 testi-right-content">
+                      <div className="col-12 col-md-4 testi-right-content">
                         <p>
                           <i>
                             "Our association with DN Designs was very fruitful.
@@ -751,12 +758,12 @@ function Home() {
                           </i>
                         </p>
 
-                        <div class="rating-icons">
-                          <i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-half"></i>
-                          <i class="bi bi-star"></i>
+                        <div className="rating-icons">
+                          <i className="bi bi-star-fill"></i>
+                          <i className="bi bi-star-fill"></i>
+                          <i className="bi bi-star-fill"></i>
+                          <i className="bi bi-star-half"></i>
+                          <i className="bi bi-star"></i>
                         </div>
                       </div>
                     </div>
