@@ -121,8 +121,8 @@ function Branding() {
               <div className='potfolio-div-btns'>
               <div className='port-div-headg'><h3>Enlite</h3></div>
                 <div className="our-port-btn-up">
-                <button className="our-port-btn">Brand Identity</button>
-                <button className="our-port-btn">Packaging</button>
+                <h4 className="our-port-btn">Brand Identity</h4>
+                <h4 className="our-port-btn">Packaging</h4>
               </div>
               </div>
              
@@ -141,8 +141,8 @@ function Branding() {
               <div className='potfolio-div-btns'>
               <div className='port-div-headg'><h3>Enlite</h3></div>
                 <div className="our-port-btn-up">
-                <button className="our-port-btn">Brand Identity</button>
-                <button className="our-port-btn">Packaging</button>
+                <h4 className="our-port-btn">Brand Identity</h4>
+                <h4 className="our-port-btn">Packaging</h4>
               </div>
               </div>
              
@@ -164,8 +164,8 @@ function Branding() {
               <div className='potfolio-div-btns'>
               <div className='port-div-headg'><h3>Enlite</h3></div>
                 <div className="our-port-btn-up">
-                <button className="our-port-btn">Brand Identity</button>
-                <button className="our-port-btn">Packaging</button>
+                <h4 className="our-port-btn">Brand Identity</h4>
+                <h4 className="our-port-btn">Packaging</h4>
               </div>
               </div>
              
@@ -184,8 +184,8 @@ function Branding() {
               <div className='potfolio-div-btns'>
               <div className='port-div-headg'><h3>Enlite</h3></div>
                 <div className="our-port-btn-up">
-                <button className="our-port-btn">Brand Identity</button>
-                <button className="our-port-btn">Packaging</button>
+                <h4 className="our-port-btn">Brand Identity</h4>
+                <h4 className="our-port-btn">Packaging</h4>
               </div>
               </div>
              
@@ -207,8 +207,8 @@ function Branding() {
               <div className='potfolio-div-btns'>
               <div className='port-div-headg'><h3>Enlite</h3></div>
                 <div className="our-port-btn-up">
-                <button className="our-port-btn">Brand Identity</button>
-                <button className="our-port-btn">Packaging</button>
+                <h4 className="our-port-btn">Brand Identity</h4>
+                <h4 className="our-port-btn">Packaging</h4>
               </div>
               </div>
              
@@ -227,8 +227,8 @@ function Branding() {
               <div className='potfolio-div-btns'>
               <div className='port-div-headg'><h3>Smartyums</h3></div>
                 <div className="our-port-btn-up">
-                <button className="our-port-btn">Brand Identity</button>
-                <button className="our-port-btn">Packaging</button>
+                <h4 className="our-port-btn">Brand Identity</h4>
+                <h4 className="our-port-btn">Packaging</h4>
               </div>
               </div>
              
