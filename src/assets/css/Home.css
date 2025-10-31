@@ -284,6 +284,19 @@ align-items: center;
 /*......our-constant-companions...... */
 /* our work */
 
+.our-work{
+  padding: 80px 0;
+}
+
+.our-work h2{
+  color: #000000;
+  font-family: "Corbert", Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2em;
+  padding-bottom: 20px;
+}
+
 .imag-cont {
   position: relative;
   width: 100%;
@@ -335,7 +348,7 @@ align-items: center;
 }
 
 .overlay-title {
-  font-family: Corbert;
+  font-family: "Corbert";
   font-size: 20px;
   font-weight: 700;
   margin: 0px 0px 0px 10px;
@@ -343,7 +356,7 @@ align-items: center;
 
 .Pras {
   color: white;
-  font-family: Roboto;
+  font-family: "Roboto";
   margin: 0px 0px 0px 10px;
 }
 
@@ -354,6 +367,7 @@ align-items: center;
   border: 2px solid #ca2734;
   padding: 5px 20px;
   border-radius: 50px 50px;
+  color: #fff;
 }
 .showmorebtn:hover {
   background-color: black;
