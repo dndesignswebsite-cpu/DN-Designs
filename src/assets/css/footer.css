@@ -5,6 +5,9 @@
 .ff{
     font-family: 'Corbert', sans-serif;
 }
+.ff p{
+    font-family: 'Roboto-Regular';
+}
 
 .footer-li ul li a{
     font-size:48px;
@@ -18,4 +21,18 @@
 
 .footer-hr{
     border-top:1.5px solid #FFFFFF;
+}
+@media screen and (max-width:991px){
+    .footer-li ul li a{
+    font-size:38px;
+    line-height: 0;
+    font-weight: bold;
+}
+}
+@media screen and (max-width:767px){
+    .footer-li ul li a{
+    font-size:35px;
+    line-height: 0;
+    font-weight: bold;
+}
 }

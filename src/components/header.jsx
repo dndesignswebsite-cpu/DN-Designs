@@ -59,7 +59,7 @@ function header() {
 
             <header className="header container">
                 <div className="logo">
-                    <img src="https://dndesigns.co.in/wp-content/uploads/2022/09/dn.png" alt="DN Designs Logo" />
+                    <a href="./"><img src="https://dndesigns.co.in/wp-content/uploads/2019/02/cropped-dn_new-logolines.png" alt="DN Designs Logo" /></a>
                 </div>
                 
                 <button

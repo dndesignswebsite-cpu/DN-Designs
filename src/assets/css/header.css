@@ -27,7 +27,7 @@ a {
 }
 
 .logo img {
-    height: 80px;
+    width: 80px;
 }
 
 
@@ -170,6 +170,6 @@ a {
     }
 
     .logo img {
-        height: 50px;
+        width: 60px;
     }
 }

@@ -3,7 +3,7 @@ import "../assets/css/footer.css";
 
 export default function Footer() {
   return (
-    <footer className="main-footer-div ff text-white pt-5 pb-3 px-3">
+    <footer className="main-footer-div ff text-white pt-5 pb-3 ">
      
      <div className="container mb-5"> 
       <div className="container mb-4">
@@ -40,9 +40,9 @@ export default function Footer() {
             <div className="mt-5">
               <h6 className="fw-bold footer-add-conn mb-4">Contact Us</h6>
               <p className="mb-0">
-                +91 941 601 1100 <br />
-                +91 720 660 5872 <br />
-                info@dndesigns.co.in
+                <a href="tel:+91 9416011100"> +91 941 601 1100 </a><br />
+               <a href="tel:+91 7206605872"> +91 720 660 5872 </a><br />
+                <a href="mailto:info@dndesigns.co.in">info@dndesigns.co.in</a>
               </p>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function Footer() {
 
       
       <div className="container mt-4 pt-3 footer-hr">
-        <p className="mb-0 fw-semibold">
+        <p className="mb-0">
           Copyright © 2025 DN Designs. All rights reserved
         </p>
       </div>
