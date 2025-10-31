@@ -132,7 +132,7 @@ function Branding() {
             </div>
             </div>
          <div className='col-12 col-md-6 px-2 '>
-            <div className=' port-div'>
+            <div className='port-div'>
             <img
                 src="https://dndesigns.co.in/wp-content/uploads/2025/08/I-organic.jpg"
                 className="img-fluid"
