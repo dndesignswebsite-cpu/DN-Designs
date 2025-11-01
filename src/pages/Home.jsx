@@ -1,12 +1,12 @@
 import React, { useState, useRef } from "react";
 import "../assets/css/Home.css";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
 import OurConstant from "../components/OurConstant";
+import Form from "../components/Form"
 
 function Home() {
   const [showMore, setShowMore] = useState(false);
@@ -799,6 +799,8 @@ function Home() {
           </Swiper>
         </div>
       </section>
+
+      <Form/>
     </div>
   );
 }

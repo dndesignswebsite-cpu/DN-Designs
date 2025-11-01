@@ -1,0 +1,49 @@
+
+
+.form-box {
+  border: 8px solid #ca2734;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.two-columns {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1.5px solid #d4d4d4;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #ca2734;
+}
+
+.color {
+  color: #ca2734;
+}
+
+
+.submit-btn {
+  width: 100%;
+  padding: 16px;
+  background: black;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
