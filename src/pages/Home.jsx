@@ -547,7 +547,7 @@ function Home() {
       <h2>1</h2>
       </div>
       <div className="col-3">
-      <h3>Branding</h3>
+      <h3>Branding pages</h3>
       </div>
       <div className='points-para col-4'>
         <p>It is a significant challenge to create a space for your product in the market. It requires strategic thinking, creative skills, and a relentless pursuit of goals.</p>
