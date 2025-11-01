@@ -458,17 +458,26 @@ align-items: center;
 
 /*.....points...... */
 
+.point-cont{
+  width: 1200px;
+}
+
 .points {
-  display: flex;
   background-color: rgb(241, 241, 241);
+  box-shadow: 0px 0px 1.16px 0px rgba(1.700000000000012, 1.700000000000012, 1.700000000000012, 0.21);
   border-radius: 32px;
   padding: 20px;
-  margin: 20px 0px;
+  margin: 0px 0px 20px 0px;
+}
+.Points-Comm{
+  box-shadow: 0px 0px 2px 1px #D5D5D5;
+  background-color: #FFFFFF;
+
 }
 
 .points-right h2 {
+  font-family: Corbert, sans-serif;
   font-size: 180px;
-  margin-bottom: -25px;
   font-weight: 700;
   color: rgb(0, 0, 0);
 }
@@ -477,19 +486,18 @@ align-items: center;
   font-family: Corbert, sans-serif;
   font-size: 25px;
   font-weight: 700;
-  margin: 30px;
+  
 }
 
 .points-para {
   font-size: 16px;
   color: #666;
-  margin: 10px;
 }
 
 .points-left img {
   width: 100%;
   border-radius: 20px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .points-left {
   padding-right: 10px;
