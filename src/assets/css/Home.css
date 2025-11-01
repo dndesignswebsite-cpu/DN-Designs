@@ -32,11 +32,13 @@ align-items: center;
   color: #666;
   font-size: 18px;
   margin-bottom: 50px;
+  font-family: "Roboto";
+  line-height: 1.4em;
 }
 
 .hero button {
   padding: 14px 60px;
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: 600;
   border: none;
   border-radius: 40px;
@@ -45,13 +47,17 @@ align-items: center;
   margin-right: 15px;
 }
 
+.hero button::after{
+  content: "\2192";
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+
 .hero button:first-child {
   background-color: #ca2734;
   color: white;
-}
-
-.hero button:first-child:hover {
-  background-color: #ca2734;
 }
 
 .hero button:last-child {
@@ -59,9 +65,6 @@ align-items: center;
   color: white;
 }
 
-.hero button:last-child:hover {
-  background-color: #333;
-}
 
 .hero-img {
   position: relative;
@@ -107,7 +110,7 @@ align-items: center;
   }
 
   .hero h1 {
-    font-size: 2.3rem;
+    font-size: 34px;
   }
 
   .hero img {
@@ -122,6 +125,12 @@ align-items: center;
   .hero-rows{
     flex-direction: column;
   }
+
+  .hero p {
+  width:90%;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
 }
 
 /* our brand */
@@ -178,6 +187,12 @@ align-items: center;
 }
 
 .card-body img {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+}
+
+.card-body video {
   width: 100%;
   height: 100%;
   border-radius: 40px;
@@ -258,18 +273,51 @@ align-items: center;
 
 /* our brand mobile view */
 
+.mobile-view-our-brand{
+  padding: 80px 0;
+}
+
+.mobile-view-our-brand h2{
+  font-size: 40px;
+  font-family: "Corbert";
+  color: #000;
+}
+
 .mobile-view-our-brand-h3 {
   color: #ca2734;
   font-family: "Corbert", Sans-serif;
   font-size: 32px;
 }
 
+.our-brand-mobile-all-div{
+   padding: 20px;
+}
+
+.our-brand-mobile-div{
+  border: 1px solid #A8A8A8;
+  border-radius: 12px;
+  padding: 0px;
+  margin: 20px 0;
+}
+
+.our-brand-mobile-div img{
+  border-radius:12px 12px 0 0 ;
+}
+.our-brand-mobile-div video{
+  border-radius:12px 12px 0 0 ;
+}
+
+.our-brand-mobile-div-content{
+  padding: 10px;
+}
+
+
 .our-brand-mobile-btn {
   border-style: solid;
   border-width: 1px 1px 1px 1px;
   border-color: #ca2734;
   border-radius: 6px 6px 6px 6px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .our-brand-mobile-btn-up{
@@ -278,12 +326,34 @@ align-items: center;
   margin-bottom: 10px;
 }
 
-.our-brand-mobile-btn-up button {
+.our-brand-mobile-btn-up h4 {
   width: 50%;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Roboto";
 }
 .our-brand-mobile-btn-bottom {
   width: 100%;
   padding: 10px;
+}
+
+.our-brand-mobile-btn-bottom{
+  font-size: 15px;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.our-brand-mobile-div-content p{
+      color: #888888;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
+@media(max-width:767px){
+  .mobile-view-our-brand{
+  padding: 40px 0;
+}
 }
 
 /*......our-constant-companions...... */
@@ -377,6 +447,13 @@ align-items: center;
 .showmorebtn:hover {
   background-color: black;
   border: 2px solid black;
+}
+
+@media(max-width:767px){
+  .our-work h2{
+  font-size: 40px;
+  
+}
 }
 
 /*.....points...... */

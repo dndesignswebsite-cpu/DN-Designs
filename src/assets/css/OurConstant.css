@@ -1,6 +1,6 @@
 
 .our-constant-companions {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .companies img {
   width: 150px;
@@ -33,7 +33,7 @@
     display: none;
   }
 
-  .mobile-screen{
+  .our-constant-mobile-screen{
     display: none;
   }
 
@@ -50,7 +50,7 @@
     display: block;
   }
 
-  .mobile-screen{
+  .our-constant-mobile-screen{
     display: none;
   }
 }
@@ -65,7 +65,17 @@
     display: none;
   }
 
-  .mobile-screen{
+  .our-constant-mobile-screen{
     display: block;
+  }
+
+  .our-constant-mobile-screen{
+    padding: 10px 0;
+  }
+
+  .our-constant-mobile-screen h2{
+       font-size: 40px;
+  font-family: "Corbert";
+  color: #000;
   }
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "../assets/css/Home.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,6 +10,12 @@ import OurConstant from "../components/OurConstant";
 
 function Home() {
   const [showMore, setShowMore] = useState(false);
+  const ourWorkRef = useRef(null);
+
+  const ourWork = () => {
+    ourWorkRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
 
   return (
     <div>
@@ -22,7 +28,7 @@ function Home() {
               <p>Let’s collaborate and craft a truly standout brand for you.</p>
               <div>
                 <button>Talk To Us</button>
-                <button>Explore Our Work</button>
+                <button onClick={ourWork}>Explore Our Work</button>
               </div>
             </div>
             <div className="col hero-img">
@@ -76,7 +82,7 @@ function Home() {
               <div className="card-body">
                 <video className="img-fluid" autoPlay muted loop playsInline>
                   <source
-                    src="https://dndesigns.co.in/wp-content/uploads/2025/09/final.mp4"
+                    src="https://dndesigns.co.in/wp-content/uploads/2019/02/GIF_1_1.mp4"
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.
@@ -165,20 +171,23 @@ function Home() {
       <section className="mobile-view-our-brand">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-md-6">
+          <h2 className="text-center">Our Brand Journals</h2>
+          <div className="our-brand-mobile-all-div">
+            <div className="col-12 col-md-6 our-brand-mobile-div">
               <img
                 src="https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg"
                 className="img-fluid"
               />
-              <h2 className="mobile-view-our-brand-h3">Rithm’s Enlite</h2>
+              <div className="our-brand-mobile-div-content">
+              <h3 className="mobile-view-our-brand-h3">Rithm’s Enlite</h3>
               <div className="our-brand-mobile-btn-up">
-                <button className="our-brand-mobile-btn">Brand Identity</button>
-                <button className="our-brand-mobile-btn">Packaging</button>
+                <h4 className="our-brand-mobile-btn">Brand Identity</h4>
+                <h4 className="our-brand-mobile-btn">Packaging</h4>
               </div>
               <div>
-                <button className="our-brand-mobile-btn our-brand-mobile-btn-bottom">
+                <h4 className="our-brand-mobile-btn our-brand-mobile-btn-bottom text-center">
                   Communication Design
-                </button>
+                </h4>
               </div>
               <p>
                 For Rithm’s Enlite, a brand with sparkling mineral water and
@@ -189,20 +198,24 @@ function Home() {
                 properties of the product.
               </p>
             </div>
-            <div className="col-12 col-md-6">
-              <img
-                src="https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg"
-                className="img-fluid"
-              />
-              <h2 className="mobile-view-our-brand-h3">Rithm’s Enlite</h2>
+            </div>
+             <div className="col-12 col-md-6 our-brand-mobile-div">
+              <video className="img-fluid" autoPlay muted loop playsInline>
+                  <source
+                    src="https://dndesigns.co.in/wp-content/uploads/2019/02/GIF_1_1.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              <div className="our-brand-mobile-div-content">
+              <h3 className="mobile-view-our-brand-h3">Rithm’s Enlite</h3>
               <div className="our-brand-mobile-btn-up">
-                <button className="our-brand-mobile-btn">Brand Identity</button>
-                <button className="our-brand-mobile-btn">Packaging</button>
+                <h4 className="our-brand-mobile-btn">Brand Identity</h4>
+                <h4 className="our-brand-mobile-btn">Packaging</h4>
               </div>
-              <div>
-                <button className="our-brand-mobile-btn our-brand-mobile-btn-bottom">
-                  Communication Design
-                </button>
+               <div className="our-brand-mobile-btn-up">
+                <h4 className="our-brand-mobile-btn">Brand Identity</h4>
+                <h4 className="our-brand-mobile-btn">Packaging</h4>
               </div>
               <p>
                 For Rithm’s Enlite, a brand with sparkling mineral water and
@@ -213,20 +226,22 @@ function Home() {
                 properties of the product.
               </p>
             </div>
-            <div className="col-12 col-md-6">
+            </div>
+             <div className="col-12 col-md-6 our-brand-mobile-div">
               <img
                 src="https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg"
                 className="img-fluid"
               />
-              <h2 className="mobile-view-our-brand-h3">Rithm’s Enlite</h2>
+              <div className="our-brand-mobile-div-content">
+              <h3 className="mobile-view-our-brand-h3">Rithm’s Enlite</h3>
               <div className="our-brand-mobile-btn-up">
-                <button className="our-brand-mobile-btn">Brand Identity</button>
-                <button className="our-brand-mobile-btn">Packaging</button>
+                <h4 className="our-brand-mobile-btn">Brand Identity</h4>
+                <h4 className="our-brand-mobile-btn">Packaging</h4>
               </div>
               <div>
-                <button className="our-brand-mobile-btn our-brand-mobile-btn-bottom">
+                <h4 className="our-brand-mobile-btn our-brand-mobile-btn-bottom text-center">
                   Communication Design
-                </button>
+                </h4>
               </div>
               <p>
                 For Rithm’s Enlite, a brand with sparkling mineral water and
@@ -237,20 +252,22 @@ function Home() {
                 properties of the product.
               </p>
             </div>
-            <div className="col-12 col-md-6">
+            </div>
+         <div className="col-12 col-md-6 our-brand-mobile-div">
               <img
                 src="https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg"
                 className="img-fluid"
               />
-              <h2 className="mobile-view-our-brand-h3">Rithm’s Enlite</h2>
+              <div className="our-brand-mobile-div-content">
+              <h3 className="mobile-view-our-brand-h3">Rithm’s Enlite</h3>
               <div className="our-brand-mobile-btn-up">
-                <button className="our-brand-mobile-btn">Brand Identity</button>
-                <button className="our-brand-mobile-btn">Packaging</button>
+                <h4 className="our-brand-mobile-btn">Brand Identity</h4>
+                <h4 className="our-brand-mobile-btn">Packaging</h4>
               </div>
               <div>
-                <button className="our-brand-mobile-btn our-brand-mobile-btn-bottom">
+                <h4 className="our-brand-mobile-btn our-brand-mobile-btn-bottom text-center">
                   Communication Design
-                </button>
+                </h4>
               </div>
               <p>
                 For Rithm’s Enlite, a brand with sparkling mineral water and
@@ -261,6 +278,8 @@ function Home() {
                 properties of the product.
               </p>
             </div>
+            </div>
+             </div>
           </div>
         </div>
       </section>
@@ -270,7 +289,7 @@ function Home() {
       <OurConstant />
 
       {/*.....our work...... */}
-      <section className="our-work">
+      <section className="our-work" ref={ourWorkRef}>
         <div className="container-fluid">
           <h2 className="text-center mb-4">Our Work</h2>
           <div className="row mt-4">
@@ -596,7 +615,6 @@ function Home() {
                             <img
                               src="https://images.vexels.com/media/users/3/223246/isolated/preview/a5e1b4a04c71beac7b6d7537dd007b35-like-icon-flat.png"
                               alt="Icon"
-                              onerror="this.onerror=null; this.src='https://placehold.co/24x24/CA2734/ffffff?text=T';"
                             />
                             <p>TESTIMONIALS</p>
                           </div>
@@ -619,7 +637,6 @@ function Home() {
                           src="https://dndesigns.co.in/wp-content/uploads/2025/09/TDG06181.jpg"
                           alt="Testimonial Person"
                           className="img-fluid"
-                          onerror="this.onerror=null; this.src='https://placehold.co/800x600/6b7280/ffffff?text=User+Photo';"
                         />
                       </div>
 
@@ -658,7 +675,6 @@ function Home() {
                             <img
                               src="https://images.vexels.com/media/users/3/223246/isolated/preview/a5e1b4a04c71beac7b6d7537dd007b35-like-icon-flat.png"
                               alt="Icon"
-                              onerror="this.onerror=null; this.src='https://placehold.co/24x24/CA2734/ffffff?text=T';"
                             />
                             <p>TESTIMONIALS</p>
                           </div>
@@ -681,8 +697,7 @@ function Home() {
                           src="https://dndesigns.co.in/wp-content/uploads/2025/09/1662129811700.jpg"
                           alt="Testimonial Person"
                           className="img-fluid"
-                          onerror="this.onerror=null; this.src='https://placehold.co/800x600/6b7280/ffffff?text=User+Photo';"
-                        />
+                          />
                       </div>
 
                       <div className="col-12 col-md-4 testi-right-content">
@@ -720,8 +735,7 @@ function Home() {
                             <img
                               src="https://images.vexels.com/media/users/3/223246/isolated/preview/a5e1b4a04c71beac7b6d7537dd007b35-like-icon-flat.png"
                               alt="Icon"
-                              onerror="this.onerror=null; this.src='https://placehold.co/24x24/CA2734/ffffff?text=T';"
-                            />
+                              />
                             <p>TESTIMONIALS</p>
                           </div>
                           <h3>
@@ -743,8 +757,7 @@ function Home() {
                           src="https://dndesigns.co.in/wp-content/uploads/2025/09/1737743837430.jpg"
                           alt="Testimonial Person"
                           className="img-fluid"
-                          onerror="this.onerror=null; this.src='https://placehold.co/800x600/6b7280/ffffff?text=User+Photo';"
-                        />
+                         />
                       </div>
 
                       <div className="col-12 col-md-4 testi-right-content">
