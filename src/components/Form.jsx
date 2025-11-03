@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "../assets/css/Form.css";
 
 function Form() {
@@ -12,13 +12,41 @@ function Form() {
     alert(name + " " + email + " " + mobilenumber + " " + message);
   };
 
+
+  // animation
+const formcontentRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      {
+        threshold: 0.4,
+      }
+    );
+
+    if (formcontentRef.current) observer.observe(formcontentRef.current);
+
+    return () => {
+      if (formcontentRef.current) observer.unobserve(formcontentRef.current);
+    };
+  }, []);
+
   return (
     <div>
       <section className="all-page-form">
         <div className="container">
           <div className="row form-row">
-            <div className="col-12 col-md-12 col-lg-5 form-left-content">
-            <div className="form-main-content">
+            <div className="col-12 col-md-12 col-lg-4 form-left-content">
+            <div className="form-content-wrapper">
+            <div className={`form-main-content ${isVisible ? "animate" : ""}`} ref={formcontentRef}>
+
               <h3>Let’s Discuss Over a Cup of Coffee</h3>
               <p>
                 Some brands simply stand out! You recognise them, you trust them
@@ -35,8 +63,9 @@ function Form() {
               </p>
               </div>
             </div>
+            </div>
 
-            <div className="col-12 col-md-12 col-lg-7 form-wrapper">
+            <div className="col-12 col-md-12 col-lg-8 form-wrapper">
               <div className="form-box">
                 <form className="main-form" onSubmit={handleSubmit}>
 
@@ -94,7 +123,7 @@ function Form() {
                       placeholder="Project Details"
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
-                      rows="6"
+                      rows="15"
                     ></textarea>
                   </div>
                   </div>

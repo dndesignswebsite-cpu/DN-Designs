@@ -1,54 +1,3 @@
-/* 
-
-.form-box {
-  border: 8px solid #ca2734;
-  border-radius: 20px;
-  padding: 40px;
-}
-
-.two-columns {
-  display: flex;
-  gap: 20px;
-}
-
-.form-group label {
-  margin-bottom: 6px;
-  font-weight: 600;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1.5px solid #d4d4d4;
-  border-radius: 8px;
-  font-size: 16px;
-  outline: none;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  border-color: #ca2734;
-}
-
-.color {
-  color: #ca2734;
-}
-
-
-.submit-btn {
-  width: 100%;
-  padding: 16px;
-  background: black;
-  color: white;
-  font-size: 18px;
-  border: none;
-  border-radius: 12px;
-  font-weight: 600;
-  cursor: pointer;
-} */
-
-
 .all-page-form{
   padding-top:50px;
   padding-bottom:50px;
@@ -116,11 +65,11 @@
   border-radius: 12px;
   font-weight: 600;
   cursor: pointer;
+  font-family: "Roboto";
 } 
 
 .form-box{
   padding: 10px;
-  /* border: 10px solid #ca2734; */
   background-color: #ca2734;
   margin: 0;
   height: 100%;
@@ -140,29 +89,53 @@
   border-bottom: 10px solid #ca2734;
   padding: 0;
   margin: 0;
+  min-height: 750px;
+  position: relative;
 }
+
+
 
 .form-main-content{
   background-color: #ffffff;
   border-radius: 0px 16px 16px 0px ;
-  padding: 20px;
+  padding: 25px;
   height: 100%;
   width: 100%;
+  position: absolute;
 }
+
+
 
 .form-main-content h3{
     color: #000000;
     font-family: "Corbert";
     font-size: 50px;
     font-weight: 700;
+    
 }
 
 .form-main-content p{
-      font-family: "Roboto";
-          color: #000000;
-    line-height: 32px;
+        font-family: "Roboto";
+        color: #000000;
+        line-height: 32px;
         font-weight: 300;
         font-size: 18px;
+}
+
+
+.form-main-content.animate{
+  animation:  form-animation 1s ease;
+}
+
+@keyframes form-animation {
+  0%{
+    right:100%;
+    opacity:0.5
+  }
+  100% {
+    right:0%;
+    opacity:1
+  }
 }
 
 @media(max-width:1025px){
@@ -173,5 +146,12 @@
 .form-main-content h3{
   font-size: 40px;
 }
+
+
+.form-left-content{
+  min-height: 750px;
 }
+}
+
+
 
