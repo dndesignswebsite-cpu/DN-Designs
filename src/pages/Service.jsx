@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../assets/css/Service.css";
+import Form from "../components/Form"
 
 function Service() {
   const [activeTab, setActiveTab] = useState("Branding");
@@ -65,11 +66,11 @@ function Service() {
     <div>
     <div className="container uper-links"><a href="#">Home</a> &nbsp; &gt; &nbsp; Service</div>
       <section className="service-hero">
-        <div class="container">
-          <div class="row">
+        <div className="container">
+          <div className="row">
             <h1>Services</h1>
-            <div class="col-12 col-md-4">{/* .. */}</div>
-            <div class="col-12 col-md-8">
+            <div className="col-12 col-md-4">{/* .. */}</div>
+            <div className="col-12 col-md-8">
               <div className="talk-to-us-div">
                 <button className="talk-to-us">Talk to Us</button>
               </div>
@@ -98,7 +99,7 @@ function Service() {
               <span className="our">Our</span> Services
             </h2>
             <div className="col-12 col-md-4 service-div">
-              <div class="service-card">
+              <div className="service-card">
                 <div className="front">
                   <img
                     src="https://dndesigns.co.in/wp-content/uploads/2019/02/brand-identity.jpg"
@@ -121,7 +122,7 @@ function Service() {
                       <li>
                         <a
                           href="https://dndesigns.co.in/branding/"
-                          class="page-linking"
+                          className="page-linking"
                         >
                           Branding
                         </a>
@@ -129,7 +130,7 @@ function Service() {
                       <li>
                         <a
                           href="https://dndesigns.co.in/logo-designing/"
-                          class="page-linking"
+                          className="page-linking"
                         >
                           Logo Designing
                         </a>
@@ -137,7 +138,7 @@ function Service() {
                       <li>
                         <a
                           href="https://dndesigns.co.in/brand-name-suggestion/"
-                          class="page-linking"
+                          className="page-linking"
                         >
                           Brand Name Suggestion
                         </a>
@@ -145,7 +146,7 @@ function Service() {
                       <li>
                         <a
                           href="https://dndesigns.co.in/packaging-design/"
-                          class="page-linking"
+                          className="page-linking"
                         >
                           Packaging Design
                         </a>
@@ -153,7 +154,7 @@ function Service() {
                       <li>
                         <a
                           href="https://dndesigns.co.in/catalogue-designing/"
-                          class="page-linking"
+                          className="page-linking"
                         >
                           Catalogue Designing
                         </a>
@@ -164,7 +165,7 @@ function Service() {
               </div>
             </div>
             <div className="col-12 col-md-4 service-div">
-              <div class="service-card">
+              <div className="service-card">
                 <div className="front">
                   <img
                     src="https://dndesigns.co.in/wp-content/uploads/2019/02/brand-identity.jpg"
@@ -187,7 +188,7 @@ function Service() {
                       <li>
                         <a
                           href="https://dndesigns.co.in/branding/"
-                          class="page-linking"
+                          className="page-linking"
                         >
                           Branding
                         </a>
@@ -195,7 +196,7 @@ function Service() {
                       <li>
                         <a
                           href="https://dndesigns.co.in/logo-designing/"
-                          class="page-linking"
+                          className="page-linking"
                         >
                           Logo Designing
                         </a>
@@ -203,7 +204,7 @@ function Service() {
                       <li>
                         <a
                           href="https://dndesigns.co.in/brand-name-suggestion/"
-                          class="page-linking"
+                          className="page-linking"
                         >
                           Brand Name Suggestion
                         </a>
@@ -211,7 +212,7 @@ function Service() {
                       <li>
                         <a
                           href="https://dndesigns.co.in/packaging-design/"
-                          class="page-linking"
+                          className="page-linking"
                         >
                           Packaging Design
                         </a>
@@ -219,7 +220,7 @@ function Service() {
                       <li>
                         <a
                           href="https://dndesigns.co.in/catalogue-designing/"
-                          class="page-linking"
+                          className="page-linking"
                         >
                           Catalogue Designing
                         </a>
@@ -231,7 +232,7 @@ function Service() {
             </div>
 
             <div className="col-12 col-md-4 service-div">
-              <div class="service-card">
+              <div className="service-card">
                 <div className="front">
                   <img
                     src="https://dndesigns.co.in/wp-content/uploads/2019/02/brand-identity.jpg"
@@ -254,7 +255,7 @@ function Service() {
                       <li>
                         <a
                           href="https://dndesigns.co.in/branding/"
-                          class="page-linking"
+                          className="page-linking"
                         >
                           Branding
                         </a>
@@ -262,7 +263,7 @@ function Service() {
                       <li>
                         <a
                           href="https://dndesigns.co.in/logo-designing/"
-                          class="page-linking"
+                          className="page-linking"
                         >
                           Logo Designing
                         </a>
@@ -270,7 +271,7 @@ function Service() {
                       <li>
                         <a
                           href="https://dndesigns.co.in/brand-name-suggestion/"
-                          class="page-linking"
+                          className="page-linking"
                         >
                           Brand Name Suggestion
                         </a>
@@ -278,7 +279,7 @@ function Service() {
                       <li>
                         <a
                           href="https://dndesigns.co.in/packaging-design/"
-                          class="page-linking"
+                          className="page-linking"
                         >
                           Packaging Design
                         </a>
@@ -286,7 +287,7 @@ function Service() {
                       <li>
                         <a
                           href="https://dndesigns.co.in/catalogue-designing/"
-                          class="page-linking"
+                          className="page-linking"
                         >
                           Catalogue Designing
                         </a>
@@ -791,6 +792,10 @@ function Service() {
     </div>
   </div>
 </section>
+
+
+{/* form */}
+       <Form/>
 
     </div>
   );

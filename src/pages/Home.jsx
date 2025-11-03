@@ -587,12 +587,12 @@ function Home() {
       {/*.....points...... */}
       
 <section className='point'>
-<div class="container point-cont">
-  <div class="row points-row">
-    <div class="col-3 points-left">
+<div className="container point-cont">
+  <div className="row points-row">
+    <div className="col-3 points-left">
       <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/350x1100.jpg'/>
     </div>
-    <div class="col-12 col-md-12 col-lg-9 points-right">
+    <div className="col-12 col-md-12 col-lg-9 points-right">
     <div className='points row'>
       <div className="col-12 col-md-12 col-lg-2">
       <h2>1</h2>

@@ -1,5 +1,4 @@
 .uper-links {
-  padding: 10px 0;
   font-size: 16px;
   font-family: Corbert;
   color: #000;
@@ -41,7 +40,6 @@
   color: #000;
   font-family: Corbert;
   font-weight: 700;
-  padding: 20px 0 0 0;
 }
 
 .branding-hero h3 {
@@ -470,11 +468,10 @@ identity-div-content{
   font-family: Corbert;
   font-weight: 700;
   color: #000;
+  padding-bottom: 30px;
 }
 
-.all_faqs {
-  padding: 30px 0;
-}
+
 
 .faq_unit {
   box-shadow: 0px 2px 11px -1px rgba(0, 0, 0, 0.1);
@@ -530,6 +527,12 @@ identity-div-content{
 .panel.open {
   max-height: 1000px; 
   padding: 15px 25px;
+}
+
+@media(max-width:767px){
+  .faqs h2 {
+  font-size: 40px;
+}
 }
 
 

@@ -1,7 +1,6 @@
 .uper-links{
-    padding: 10px 0;
     font-size: 16px;
-    font-family: Corbert;
+    font-family: "Corbert";
     color: #000;
 }
 
@@ -15,11 +14,7 @@
     padding: 20px 0;
 }
 
-@media(max-width:767px){
-    .talk-to-us-div{
-        justify-content: start;
-    }
-}
+
 
 .talk-to-us{
     background-color: #CA2734;
@@ -39,9 +34,8 @@
 .service-hero h1{
     font-size: 62px;
     color: #000;
-    font-family: Corbert;
+    font-family: "Corbert";
     font-weight: 700;
-    padding:20px 0px;
 }
 
 .service-hero p{
@@ -49,8 +43,27 @@
          color: #000000;
          line-height: 1.7em;
          font-size: 20px;
-         font-family: Roboto;
+         font-family: "Roboto";
+}
 
+
+@media(max-width:767px){
+    .talk-to-us-div{
+        justify-content: start;
+    }
+
+    .service-hero h1{
+    font-size: 40px;
+}
+
+.talk-to-us-div{
+    display: flex;
+    justify-content: end;
+    padding: 10px 0;
+}
+.service-hero p{
+         margin-top: 20px;
+}
 }
 
 
@@ -71,7 +84,7 @@
 .our{
     color:#ca2734;
     font-size:62px;
-    font-family: Corbert;
+    font-family: "Corbert";
     font-weight: 700;
 }
 
@@ -111,7 +124,7 @@
     color:black;
       padding:20px 0px 8px 10px;
       font-size:25px;
-      font-family:Corbert;
+      font-family:"Corbert";
       font-weight:500;
       margin: 0px;
       
@@ -121,7 +134,7 @@
      color:black;
       padding:0px 0px 10px 10px;
       font-size:26px;
-      font-family:Corbert;
+      font-family:"Corbert";
       font-weight:500;
       margin: 0px;
       padding-bottom: 10px;
@@ -160,7 +173,7 @@
     color:#fff;
       padding:20px 0px 8px 10px;
       font-size:25px;
-      font-family:Corbert;
+      font-family:"Corbert";
       font-weight:500;
       margin: 0px;
       
@@ -170,7 +183,7 @@
      color:#fff;
       padding:0px 0px 10px 10px;
       font-size:26px;
-      font-family:Corbert;
+      font-family:"Corbert";
       font-weight:500;
       margin: 0px;
       padding-bottom: 10px;
@@ -180,7 +193,7 @@
     color:White;
       padding:20px 0px 8px 10px;
       font-size:20px;
-      font-family:Corbert;
+      font-family:"Corbert";
       font-weight:500;
       margin: 0px;
 }
@@ -235,7 +248,7 @@
 
 .appr-pro h2{
     font-size: 56px;
-    font-family: Corbert;
+    font-family: "Corbert";
     font-weight: 700;
 }
 
@@ -245,6 +258,7 @@
          line-height: 32px;
          font-size: 18px;
          width: 80%;
+         font-family: "Roboto";
 }
 .every-pr{
     color:#ca2734;
@@ -263,7 +277,7 @@
 
 .app-pro-div h3{
     font-size: 24px;
-    font-family: Corbert;
+    font-family: "Corbert";
     font-weight: 500;
     color:#ca2734;
 
@@ -273,7 +287,7 @@
     font-size: 16px;
     line-height: 1.2em;
     font-weight: 300;
-    font-family: Roboto;
+    font-family: "Roboto";
 }
 
 .bg-app{
@@ -283,11 +297,11 @@
 
 @media(max-width:767px){
     .appr-pro{
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .appr-pro h2{
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .appr-pro p{
@@ -306,7 +320,7 @@
 
 .top-cap h2{
     font-size: 56px;
-    font-family: Corbert;
+    font-family: "Corbert";
     font-weight: 700;
 }
 .top-cap p{
@@ -369,12 +383,20 @@
 }   
 }
 
+@media(max-width:767px){
+  .top-cap h2{
+    font-size: 40px;
+}
+.headg{
+    padding: 30px 0;
+}
+}
 
 /* Our Work */
 
 .our-work-tab h2{
     font-size: 56px;
-    font-family: Corbert;
+    font-family: "Corbert";
     font-weight: 700;
 }
 
@@ -394,7 +416,7 @@
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 22px;
-  font-family: Corbert;
+  font-family: "Corbert";
 }
 
 
@@ -425,11 +447,26 @@
         background-color: #CA2734;
     font-family: "Roboto", Sans-serif;
     border-radius: 100px 100px 100px 100px;
-    padding: 15px 50px 10px 50px;
+    padding: 15px 50px 15px 50px;
     color: #fff;
     border: none;
     font-size: 18px;
     font-weight: 400;
+}
+
+@media(max-width:767px){
+  .our-work-tab h2{
+    font-size: 40px;
+}
+.tab button{
+  font-size: 18px;
+}
+
+
+.explore-more button{
+  font-size: 16px;
+  padding: 12px 40px 12px 40px;
+}
 }
 
 
@@ -445,9 +482,9 @@
   color: #000;
 }
 
-.all_faqs {
+/* .all_faqs {
   padding: 30px 0;
-}
+} */
 
 .faq_unit {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -469,7 +506,7 @@
   font-size: 20px;
   transition: background-color 0.3s ease;
   background-color: #fff;
-  font-family: Corbert;
+  font-family: "Corbert";
   position: relative;
 
 }
@@ -493,7 +530,7 @@
 .panel {
   max-height: 0;
   overflow: hidden;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 18px;
   padding: 0 25px;
   transition: max-height 0.4s ease, padding 0.4s ease;
@@ -503,4 +540,10 @@
 .panel.open {
   max-height: 1000px; 
   padding: 15px 25px;
+}
+
+@media(max-width:767px){
+  .faqs h2 {
+  font-size: 40px;
+}
 }
