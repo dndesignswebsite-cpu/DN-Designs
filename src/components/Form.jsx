@@ -14,10 +14,10 @@ function Form() {
 
   return (
     <div>
-      <section className="">
+      <section className="all-page-form">
         <div className="container">
-          <div className="row g-0">
-            <div className="col-12 col-md-12 col-lg-6 form-left-content">
+          <div className="row form-row">
+            <div className="col-12 col-md-12 col-lg-5 form-left-content">
             <div className="form-main-content">
               <h3>Let’s Discuss Over a Cup of Coffee</h3>
               <p>
@@ -36,7 +36,7 @@ function Form() {
               </div>
             </div>
 
-            <div className="col-12 col-md-12 col-lg-6 form-wrapper">
+            <div className="col-12 col-md-12 col-lg-7 form-wrapper">
               <div className="form-box">
                 <form className="main-form" onSubmit={handleSubmit}>
 

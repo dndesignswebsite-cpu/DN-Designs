@@ -49,6 +49,18 @@
 } */
 
 
+.all-page-form{
+  padding-top:20px;
+  padding-bottom:50px;
+}
+
+.form-row{
+  background-color: #ca2734;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0px 16px 16px 0px ;
+}
+
 
 
 .inpt label{
@@ -124,13 +136,12 @@
   border-bottom: 10px solid #ca2734;
   padding: 0;
   margin: 0;
-  border-radius: 10px;
 }
 
 .form-main-content{
-  background-color: #000;
-  border-radius: 16px;
-  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 0px 16px 16px 0px ;
+  padding: 20px;
   height: 100%;
   width: 100%;
 }
