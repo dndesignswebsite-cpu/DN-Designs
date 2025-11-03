@@ -292,8 +292,8 @@ function Home() {
       <section className="our-work" ref={ourWorkRef}>
         <div className="container-fluid">
           <h2 className="text-center mb-4">Our Work</h2>
-          <div className="row mt-4">
-            <div className="col-sm-12 col-md-6">
+          <div className="row our-work-row">
+            <div className="col-sm-12 col-md-6 our-work-div-unit">
               <div className="imag-cont">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2025/08/enlite-2.jpg"
@@ -306,8 +306,8 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-3">
-              <div className="imag-cont">
+            <div className="col-sm-12 col-md-3 our-work-div-unit">
+              <div className="imag-cont ">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2019/02/2-3.jpg"
                   alt="demo"
@@ -319,7 +319,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-3">
+            <div className="col-sm-12 col-md-3 our-work-div-unit">
               <div className="imag-cont">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2019/02/thames-graphic-webiste-750x1050-1.jpg"
@@ -334,13 +334,16 @@ function Home() {
             </div>
           </div>
 
-          <div className="row mt-4">
+          <div className="row our-work-row">
             <div className="col-sm-12 col-md-3">
               <div className="imag-cont">
-                <img
-                  src="https://dndesigns.co.in/wp-content/uploads/2019/02/thames-graphic-webiste-750x1050-1.jpg"
-                  alt="demo"
-                />
+                 <video className="img-fluid" autoPlay muted loop playsInline>
+                  <source
+                    src="https://dndesigns.co.in/wp-content/uploads/2019/02/finalboba.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
                 <div className="overlay"></div>
                 <div className="overlay-box">
                   <div className="overlay-title">Thames</div>
@@ -348,7 +351,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-6">
+            <div className="col-sm-12 col-md-6 our-work-div-unit">
               <div className="imag-cont">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2025/08/nature-balance.jpg"
@@ -361,7 +364,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-3">
+            <div className="col-sm-12 col-md-3 our-work-div-unit">
               <div className="imag-cont">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2019/02/VEIKK.jpg"
@@ -376,7 +379,7 @@ function Home() {
             </div>
           </div>
 
-          <div className="row mt-4">
+          <div className="row our-work-row">
             <div className="col-sm-12 col-md-6">
               <div className="imag-cont">
                 <img
@@ -390,7 +393,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-6">
+            <div className="col-sm-12 col-md-6 our-work-div-unit">
               <div className="imag-cont">
                 <img
                   src="https://dndesigns.co.in/wp-content/uploads/2025/08/kalprishi.jpg"
@@ -407,7 +410,7 @@ function Home() {
 
           {showMore && (
             <div>
-              <div className="row mt-4">
+              <div className="row our-work-row">
                 <div className="col-sm-12 col-md-6">
                   <div className="imag-cont">
                     <img
@@ -421,7 +424,7 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-3">
+                <div className="col-sm-12 col-md-3 our-work-div-unit">
                   <div className="imag-cont">
                     <img
                       src="https://dndesigns.co.in/wp-content/uploads/2019/02/9.jpg"
@@ -434,7 +437,7 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-3">
+                <div className="col-sm-12 col-md-3 our-work-div-unit">
                   <div className="imag-cont">
                     <img
                       src="https://dndesigns.co.in/wp-content/uploads/2019/02/3-2.jpg"
@@ -449,7 +452,7 @@ function Home() {
                 </div>
               </div>
 
-              <div className="row mt-4">
+              <div className="row our-work-row">
                 <div className="col-sm-12 col-md-3">
                   <div className="imag-cont">
                     <img
@@ -463,12 +466,15 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-6">
+                <div className="col-sm-12 col-md-6 our-work-div-unit">
                   <div className="imag-cont">
-                    <img
-                      src="https://dndesigns.co.in/wp-content/uploads/2025/04/5.jpg"
-                      alt="demo"
-                    />
+                     <video className="img-fluid" autoPlay muted loop playsInline>
+                  <source
+                    src="https://dndesigns.co.in/wp-content/uploads/2019/02/jhfjk.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
                     <div className="overlay"></div>
                     <div className="overlay-box">
                       <div className="overlay-title">The Bobalist</div>
@@ -476,7 +482,7 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-3">
+                <div className="col-sm-12 col-md-3 our-work-div-unit">
                   <div className="imag-cont">
                     <img
                       src="https://dndesigns.co.in/wp-content/uploads/2019/02/smartyums-1.jpg"
@@ -491,7 +497,7 @@ function Home() {
                 </div>
               </div>
 
-              <div className="row mt-4">
+              <div className="row our-work-row">
                 <div className="col-sm-12 col-md-6">
                   <div className="imag-cont">
                     <img
@@ -505,7 +511,7 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-6">
+                <div className="col-sm-12 col-md-6 our-work-div-unit">
                   <div className="imag-cont">
                     <img
                       src="https://dndesigns.co.in/wp-content/uploads/2024/10/ezgif.com-speed-1.gif"
@@ -515,6 +521,51 @@ function Home() {
                     <div className="overlay-box">
                       <div className="overlay-title">iOrganic</div>
                       <p className="Pras">Ideal food for you</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+               <div className="row our-work-row">
+                <div className="col-sm-12 col-md-6">
+                  <div className="imag-cont">
+                  <video className="img-fluid" autoPlay muted loop playsInline>
+                  <source
+                    src="https://dndesigns.co.in/wp-content/uploads/2019/02/finaljhhh.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                    <div className="overlay"></div>
+                    <div className="overlay-box">
+                      <div className="overlay-title">The Bobalist</div>
+                      <p className="Pras">Pop the boba, feel the Fun</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-12 col-md-3 our-work-div-unit">
+                  <div className="imag-cont">
+                    <img
+                      src="https://dndesigns.co.in/wp-content/uploads/2019/02/9.jpg"
+                      alt="demo"
+                    />
+                    <div className="overlay"></div>
+                    <div className="overlay-box">
+                      <div className="overlay-title">iOrganic</div>
+                      <p className="Pras">Ideal food for you</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-12 col-md-3 our-work-div-unit">
+                  <div className="imag-cont">
+                    <img
+                      src="https://dndesigns.co.in/wp-content/uploads/2019/02/3-2.jpg"
+                      alt="demo"
+                    />
+                    <div className="overlay"></div>
+                    <div className="overlay-box">
+                      <div className="overlay-title">Koshish</div>
+                      <p className="Pras">Vasudhaiva Kutumvakam</p>
                     </div>
                   </div>
                 </div>
