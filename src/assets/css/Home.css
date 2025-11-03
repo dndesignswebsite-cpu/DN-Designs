@@ -543,7 +543,7 @@ align-items: center;
   position: relative;
 }
 
-.points h2,h3{
+.points h2, .points h3{
   text-align: center;
 }
 }

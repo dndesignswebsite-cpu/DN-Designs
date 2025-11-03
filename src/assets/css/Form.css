@@ -50,8 +50,10 @@
 
 
 .all-page-form{
-  padding-top:20px;
+  padding-top:50px;
   padding-bottom:50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .form-row{
@@ -117,16 +119,18 @@
 } 
 
 .form-box{
-  padding: 0px;
-  border: 10px solid #ca2734;
+  padding: 10px;
+  /* border: 10px solid #ca2734; */
   background-color: #ca2734;
   margin: 0;
+  height: 100%;
 }
 
 .main-form{
   border-radius: 16px;
   background-color: #fff;
   padding: 20px;
+  height: 100%;
 }
 
 
@@ -145,3 +149,29 @@
   height: 100%;
   width: 100%;
 }
+
+.form-main-content h3{
+    color: #000000;
+    font-family: "Corbert";
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.form-main-content p{
+      font-family: "Roboto";
+          color: #000000;
+    line-height: 32px;
+        font-weight: 300;
+        font-size: 18px;
+}
+
+@media(max-width:1025px){
+  .form-box{
+  padding: 10px 0px 10px 0px ;
+}
+
+.form-main-content h3{
+  font-size: 40px;
+}
+}
+
