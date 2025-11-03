@@ -286,9 +286,9 @@ function Branding() {
       <section className='branding-identity'>
       <div className='container'>
       {/* first row */}
-        <div className='row my-3'>
+        <div className='row brand-identity-div-row'>
        <h2 className='text-center'><span className='every-pr'>Branding </span> is   VALUE</h2> 
-          <div className='col-12 col-md-12 col-lg-4 px-3'>
+          <div className='col-12 col-md-12 col-lg-4'>
             <div className='identity-div'>
               <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/2-3.jpg' className='img-fluid'/>
               <div className='identity-div-content'>
@@ -318,8 +318,8 @@ function Branding() {
         </div>
 
            {/* second row */}
-           <div className='row my-4'> 
-          <div className='col-12 col-md-12 col-lg-4 px-3'>
+           <div className='row brand-identity-div-row'> 
+          <div className='col-12 col-md-12 col-lg-4 '>
             <div className='identity-div'>
               <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/2-3.jpg' className='img-fluid'/>
               <div className='identity-div-content'>

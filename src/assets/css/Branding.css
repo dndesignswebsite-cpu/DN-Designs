@@ -295,6 +295,10 @@
 
 /*  branding identity  */
 
+.brand-identity-div-row{
+  margin: 20px 0;
+}
+
 .branding-identity{
   padding: 80px 0;
 }
@@ -309,17 +313,15 @@
 
 .identity-div{
    box-shadow: 0px 2px 11px -1px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-   border-radius: 10px;
+  padding: 20px;
+   border-radius: 16px;
 }
 
 .identity-div img{
   border-radius: 20px;
 }
 
-identity-div-content{
-  padding: 20px;
-}
+
 
 .identity-div-content h3{
       color: #000000;
@@ -335,6 +337,15 @@ identity-div-content{
     font-size: 16px;
     line-height: 1.4em;
     padding: 5px 10px;
+}
+
+@media(max-width:767px){
+.identity-div{
+  margin: 10px 0;
+}
+.brand-identity-div-row{
+  margin: 0px 0;
+}
 }
 
 
@@ -423,7 +434,6 @@ identity-div-content{
   font-weight: 700;
   line-height: 1.2em;
   padding-bottom: 20px;
-  
 }
 
 .sticky-con{
@@ -455,6 +465,32 @@ identity-div-content{
     font-family: "Roboto", Sans-serif;
     font-size: 16px;
     line-height: 1.4em;
+}
+
+@media(max-width:767px){
+
+  .card-body-create {
+  box-sizing: border-box;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  padding: 0;
+  position: relative;  
+}
+
+.card-body-create h2{
+    font-size: 20px;
+}
+
+.create-number{
+    font-size: 50px;
+}
+
+.our-brand-heading-a {
+  font-size: 25px;
+}
 }
 
 
