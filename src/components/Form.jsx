@@ -16,8 +16,9 @@ function Form() {
     <div>
       <section className="">
         <div className="container">
-          <div className="row">
-            <div className="col">
+          <div className="row g-0">
+            <div className="col-12 col-md-12 col-lg-6 form-left-content">
+            <div className="form-main-content">
               <h3>Let’s Discuss Over a Cup of Coffee</h3>
               <p>
                 Some brands simply stand out! You recognise them, you trust them
@@ -32,16 +33,21 @@ function Form() {
                 in mind for your product.Let’s discuss how to make your brand
                 something others love and envy.
               </p>
+              </div>
             </div>
-            <div className="col form-wrapper">
+
+            <div className="col-12 col-md-12 col-lg-6 form-wrapper">
               <div className="form-box">
-                <form onSubmit={handleSubmit}>
-                  <div className="two-columns">
-                    <div className="form-group">
-                      <label>
-                        Name <span className="color">*</span>
+                <form className="main-form" onSubmit={handleSubmit}>
+
+                  <div className="frm-group row">
+
+                    <div className="inpt col-12 col-md-12 col-lg-6">
+                      <label htmlFor="name">
+                        Name <span>*</span>
                       </label>
                       <input
+                        id="name"
                         type="text"
                         placeholder="Name"
                         value={name} 
@@ -50,11 +56,12 @@ function Form() {
                       />
                     </div>
 
-                    <div className="form-group">
-                      <label>
+                    <div className="inpt col-12 col-md-12 col-lg-6">
+                      <label htmlFor="mobile">
                         Mobile No. <span className="color">*</span>
                       </label>
                       <input
+                        id="mobile"
                         type="tel"
                         placeholder="Mobile No."
                         value={mobilenumber}
@@ -62,29 +69,36 @@ function Form() {
                         required
                       />
                     </div>
-                  </div>
 
-                  <div className="form-group">
-                    <label>Email</label>
+                  </div>
+                 
+                 <div className="row">
+                  <div className="inpt">
+                    <label htmlFor="email">Email</label>
                     <input
+                      id="email"
                       type="email"
                       placeholder="Email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
-
-                  <div className="form-group">
-                    <label>Project Details</label>
+                  </div>
+                 
+                 <div className="row">
+                  <div className="inpt">
+                    <label htmlFor="text-area">Project Details</label>
                     <textarea
+                      id="text-area"
                       placeholder="Project Details"
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
                       rows="6"
                     ></textarea>
                   </div>
+                  </div>
 
-                  <button type="submit" className="submit-btn">
+                  <button type="submit" className="sbmt-btn">
                     Send Message
                   </button>
                 </form>

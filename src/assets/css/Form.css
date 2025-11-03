@@ -1,4 +1,4 @@
-
+/* 
 
 .form-box {
   border: 8px solid #ca2734;
@@ -46,4 +46,91 @@
   border-radius: 12px;
   font-weight: 600;
   cursor: pointer;
+} */
+
+
+
+
+.inpt label{
+    font-family: "Corbert", Sans-serif;
+        cursor: pointer;
+        color: #000;
+        font-size: 16px;
+        font-weight:400;
+}
+
+.inpt label span{
+  color: #ca2734;
+}
+
+.inpt input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ADADAD;
+  border-radius: 12px;
+  font-family: "Roboto", Sans-serif;
+  padding: 10px;
+  font-size: 14px;
+  margin:10px 0px;
+}
+.inpt textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ADADAD;
+  border-radius: 12px;
+  font-family: "Roboto", Sans-serif;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+.inpt input::placeholder,
+.inpt textarea::placeholder {
+  color: #ADADAD;
+  opacity: 1;
+  font-family: "Roboto", Sans-serif;
+}
+
+.sbmt-btn {
+  width: 100%;
+  padding: 16px;
+  background: black;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+} 
+
+.form-box{
+  padding: 0px;
+  border: 10px solid #ca2734;
+  background-color: #ca2734;
+  margin: 0;
+}
+
+.main-form{
+  border-radius: 16px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+
+.form-left-content{
+  border-right: 10px solid #ca2734;
+  border-top: 10px solid #ca2734;
+  border-bottom: 10px solid #ca2734;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.form-main-content{
+  background-color: #000;
+  border-radius: 16px;
+  padding: 40px;
+  height: 100%;
+  width: 100%;
 }
