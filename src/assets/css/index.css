@@ -1,4 +1,11 @@
 @font-face {
+  font-family: 'Corbert-Medium';
+  src: url('../fonts/Corbert-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Corbert';
   src: url('../fonts/Corbert-Bold.otf') format('opentype');
   font-weight: normal;
@@ -6,7 +13,7 @@
 }
 
 @font-face {
-  font-family: 'Corbert';
+  font-family: 'Corbert-Bold';
   src: url('../fonts/Corbert-Bold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
@@ -15,14 +22,14 @@
 
 @font-face {
   font-family: 'Roboto-Regular';
-  src: url('../fonts/Roboto-Regular.otf') format('opentype');
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto-Regular.otf') format('opentype');
+ src: url('../fonts/Roboto-Regular.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }

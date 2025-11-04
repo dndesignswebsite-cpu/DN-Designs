@@ -43,7 +43,7 @@ const formcontentRef = useRef(null);
       <section className="all-page-form">
         <div className="container">
           <div className="row form-row">
-            <div className="col-12 col-md-12 col-lg-4 form-left-content">
+            <div className="col-12 col-md-12 col-lg-5 form-left-content">
             <div className="form-content-wrapper">
             <div className={`form-main-content ${isVisible ? "animate" : ""}`} ref={formcontentRef}>
 
@@ -65,7 +65,7 @@ const formcontentRef = useRef(null);
             </div>
             </div>
 
-            <div className="col-12 col-md-12 col-lg-8 form-wrapper">
+            <div className="col-12 col-md-12 col-lg-7 form-wrapper">
               <div className="form-box">
                 <form className="main-form" onSubmit={handleSubmit}>
 
@@ -123,7 +123,7 @@ const formcontentRef = useRef(null);
                       placeholder="Project Details"
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
-                      rows="15"
+                      rows="8"
                     ></textarea>
                   </div>
                   </div>
