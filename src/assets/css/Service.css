@@ -244,12 +244,14 @@
 
 .appr-pro {
   padding-top: 80px;
+  padding-bottom: 40px;
 }
 
-.appr-pro h2 {
+.appr-pro .appr-pro-main-head {
   font-size: 56px;
   font-family: "Corbert";
   font-weight: 700;
+  padding-bottom: 15px;
 }
 
 .appr-pro-main-para {
@@ -293,7 +295,8 @@
 }
 
 .app-pro-div h3 {
-  padding-top: 100px;
+  padding-top: 110px;
+  padding-bottom: 10px;
   font-size: 24px;
   font-family: "Corbert";
   font-weight: 500;
@@ -322,7 +325,7 @@
 /* top-cap */
 
 .top-cap {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 .top-cap h2 {
@@ -337,29 +340,41 @@
   font-size: 16px;
   line-height: 1.4em;
 }
+.top-cap-check-eye {
+  width: 50px;
+  position:absolute;
+  right:5px;
+  top:0;
+}
 
 .top-cap-div {
-  box-shadow: 0px 2px 11px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 11px -1px rgba(0, 0, 0, 0.1);
   position: relative;
   height: 400px;
   transition: all 0.6s ease;
   border-radius: 20px;
   cursor: pointer;
+  padding: 30px 20px;
+}
+
+.top-cap-div .cap-img{
+  width: 100px;
 }
 
 .top-cap-btm {
   position: absolute;
   bottom: 0;
+  left: 0;
   transition: all 0.6s ease;
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
 }
 
 .top-cap-main-div {
   transition: all 0.6s ease;
+  position: relative;
 }
-
-.headg {
-  padding: 50px 0;
+.top-cap .headg {
+  padding-bottom: 80px;
 }
 
 .top-cap-back-content {
@@ -368,6 +383,7 @@
   padding: 20px 20px;
   position: absolute;
   bottom: 0;
+  left: 0;
 }
 
 .top-cap-back-content p {
@@ -402,77 +418,6 @@
   }
 }
 
-/* Our Work */
-
-.our-work-tab h2 {
-  font-size: 56px;
-  font-family: "Corbert";
-  font-weight: 700;
-}
-
-/* tabs our work */
-.tab {
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 22px;
-  font-family: "Corbert";
-}
-
-.tab button:hover {
-  color: #ca2734;
-}
-
-.tab button.active {
-  color: #ca2734;
-}
-
-.tabcontent {
-  padding: 6px 12px;
-}
-
-.tab-img {
-  margin: 8px;
-  border-style: solid;
-  border-width: 2px 2px 2px 2px;
-  border-color: #d8d5d5;
-  border-radius: 8px 8px 8px 8px;
-}
-
-.explore-more button {
-  background-color: #ca2734;
-  font-family: "Roboto-Regular", Sans-serif;
-  border-radius: 100px 100px 100px 100px;
-  padding: 15px 50px 15px 50px;
-  color: #fff;
-  border: none;
-  font-size: 18px;
-  font-weight: 400;
-}
-
-@media (max-width: 767px) {
-  .our-work-tab h2 {
-    font-size: 40px;
-  }
-
-  .tab button {
-    font-size: 18px;
-  }
-
-  .explore-more button {
-    font-size: 16px;
-    padding: 12px 40px 12px 40px;
-  }
-}
 
 /* faqs */
 .faqs {
@@ -487,7 +432,7 @@
 }
 
 .faq_unit {
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+ box-shadow: 0px 2px 11px -1px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   margin: 20px 0;
   overflow: hidden;
