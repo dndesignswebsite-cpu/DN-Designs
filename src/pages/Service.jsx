@@ -329,7 +329,9 @@ function Service() {
 
             </div>
             <div className="row appr-pro-row-main">
-              <div className="col-12 col-md-6 col-lg-3 app-pro-div app-pro-div-white">
+
+            <div className="col-12 col-md-6 col-lg-3 mt-3">
+              <div className=" app-pro-div app-pro-div-white">
                 <div>
                   <h3>Discovery & Planning</h3>
                   <p>
@@ -340,8 +342,11 @@ function Service() {
                   </p>
                 </div>
               </div>
+              </div> 
 
-              <div className="col-12 col-md-6 col-lg-3 app-pro-div app-pro-div-gray">
+
+              <div className="col-12 col-md-6 col-lg-3 mt-3">
+              <div className="app-pro-div app-pro-div-gray">
                 <div>
                   <h3>Design, Development & Execution</h3>
                   <p>
@@ -351,8 +356,10 @@ function Service() {
                   </p>
                 </div>
               </div>
+              </div>
 
-              <div className="col-12 col-md-6 col-lg-3 app-pro-div app-pro-div-white">
+              <div className="col-12 col-md-6 col-lg-3 mt-3">
+              <div className=" app-pro-div app-pro-div-white">
                 <div>
                   <h3>Testing & Launch</h3>
                   <p>
@@ -363,8 +370,10 @@ function Service() {
                   </p>
                 </div>
               </div>
+              </div>
 
-              <div className="col-12 col-md-6 col-lg-3 app-pro-div app-pro-div-gray">
+              <div className="col-12 col-md-6 col-lg-3 mt-3">
+              <div className=" app-pro-div app-pro-div-gray">
                 <div>
                   <h3>Ongoing Support</h3>
                   <p>
@@ -374,6 +383,9 @@ function Service() {
                   </p>
                 </div>
               </div>
+              </div>
+
+
             </div>
           </div>
         </div>

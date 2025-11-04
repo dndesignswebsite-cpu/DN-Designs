@@ -6,6 +6,7 @@ import About from "./pages/About"
 import Contact from "./pages/Contact";
 import Service from "./pages/Service";
 import Branding from "./pages/Branding";
+import LogoDesigning from "./pages/LogoDesigning";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="/service" element={<Service/>}/>
       <Route path="/branding" element={<Branding/>}/>
+      <Route path="/logo-designing" element={<LogoDesigning/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

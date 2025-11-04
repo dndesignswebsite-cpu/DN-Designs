@@ -148,14 +148,14 @@ function Branding() {
               />
               <div className='port-content'>
               <div className='potfolio-div-btns'>
-              <div className='port-div-headg'><h3>Enlite</h3></div>
+              <div className='port-div-headg'><h3>iOrganic</h3></div>
                 <div className="our-port-btn-up">
                 <h4 className="our-port-btn">Brand Identity</h4>
                 <h4 className="our-port-btn">Packaging</h4>
               </div>
               </div>
              
-              <p>Enlite’s sparkling mineral water and prebiotic drink range, meant to refresh and rejuvenate customers, required a captivating brand identity, including can and logo design, to attract a young audience. We offered them just that.
+              <p>For the organic dairy & food brand, iOrganic, we created a vibrant and engaging packaging design. Additionally, we provided professional photography services for their e-commerce sale and advertising purposes.
               </p>
               </div>
             </div>
@@ -171,7 +171,7 @@ function Branding() {
               />
               <div className='port-content'>
               <div className='potfolio-div-btns'>
-              <div className='port-div-headg'><h3>Enlite</h3></div>
+              <div className='port-div-headg'><h3>Mr. Bomzy</h3></div>
                 <div className="our-port-btn-up">
                 <h4 className="our-port-btn">Brand Identity</h4>
                 <h4 className="our-port-btn">Packaging</h4>

@@ -1,0 +1,76 @@
+.logo-designing-hero {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.talk-to-us-div {
+  display: flex;
+  justify-content: end;
+  padding: 20px 0;
+}
+
+.talk-to-us {
+  background-color: #ca2734;
+  font-family: "Roboto";
+  border-radius: 100px 100px 100px 100px;
+  padding: 10px 25px 10px 25px;
+  color: #fff;
+  border: none;
+}
+
+.fontAwesomeIcon-right-arrow {
+  padding-left: 10px;
+}
+
+.logo-designing-hero h1 {
+  font-size: 62px;
+  color: #000;
+  font-family: "Corbert";
+  font-weight: 700;
+}
+
+.logo-designing-hero p {
+  margin-top: 30px;
+  color: #000000;
+  line-height: 1.7em;
+  font-size: 18px;
+  font-family: "Roboto-Regular";
+}
+
+.talk-to-us-mobile {
+  display: none;
+}
+
+.logo-designing-hero h3 {
+  font-size: 35px;
+  color: #000;
+  font-family: Corbert;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .talk-to-us-div {
+    justify-content: start;
+  }
+
+  .logo-designing-hero h1 {
+    font-size: 40px;
+  }
+
+  .talk-to-us-div {
+    display: none !important;
+  }
+
+  .logo-designing-hero p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .talk-to-us-Laptop {
+    display: none;
+  }
+
+  .talk-to-us-mobile {
+    display: block;
+  }
+}

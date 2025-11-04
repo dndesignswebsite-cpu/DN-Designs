@@ -59,7 +59,7 @@
 /* Our Portfolio */
 
 .port-row {
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 .port-div {
@@ -164,6 +164,10 @@
   .port-div {
     margin: 10px 0;
   }
+
+  .port-row {
+  padding: 0px 0px;
+}
 }
 
 /* branding-that */

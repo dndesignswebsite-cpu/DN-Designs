@@ -10,7 +10,7 @@
 }
 
 .talk-to-us {
-  background-color: #CA2734;
+  background-color: #ca2734;
   font-family: "Roboto";
   border-radius: 100px 100px 100px 100px;
   padding: 10px 25px 10px 25px;
@@ -41,15 +41,13 @@
   display: none;
 }
 
-
-@media(max-width:767px) {
+@media (max-width: 767px) {
   .talk-to-us-div {
     justify-content: start;
   }
 
   .service-hero h1 {
     font-size: 40px;
-  
   }
 
   .talk-to-us-div {
@@ -69,7 +67,6 @@
     display: block;
   }
 }
-
 
 /* our services */
 
@@ -129,7 +126,6 @@
   font-family: "Corbert";
   font-weight: 500;
   margin: 0px;
-
 }
 
 .front p {
@@ -164,7 +160,6 @@
 .hr {
   height: 3px;
   background-color: #fff;
-
 }
 
 .back-up {
@@ -178,7 +173,6 @@
   font-family: "Corbert";
   font-weight: 500;
   margin: 0px;
-
 }
 
 .back-up p {
@@ -222,8 +216,7 @@
   width: 100%;
 }
 
-
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .our-service h2 {
     font-size: 35px;
   }
@@ -242,11 +235,9 @@
   }
 }
 
-
-
 /*  Approach project  */
 
-.cont{
+.cont {
   display: flex;
   flex-direction: column;
 }
@@ -276,28 +267,30 @@
 }
 
 .app-pro-div-white {
-  
-  box-shadow: 0px 0px 2px 1px #D5D5D5;
+  box-shadow: 0px 0px 2px 1px #d5d5d5;
 }
 .app-pro-div-gray {
-  background-color: #F1F1F1;
-  box-shadow: 0px 0px 1.16px 0px rgba(240.99999999999997, 240.99999999999997, 240.99999999999997, 0.1803921568627451);
+  background-color: #f1f1f1;
+  box-shadow: 0px 0px 1.16px 0px
+    rgba(
+      240.99999999999997,
+      240.99999999999997,
+      240.99999999999997,
+      0.1803921568627451
+    );
 }
-.app-pro-div{
- display: flex;
+.app-pro-div {
+  display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding: 0px 20px;
   border-radius: 10px;
-  /* margin: 10px 10px; */
-  
+  height: 100%;
 }
-.appr-pro-row-main{
+.appr-pro-row-main {
   display: flex;
   flex-direction: row;
 }
-
-
 
 .app-pro-div h3 {
   padding-top: 100px;
@@ -305,7 +298,6 @@
   font-family: "Corbert";
   font-weight: 500;
   color: #ca2734;
-
 }
 
 .app-pro-div p {
@@ -315,22 +307,17 @@
   font-family: "Roboto-Regular";
 }
 
-@media(max-width:767px) {
+@media (max-width: 767px) {
   .appr-pro {
     padding-top: 40px;
   }
-
   .appr-pro h2 {
     font-size: 40px;
   }
-
   .appr-pro p {
     width: 100%;
   }
-
 }
-
-
 
 /* top-cap */
 
@@ -375,8 +362,6 @@
   padding: 50px 0;
 }
 
-
-
 .top-cap-back-content {
   opacity: 0;
   color: #fff;
@@ -407,7 +392,7 @@
   }
 }
 
-@media(max-width:767px) {
+@media (max-width: 767px) {
   .top-cap h2 {
     font-size: 40px;
   }
@@ -431,7 +416,6 @@
   margin-bottom: 20px;
 }
 
-
 .tab button {
   background-color: inherit;
   float: left;
@@ -444,16 +428,13 @@
   font-family: "Corbert";
 }
 
-
 .tab button:hover {
   color: #ca2734;
 }
 
-
 .tab button.active {
   color: #ca2734;
 }
-
 
 .tabcontent {
   padding: 6px 12px;
@@ -463,13 +444,12 @@
   margin: 8px;
   border-style: solid;
   border-width: 2px 2px 2px 2px;
-  border-color: #D8D5D5;
+  border-color: #d8d5d5;
   border-radius: 8px 8px 8px 8px;
 }
 
 .explore-more button {
-
-  background-color: #CA2734;
+  background-color: #ca2734;
   font-family: "Roboto-Regular", Sans-serif;
   border-radius: 100px 100px 100px 100px;
   padding: 15px 50px 15px 50px;
@@ -479,7 +459,7 @@
   font-weight: 400;
 }
 
-@media(max-width:767px) {
+@media (max-width: 767px) {
   .our-work-tab h2 {
     font-size: 40px;
   }
@@ -488,13 +468,11 @@
     font-size: 18px;
   }
 
-
   .explore-more button {
     font-size: 16px;
     padding: 12px 40px 12px 40px;
   }
 }
-
 
 /* faqs */
 .faqs {
@@ -508,15 +486,12 @@
   color: #000;
 }
 
-
-
 .faq_unit {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   margin: 20px 0;
   overflow: hidden;
 }
-
 
 .accordion {
   color: #000;
@@ -532,9 +507,7 @@
   background-color: #fff;
   font-family: "Corbert";
   position: relative;
-
 }
-
 
 .accordion::after {
   content: "+";
@@ -549,7 +522,6 @@
   content: "-";
   color: #ca2734;
 }
-
 
 .panel {
   max-height: 0;
@@ -566,7 +538,7 @@
   padding: 15px 25px;
 }
 
-@media(max-width:767px) {
+@media (max-width: 767px) {
   .faqs h2 {
     font-size: 40px;
   }
