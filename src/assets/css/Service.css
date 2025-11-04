@@ -1,11 +1,6 @@
-.uper-links{
-    font-size: 16px;
-    font-family: "Corbert";
-    color: #000;
-}
 
 .service-hero{
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 .talk-to-us-div{
@@ -13,14 +8,11 @@
     justify-content: end;
     padding: 20px 0;
 }
-
-
-
 .talk-to-us{
     background-color: #CA2734;
     font-family: "Roboto", Sans-serif;
     border-radius: 100px 100px 100px 100px;
-    padding: 15px 25px 10px 25px;
+    padding: 5px 25px 10px 25px;
     color: #fff;
     border: none;
 }
@@ -42,8 +34,8 @@
          margin-top: 30px;
          color: #000000;
          line-height: 1.7em;
-         font-size: 20px;
-         font-family: "Roboto";
+         font-size: 18px;
+         font-family: "Roboto-Regular";
 }
 
 

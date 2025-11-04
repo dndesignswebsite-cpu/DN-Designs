@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "../assets/css/Service.css";
 import Form from "../components/Form"
+import Breadcrumb from "../components/Breadcrumb";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function Service() {
   const [activeTab, setActiveTab] = useState("Branding");
@@ -64,7 +67,14 @@ function Service() {
 
   return (
     <div>
-    <div className="container uper-links"><a href="#">Home</a> &nbsp; &gt; &nbsp; Service</div>
+
+      {/*Breadcrumb*/}
+      <section>
+          <Breadcrumb />
+      </section>
+
+      {/* Hero section */}
+
       <section className="service-hero">
         <div className="container">
           <div className="row">
@@ -72,7 +82,7 @@ function Service() {
             <div className="col-12 col-md-4">{/* .. */}</div>
             <div className="col-12 col-md-8">
               <div className="talk-to-us-div">
-                <button className="talk-to-us">Talk to Us</button>
+                <button className="talk-to-us">Talk to Us<FontAwesomeIcon icon={faArrowRight} size="18px" /></button>
               </div>
               <p>
                 Successful brands are not made in a day. They are a result of
@@ -470,42 +480,37 @@ function Service() {
             <div>
               <div className="tab">
                 <button
-                  className={`tablinks ${
-                    activeTab === "Branding" ? "active" : ""
-                  }`}
+                  className={`tablinks ${activeTab === "Branding" ? "active" : ""
+                    }`}
                   onClick={() => setActiveTab("Branding")}
                 >
                   Branding
                 </button>
                 <button
-                  className={`tablinks ${
-                    activeTab === "Packaging Design" ? "active" : ""
-                  }`}
+                  className={`tablinks ${activeTab === "Packaging Design" ? "active" : ""
+                    }`}
                   onClick={() => setActiveTab("Packaging Design")}
                 >
                   Packaging Design
                 </button>
                 <button
-                  className={`tablinks ${
-                    activeTab === "Brand Identity" ? "active" : ""
-                  }`}
+                  className={`tablinks ${activeTab === "Brand Identity" ? "active" : ""
+                    }`}
                   onClick={() => setActiveTab("Brand Identity")}
                 >
                   Brand Identity
                 </button>
                 <button
-                  className={`tablinks ${
-                    activeTab === "Website Development" ? "active" : ""
-                  }`}
+                  className={`tablinks ${activeTab === "Website Development" ? "active" : ""
+                    }`}
                   onClick={() => setActiveTab("Website Development")}
                 >
                   Website Development
                 </button>
 
                 <button
-                  className={`tablinks ${
-                    activeTab === "CGI Ads" ? "active" : ""
-                  }`}
+                  className={`tablinks ${activeTab === "CGI Ads" ? "active" : ""
+                    }`}
                   onClick={() => setActiveTab("CGI Ads")}
                 >
                   CGI Ads
@@ -738,64 +743,60 @@ function Service() {
 
       {/* faqs */}
       <section className="faqs">
-  <div className="container">
-    <div className="row">
-      <h2 className="text-center">Frequently Asked Questions</h2>
+        <div className="container">
+          <div className="row">
+            <h2 className="text-center">Frequently Asked Questions</h2>
 
-      <div className="col-12 col-md-12 col-lg-6">
-        <div className="all_faqs">
-          {sheet_one.map((first_sheet, index) => (
-            <div className="faq_unit" key={index}>
-              <button
-                className={`accordion ${
-                  activeIndex_f === index ? "active" : ""
-                }`}
-                onClick={() => toggleAccordion_f(index)}
-              >
-                {first_sheet.title}
-              </button>
-              <div
-                className={`panel ${
-                  activeIndex_f === index ? "open" : ""
-                }`}
-              >
-                <p>{first_sheet.content}</p>
+            <div className="col-12 col-md-12 col-lg-6">
+              <div className="all_faqs">
+                {sheet_one.map((first_sheet, index) => (
+                  <div className="faq_unit" key={index}>
+                    <button
+                      className={`accordion ${activeIndex_f === index ? "active" : ""
+                        }`}
+                      onClick={() => toggleAccordion_f(index)}
+                    >
+                      {first_sheet.title}
+                    </button>
+                    <div
+                      className={`panel ${activeIndex_f === index ? "open" : ""
+                        }`}
+                    >
+                      <p>{first_sheet.content}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
-          ))}
-        </div>
-      </div>
 
-      <div className="col-12 col-md-12 col-lg-6">
-        <div className="all_faqs">
-          {sheet_two.map((second_sheet, index) => (
-            <div className="faq_unit" key={index}>
-              <button
-                className={`accordion ${
-                  activeIndex_s === index ? "active" : ""
-                }`}
-                onClick={() => toggleAccordion_s(index)}
-              >
-                {second_sheet.title}
-              </button>
-              <div
-                className={`panel ${
-                  activeIndex_s === index ? "open" : ""
-                }`}
-              >
-                <p>{second_sheet.content}</p>
+            <div className="col-12 col-md-12 col-lg-6">
+              <div className="all_faqs">
+                {sheet_two.map((second_sheet, index) => (
+                  <div className="faq_unit" key={index}>
+                    <button
+                      className={`accordion ${activeIndex_s === index ? "active" : ""
+                        }`}
+                      onClick={() => toggleAccordion_s(index)}
+                    >
+                      {second_sheet.title}
+                    </button>
+                    <div
+                      className={`panel ${activeIndex_s === index ? "open" : ""
+                        }`}
+                    >
+                      <p>{second_sheet.content}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
-          ))}
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
 
-{/* form */}
-       <Form/>
+      {/* form */}
+      <Form />
 
     </div>
   );
