@@ -1,95 +1,107 @@
-
-.service-hero{
-    padding-top: 60px;
+.service-hero {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.talk-to-us-div{
-    display: flex;
-    justify-content: end;
-    padding: 20px 0;
-}
-.talk-to-us{
-    background-color: #CA2734;
-    font-family: "Roboto", Sans-serif;
-    border-radius: 100px 100px 100px 100px;
-    padding: 15px 25px 10px 25px;
-    color: #fff;
-    border: none;
+.talk-to-us-div {
+  display: flex;
+  justify-content: end;
+  padding: 20px 0;
 }
 
-.fontAwesomeIcon-right-arrow{
+.talk-to-us {
+  background-color: #CA2734;
+  font-family: "Roboto";
+  border-radius: 100px 100px 100px 100px;
+  padding: 10px 25px 10px 25px;
+  color: #fff;
+  border: none;
+}
+
+.fontAwesomeIcon-right-arrow {
   padding-left: 10px;
 }
 
-.service-hero h1{
-    font-size: 62px;
-    color: #000;
-    font-family: "Corbert";
-    font-weight: 700;
+.service-hero h1 {
+  font-size: 62px;
+  color: #000;
+  font-family: "Corbert";
+  font-weight: 700;
 }
 
-.service-hero p{
-         margin-top: 30px;
-         color: #000000;
-         line-height: 1.7em;
-         font-size: 18px;
-         font-family: "Roboto-Regular";
+.service-hero p {
+  margin-top: 30px;
+  color: #000000;
+  line-height: 1.7em;
+  font-size: 18px;
+  font-family: "Roboto-Regular";
+}
+
+.talk-to-us-mobile {
+  display: none;
 }
 
 
-@media(max-width:767px){
-    .talk-to-us-div{
-        justify-content: start;
-    }
+@media(max-width:767px) {
+  .talk-to-us-div {
+    justify-content: start;
+  }
 
-    .service-hero h1{
+  .service-hero h1 {
     font-size: 40px;
-}
+  
+  }
 
-.talk-to-us-div{
-    display: flex;
-    justify-content: end;
-    padding: 10px 0;
-}
-.service-hero p{
-         margin-top: 20px;
-}
+  .talk-to-us-div {
+    display: none !important;
+  }
+
+  .service-hero p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .talk-to-us-Laptop {
+    display: none;
+  }
+
+  .talk-to-us-mobile {
+    display: block;
+  }
 }
 
 
 /* our services */
 
-.our-service{
-    padding:100px 0px;
+.our-service {
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
-.our-service h2{
-    color: #000000;
-    font-family: "Corbert", Sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 1.2em;
+.our-service h2 {
+  color: #000000;
+  font-family: "Corbert", Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2em;
+  padding-bottom: 50px;
 }
 
-.our{
-    color:#ca2734;
-    font-size:62px;
-    font-family: "Corbert";
-    font-weight: 700;
+.our {
+  color: #ca2734;
+  font-size: 62px;
+  font-family: "Corbert";
+  font-weight: 700;
 }
-
-
-
-
 .service-card {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 520px;
   overflow: hidden;
   border: none;
   border-radius: 16px;
   cursor: pointer;
-  box-shadow: 0px 2px 11px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 11px -1px rgba(0, 0, 0, 0.1);
 }
 
 .service-card .front {
@@ -103,31 +115,31 @@
   padding: 20px;
 }
 
-.front img{
-    height: 360px;
-    width: 100%;
-    border:2px solid grey;
-    border-radius:20px;
+.front img {
+  /* height: 360px; */
+  width: 100%;
+  border: 2px solid grey;
+  border-radius: 20px;
 }
 
-.front h3{
-    color:black;
-      padding:20px 0px 8px 10px;
-      font-size:25px;
-      font-family:"Corbert";
-      font-weight:500;
-      margin: 0px;
-      
+.front h3 {
+  color: black;
+  padding: 20px 0px 8px 10px;
+  font-size: 25px;
+  font-family: "Corbert";
+  font-weight: 500;
+  margin: 0px;
+
 }
 
-.front p{
-     color:black;
-      padding:0px 0px 10px 10px;
-      font-size:26px;
-      font-family:"Corbert";
-      font-weight:500;
-      margin: 0px;
-      padding-bottom: 10px;
+.front p {
+  color: black;
+  padding: 0px 0px 10px 10px;
+  font-size: 26px;
+  font-family: "Corbert";
+  font-weight: 500;
+  margin: 0px;
+  padding-bottom: 10px;
 }
 
 .service-card .back {
@@ -136,7 +148,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background:#ca2734;
+  background: #ca2734;
   color: white;
   transition: bottom 0.6s ease;
 }
@@ -149,55 +161,55 @@
   bottom: 0;
 }
 
-.hr{
-    height: 3px;
-    background-color: #fff;
-    
+.hr {
+  height: 3px;
+  background-color: #fff;
+
 }
 
-.back-up{
-    padding: 50px 30px;
+.back-up {
+  padding: 50px 30px;
 }
 
-.back-up h3{
-    color:#fff;
-      padding:20px 0px 8px 10px;
-      font-size:25px;
-      font-family:"Corbert";
-      font-weight:500;
-      margin: 0px;
-      
+.back-up h3 {
+  color: #fff;
+  padding: 20px 0px 8px 10px;
+  font-size: 25px;
+  font-family: "Corbert";
+  font-weight: 500;
+  margin: 0px;
+
 }
 
-.back-up p{
-     color:#fff;
-      padding:0px 0px 10px 10px;
-      font-size:26px;
-      font-family:"Corbert";
-      font-weight:500;
-      margin: 0px;
-      padding-bottom: 10px;
+.back-up p {
+  color: #fff;
+  padding: 0px 0px 10px 10px;
+  font-size: 26px;
+  font-family: "Corbert";
+  font-weight: 500;
+  margin: 0px;
+  padding-bottom: 10px;
 }
 
-.back-down{
-    color:White;
-      padding:20px 0px 8px 10px;
-      font-size:20px;
-      font-family:"Corbert";
-      font-weight:500;
-      margin: 0px;
+.back-down {
+  color: White;
+  padding: 20px 0px 8px 10px;
+  font-size: 20px;
+  font-family: "Corbert";
+  font-weight: 500;
+  margin: 0px;
 }
 
-.page-linking{
-     color:White!important;
-      position: relative;
-      text-decoration: none;
- }
- 
+.page-linking {
+  color: White !important;
+  position: relative;
+  text-decoration: none;
+}
+
 .page-linking::after {
   content: "";
   position: absolute;
-  top:30px;
+  top: 30px;
   left: 0;
   bottom: 0;
   width: 0;
@@ -210,187 +222,210 @@
   width: 100%;
 }
 
-@media(max-width:767px){
-    .our-service h2{
+
+@media (max-width:767px) {
+  .our-service h2 {
     font-size: 35px;
-}
-.our{
+  }
+
+  .our {
     font-size: 45px;
-}
+  }
 
-.front img{
+  /* .front img {
     height: 260px;
-}
+  } */
 
-.service-card{
-    height: 400px;
+  .service-card {
+    height: 600px;
     margin: 20px 0;
-}
+  }
 }
 
 
 
 /*  Approach project  */
 
-.appr-pro{
-    padding-top: 100px;
+.cont{
+  display: flex;
+  flex-direction: column;
 }
 
-.appr-pro h2{
-    font-size: 56px;
-    font-family: "Corbert";
-    font-weight: 700;
+.appr-pro {
+  padding-top: 80px;
 }
 
-.appr-pro p{
-     margin-top: 10px;
-         color: #000000;
-         line-height: 32px;
-         font-size: 18px;
-         width: 100%;
-         font-family: "Roboto";
-}
-.every-pr{
-    color:#ca2734;
+.appr-pro h2 {
+  font-size: 56px;
+  font-family: "Corbert";
+  font-weight: 700;
 }
 
+.appr-pro-main-para {
+  margin-top: 10px;
+  color: #000000;
+  line-height: 32px;
+  font-size: 18px;
+  width: 100%;
+  font-family: "Roboto";
+  margin-bottom: 40px;
+}
+
+.every-pr {
+  color: #ca2734;
+}
+
+.app-pro-div-white {
+  
+  box-shadow: 0px 0px 2px 1px #D5D5D5;
+}
+.app-pro-div-gray {
+  background-color: #F1F1F1;
+  box-shadow: 0px 0px 1.16px 0px rgba(240.99999999999997, 240.99999999999997, 240.99999999999997, 0.1803921568627451);
+}
 .app-pro-div{
-    display: flex;
-    flex-direction: column;
-     justify-content: flex-end;
-    height: 320px;
-    padding: 0px 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 2px 1px #D5D5D5;
+ display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0px 20px;
+  border-radius: 10px;
+  /* margin: 10px 10px; */
+  
+}
+.appr-pro-row-main{
+  display: flex;
+  flex-direction: row;
 }
 
 
-.app-pro-div h3{
-    font-size: 24px;
-    font-family: "Corbert";
-    font-weight: 500;
-    color:#ca2734;
+
+.app-pro-div h3 {
+  padding-top: 100px;
+  font-size: 24px;
+  font-family: "Corbert";
+  font-weight: 500;
+  color: #ca2734;
 
 }
 
-.app-pro-div p{
-    font-size: 16px;
-    line-height: 1.2em;
-    font-weight: 300;
-    font-family: "Roboto-Regular";
+.app-pro-div p {
+  font-size: 16px;
+  line-height: 1.2em;
+  font-weight: 300;
+  font-family: "Roboto-Regular";
 }
 
-.bg-app{
-    background-color: #F1F1F1;
-}
-
-
-@media(max-width:767px){
-    .appr-pro{
+@media(max-width:767px) {
+  .appr-pro {
     padding-top: 40px;
-}
+  }
 
-.appr-pro h2{
+  .appr-pro h2 {
     font-size: 40px;
-}
+  }
 
-.appr-pro p{
+  .appr-pro p {
     width: 100%;
-}
- 
+  }
+
 }
 
 
 
 /* top-cap */
 
-.top-cap{
-    padding: 80px 0;
+.top-cap {
+  padding: 80px 0;
 }
 
-.top-cap h2{
-    font-size: 56px;
-    font-family: "Corbert";
-    font-weight: 700;
-}
-.top-cap p{
-        color: #000000;
-    font-family: "Roboto-Regular", Sans-serif;
-    font-size: 16px;
-    line-height: 1.4em;
+.top-cap h2 {
+  font-size: 56px;
+  font-family: "Corbert";
+  font-weight: 700;
 }
 
-.top-cap-div{
-        box-shadow: 0px 2px 11px -1px rgba(0, 0, 0, 0.2);
-    position: relative;
-    height: 400px;
-    transition: all 0.6s ease;
-    border-radius: 20px;
-    cursor: pointer;
+.top-cap p {
+  color: #000000;
+  font-family: "Roboto-Regular", Sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
 }
 
-.top-cap-btm{
-    position: absolute;
-    bottom: 0;
-    transition: all 0.6s ease;
-    padding: 20px;
+.top-cap-div {
+  box-shadow: 0px 2px 11px -1px rgba(0, 0, 0, 0.2);
+  position: relative;
+  height: 400px;
+  transition: all 0.6s ease;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
-.top-cap-main-div{
-    transition: all 0.6s ease;
+.top-cap-btm {
+  position: absolute;
+  bottom: 0;
+  transition: all 0.6s ease;
+  padding: 20px;
 }
 
-.headg{
-    padding: 50px 0;
+.top-cap-main-div {
+  transition: all 0.6s ease;
+}
+
+.headg {
+  padding: 50px 0;
 }
 
 
 
-.top-cap-back-content{
+.top-cap-back-content {
+  opacity: 0;
+  color: #fff;
+  padding: 20px 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.top-cap-back-content p {
+  color: #fff;
+}
+
+.top-cap-main-div:hover {
+  .cap-img {
     opacity: 0;
-    color: #fff; 
-    padding: 20px 20px;
-    position: absolute;
-    bottom: 0;
-}
+  }
 
-.top-cap-back-content p{
-    color: #fff;
-}
+  .top-cap-btm {
+    opacity: 0;
+  }
 
-.top-cap-main-div:hover{
-      .cap-img{
-        opacity: 0;
-      }
-      .top-cap-btm{
-        opacity: 0;
-      }
-      .top-cap-div{
-        background-color: #ca2734;
-      }
-      .top-cap-back-content{
+  .top-cap-div {
+    background-color: #ca2734;
+  }
+
+  .top-cap-back-content {
     opacity: 1;
-}   
+  }
 }
 
-@media(max-width:767px){
-  .top-cap h2{
+@media(max-width:767px) {
+  .top-cap h2 {
     font-size: 40px;
-}
-.headg{
+  }
+
+  .headg {
     padding: 30px 0;
-}
+  }
 }
 
 /* Our Work */
 
-.our-work-tab h2{
-    font-size: 56px;
-    font-family: "Corbert";
-    font-weight: 700;
+.our-work-tab h2 {
+  font-size: 56px;
+  font-family: "Corbert";
+  font-weight: 700;
 }
 
- /* tabs our work */
+/* tabs our work */
 .tab {
   overflow: hidden;
   margin-bottom: 20px;
@@ -424,39 +459,40 @@
   padding: 6px 12px;
 }
 
-.tab-img{
-    margin: 8px;
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    border-color: #D8D5D5;
-    border-radius: 8px 8px 8px 8px;
+.tab-img {
+  margin: 8px;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #D8D5D5;
+  border-radius: 8px 8px 8px 8px;
 }
 
-.explore-more button{
-    
-        background-color: #CA2734;
-    font-family: "Roboto-Regular", Sans-serif;
-    border-radius: 100px 100px 100px 100px;
-    padding: 15px 50px 15px 50px;
-    color: #fff;
-    border: none;
-    font-size: 18px;
-    font-weight: 400;
-}
+.explore-more button {
 
-@media(max-width:767px){
-  .our-work-tab h2{
-    font-size: 40px;
-}
-.tab button{
+  background-color: #CA2734;
+  font-family: "Roboto-Regular", Sans-serif;
+  border-radius: 100px 100px 100px 100px;
+  padding: 15px 50px 15px 50px;
+  color: #fff;
+  border: none;
   font-size: 18px;
+  font-weight: 400;
 }
 
+@media(max-width:767px) {
+  .our-work-tab h2 {
+    font-size: 40px;
+  }
 
-.explore-more button{
-  font-size: 16px;
-  padding: 12px 40px 12px 40px;
-}
+  .tab button {
+    font-size: 18px;
+  }
+
+
+  .explore-more button {
+    font-size: 16px;
+    padding: 12px 40px 12px 40px;
+  }
 }
 
 
@@ -526,12 +562,12 @@
 }
 
 .panel.open {
-  max-height: 1000px; 
+  max-height: 1000px;
   padding: 15px 25px;
 }
 
-@media(max-width:767px){
+@media(max-width:767px) {
   .faqs h2 {
-  font-size: 40px;
-}
+    font-size: 40px;
+  }
 }

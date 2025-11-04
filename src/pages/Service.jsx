@@ -70,7 +70,7 @@ function Service() {
 
       {/*Breadcrumb*/}
       <section>
-          <Breadcrumb />
+        <Breadcrumb />
       </section>
 
       {/* Hero section */}
@@ -82,7 +82,7 @@ function Service() {
             <div className="col-12 col-md-4">{/* .. */}</div>
             <div className="col-12 col-md-8">
               <div className="talk-to-us-div">
-                <button className="talk-to-us">Talk to Us<FontAwesomeIcon icon={faArrowRight} size="18px" className="fontAwesomeIcon-right-arrow" /></button>
+                <button className="talk-to-us talk-to-us-Laptop">Talk to Us<FontAwesomeIcon icon={faArrowRight} size="18px" className="fontAwesomeIcon-right-arrow" /></button>
               </div>
               <p>
                 Successful brands are not made in a day. They are a result of
@@ -95,6 +95,7 @@ function Service() {
                 FAQs section. Alternatively, reach out to us and we will
                 promptly answer them.
               </p>
+              <button className="talk-to-us talk-to-us-mobile">Talk to Us<FontAwesomeIcon icon={faArrowRight} size="18px" className="fontAwesomeIcon-right-arrow" /></button>
             </div>
           </div>
         </div>
@@ -114,7 +115,7 @@ function Service() {
                   <img
                     src="https://dndesigns.co.in/wp-content/uploads/2019/02/brand-identity.jpg"
                     alt="Image"
-                    className="img-fluid"
+
                   />
                   <h3>01</h3>
                   <p>Brand Identity</p>
@@ -180,7 +181,7 @@ function Service() {
                   <img
                     src="https://dndesigns.co.in/wp-content/uploads/2019/02/brand-identity.jpg"
                     alt="Image"
-                    className="img-fluid"
+
                   />
                   <h3>01</h3>
                   <p>Brand Identity</p>
@@ -247,7 +248,7 @@ function Service() {
                   <img
                     src="https://dndesigns.co.in/wp-content/uploads/2019/02/brand-identity.jpg"
                     alt="Image"
-                    className="img-fluid"
+
                   />
                   <h3>01</h3>
                   <p>Brand Identity</p>
@@ -316,57 +317,62 @@ function Service() {
       <section className="appr-pro">
         <div className="container">
           <div className="row">
-            <h2>
-              How We Approach <span className="every-pr">Every Project</span>
-            </h2>
-            <p>
-              For us, every new project is a fresh new journey with its own set
-              of challenges. Each demands an innovative strategy and solution;
-              however, certain steps stay common and consistent.
-            </p>
-            <div className="col-12 col-md-6 col-lg-3 px-2">
-              <div className="app-pro-div  m-2">
-                <h3>Discovery & Planning</h3>
-                <p>
-                  The fundamentals come first - understanding the product, its
-                  USP, the brand’s vision, its target audience and competitors.
-                  Solid research leads to a solid foundation upon which we base
-                  our strategic plan.
-                </p>
-              </div>
-            </div>
+            <div className="col-12">
+              <h2 className="appr-pro-main-head">
+                How We Approach <span className="every-pr">Every Project</span>
+              </h2>
+              <p className="appr-pro-main-para">
+                For us, every new project is a fresh new journey with its own set
+                of challenges. Each demands an innovative strategy and solution;
+                however, certain steps stay common and consistent.
+              </p>
 
-            <div className="col-12 col-md-6 col-lg-3 px-2">
-              <div className="app-pro-div bg-app  m-2">
-                <h3>Design, Development & Execution</h3>
-                <p>
-                  Designing and developing practical options follows. A crucial
-                  aspect of this step is revision and refinement. We work on and
-                  modify our designs to ensure they match your vision.
-                </p>
-              </div>
             </div>
-
-            <div className="col-12 col-md-6 col-lg-3 px-2">
-              <div className="app-pro-div  m-2">
-                <h3>Testing & Launch</h3>
-                <p>
-                  Once everything is ready, it’s time to test it. For us,
-                  testing is important both before and after the product launch.
-                  This is to ensure that everything works smoothly at both
-                  stages.
-                </p>
+            <div className="row appr-pro-row-main">
+              <div className="col-12 col-md-6 col-lg-3 app-pro-div app-pro-div-white">
+                <div>
+                  <h3>Discovery & Planning</h3>
+                  <p>
+                    The fundamentals come first - understanding the product, its
+                    USP, the brand’s vision, its target audience and competitors.
+                    Solid research leads to a solid foundation upon which we base
+                    our strategic plan.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <div className="col-12 col-md-6 col-lg-3 px-2">
-              <div className="app-pro-div bg-app  m-2">
-                <h3>Ongoing Support</h3>
-                <p>
-                  We provide our clients with ongoing support even after the
-                  project is over. If you face problems post-completion of the
-                  work, we are there to resolve them.
-                </p>
+              <div className="col-12 col-md-6 col-lg-3 app-pro-div app-pro-div-gray">
+                <div>
+                  <h3>Design, Development & Execution</h3>
+                  <p>
+                    Designing and developing practical options follows. A crucial
+                    aspect of this step is revision and refinement. We work on and
+                    modify our designs to ensure they match your vision.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-6 col-lg-3 app-pro-div app-pro-div-white">
+                <div>
+                  <h3>Testing & Launch</h3>
+                  <p>
+                    Once everything is ready, it’s time to test it. For us,
+                    testing is important both before and after the product launch.
+                    This is to ensure that everything works smoothly at both
+                    stages.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-6 col-lg-3 app-pro-div app-pro-div-gray">
+                <div>
+                  <h3>Ongoing Support</h3>
+                  <p>
+                    We provide our clients with ongoing support even after the
+                    project is over. If you face problems post-completion of the
+                    work, we are there to resolve them.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
