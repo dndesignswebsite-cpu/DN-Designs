@@ -94,6 +94,8 @@ function Branding() {
           <Breadcrumb />
       </section>
 
+
+{/* branding hero */}
       <section className="branding-hero">
         <div class="container">
           <div class="row">
@@ -120,8 +122,8 @@ function Branding() {
               Our<span className="every-pr"> Work Portfolio</span>
             </h2>
         <div className='row port-row'>
-            <div className='col-12 col-md-6 px-2 '>
-            <div className=' port-div'>
+            <div className='col-12 col-md-6 px-2 port-main-div '>
+            <div className='port-div'>
             <img
                 src="https://dndesigns.co.in/wp-content/uploads/2025/08/Enlite-3.jpg"
                 className="img-fluid"
@@ -131,7 +133,7 @@ function Branding() {
               <div className='port-div-headg'><h3>Enlite</h3></div>
                 <div className="our-port-btn-up">
                 <h4 className="our-port-btn">Brand Identity</h4>
-                <h4 className="our-port-btn">Packaging</h4>
+                <h4 className="our-port-btn">Label Design</h4>
               </div>
               </div>
              
@@ -140,7 +142,7 @@ function Branding() {
               </div>
             </div>
             </div>
-         <div className='col-12 col-md-6 px-2 '>
+         <div className='col-12 col-md-6 px-2 port-main-div'>
             <div className='port-div'>
             <img
                 src="https://dndesigns.co.in/wp-content/uploads/2025/08/I-organic.jpg"
@@ -150,7 +152,7 @@ function Branding() {
               <div className='potfolio-div-btns'>
               <div className='port-div-headg'><h3>iOrganic</h3></div>
                 <div className="our-port-btn-up">
-                <h4 className="our-port-btn">Brand Identity</h4>
+                <h4 className="our-port-btn">Label Design</h4>
                 <h4 className="our-port-btn">Packaging</h4>
               </div>
               </div>
@@ -163,27 +165,30 @@ function Branding() {
         </div>
 
         <div className='row port-row'>
-            <div className='col-12 col-md-6 px-2 '>
+            <div className='col-12 col-md-6 px-2 port-main-div'>
             <div className=' port-div'>
-            <img
-                src="https://dndesigns.co.in/wp-content/uploads/2025/08/Enlite-3.jpg"
-                className="img-fluid"
-              />
+             <video className="img-fluid" autoPlay muted loop playsInline>
+                  <source
+                    src="https://dndesigns.co.in/wp-content/uploads/2025/08/Bombzy.mp4#t=,3"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
               <div className='port-content'>
               <div className='potfolio-div-btns'>
               <div className='port-div-headg'><h3>Mr. Bomzy</h3></div>
                 <div className="our-port-btn-up">
                 <h4 className="our-port-btn">Brand Identity</h4>
-                <h4 className="our-port-btn">Packaging</h4>
+                <h4 className="our-port-btn">Label Design</h4>
               </div>
               </div>
              
-              <p>Enlite’s sparkling mineral water and prebiotic drink range, meant to refresh and rejuvenate customers, required a captivating brand identity, including can and logo design, to attract a young audience. We offered them just that.
+              <p>We delivered comprehensive services to the cocktail bombs brand Mr. Bomzy. This included creating their identity, crafting brand guidelines, designing the package, developing UI/UX design & website, and framing social media strategy.
               </p>
               </div>
             </div>
             </div>
-         <div className='col-12 col-md-6 px-2 '>
+         <div className='col-12 col-md-6 px-2 port-main-div'>
             <div className=' port-div'>
             <img
                 src="https://dndesigns.co.in/wp-content/uploads/2025/06/Deeproots.jpg"
@@ -191,14 +196,14 @@ function Branding() {
               />
               <div className='port-content'>
               <div className='potfolio-div-btns'>
-              <div className='port-div-headg'><h3>Enlite</h3></div>
+              <div className='port-div-headg'><h3>Deeproot</h3></div>
                 <div className="our-port-btn-up">
                 <h4 className="our-port-btn">Brand Identity</h4>
-                <h4 className="our-port-btn">Packaging</h4>
+                <h4 className="our-port-btn">Label Design</h4>
               </div>
               </div>
              
-              <p>Enlite’s sparkling mineral water and prebiotic drink range, meant to refresh and rejuvenate customers, required a captivating brand identity, including can and logo design, to attract a young audience. We offered them just that.
+              <p>Deeproot, offering wholesome snacks, collaborated with our creative design agency to strengthen their brand presence in the market. Our range of services for them included identity design, packaging design, UI/UX design and website development.
               </p>
               </div>
             </div>
@@ -206,7 +211,7 @@ function Branding() {
         </div>
 
         <div className='row port-row'>
-            <div className='col-12 col-md-6 px-2 '>
+            <div className='col-12 col-md-6 px-2 port-main-div'>
             <div className=' port-div'>
             <img
                 src="https://dndesigns.co.in/wp-content/uploads/2025/06/Thames.jpg"
@@ -214,19 +219,19 @@ function Branding() {
               />
               <div className='port-content'>
               <div className='potfolio-div-btns'>
-              <div className='port-div-headg'><h3>Enlite</h3></div>
+              <div className='port-div-headg'><h3>Thames</h3></div>
                 <div className="our-port-btn-up">
-                <h4 className="our-port-btn">Brand Identity</h4>
-                <h4 className="our-port-btn">Packaging</h4>
+                <h4 className="our-port-btn">Label Design</h4>
+                <h4 className="our-port-btn">Web Design</h4>
               </div>
               </div>
              
-              <p>Enlite’s sparkling mineral water and prebiotic drink range, meant to refresh and rejuvenate customers, required a captivating brand identity, including can and logo design, to attract a young audience. We offered them just that.
+              <p>Created an alluring packaging design for Thames dried blueberries product to capture the attention of the audience. To boost their online presence, we also designed their UI/UX and provided website development solutions.
               </p>
               </div>
             </div>
             </div>
-         <div className='col-12 col-md-6 px-2 '>
+         <div className='col-12 col-md-6 px-2 port-main-div'>
             <div className=' port-div'>
             <img
                 src="https://dndesigns.co.in/wp-content/uploads/2025/06/Smartyums.jpg"
@@ -236,12 +241,12 @@ function Branding() {
               <div className='potfolio-div-btns'>
               <div className='port-div-headg'><h3>Smartyums</h3></div>
                 <div className="our-port-btn-up">
-                <h4 className="our-port-btn">Brand Identity</h4>
-                <h4 className="our-port-btn">Packaging</h4>
+                <h4 className="our-port-btn">Label Design</h4>
+                <h4 className="our-port-btn">Merchandising</h4>
               </div>
               </div>
              
-              <p>Enlite’s sparkling mineral water and prebiotic drink range, meant to refresh and rejuvenate customers, required a captivating brand identity, including can and logo design, to attract a young audience. We offered them just that.
+              <p>Smartyums, with their crunchy protein bite products, wanted a packaging design that focussed on, and attracted kids. Expert designers at our agency created a playful and visually appealing packaging design for them.
               </p>
               </div>
             </div>
@@ -359,7 +364,7 @@ function Branding() {
       </div>
       </section>
       
-{/* our constant */}
+               {/* our constant */}
                  <OurConstant/>
 
 
