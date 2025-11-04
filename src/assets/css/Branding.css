@@ -29,11 +29,10 @@
   border: none;
 }
 
-.talk-to-us::after {
-  content: "\2192";
+.fontAwesomeIcon-right-arrow{
   padding-left: 10px;
-  font-weight: 300;
 }
+
 
 .branding-hero h1 {
   font-size: 62px;

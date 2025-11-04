@@ -12,15 +12,13 @@
     background-color: #CA2734;
     font-family: "Roboto", Sans-serif;
     border-radius: 100px 100px 100px 100px;
-    padding: 5px 25px 10px 25px;
+    padding: 15px 25px 10px 25px;
     color: #fff;
     border: none;
 }
 
-.talk-to-us::after{
-    content: '\2192';
-    padding-left: 10px;
-    font-weight: 300;
+.fontAwesomeIcon-right-arrow{
+  padding-left: 10px;
 }
 
 .service-hero h1{
@@ -249,7 +247,7 @@
          color: #000000;
          line-height: 32px;
          font-size: 18px;
-         width: 80%;
+         width: 100%;
          font-family: "Roboto";
 }
 .every-pr{
@@ -279,7 +277,7 @@
     font-size: 16px;
     line-height: 1.2em;
     font-weight: 300;
-    font-family: "Roboto";
+    font-family: "Roboto-Regular";
 }
 
 .bg-app{
@@ -317,7 +315,7 @@
 }
 .top-cap p{
         color: #000000;
-    font-family: "Roboto", Sans-serif;
+    font-family: "Roboto-Regular", Sans-serif;
     font-size: 16px;
     line-height: 1.4em;
 }
@@ -437,7 +435,7 @@
 .explore-more button{
     
         background-color: #CA2734;
-    font-family: "Roboto", Sans-serif;
+    font-family: "Roboto-Regular", Sans-serif;
     border-radius: 100px 100px 100px 100px;
     padding: 15px 50px 15px 50px;
     color: #fff;
@@ -469,14 +467,12 @@
 
 .faqs h2 {
   font-size: 56px;
-  font-family: Corbert;
+  font-family: "Corbert";
   font-weight: 700;
   color: #000;
 }
 
-/* .all_faqs {
-  padding: 30px 0;
-} */
+
 
 .faq_unit {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -522,7 +518,7 @@
 .panel {
   max-height: 0;
   overflow: hidden;
-  font-family: "Roboto";
+  font-family: "Roboto-Regular";
   font-size: 18px;
   padding: 0 25px;
   transition: max-height 0.4s ease, padding 0.4s ease;

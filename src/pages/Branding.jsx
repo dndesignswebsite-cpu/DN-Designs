@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import "../assets/css/Branding.css"
+import Form from "../components/Form"
  import HorizontalScroll from '../components/HorizontalScroll'
  import OurConstant from "../components/OurConstant"
+ import Breadcrumb from "../components/Breadcrumb";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function Branding() {
   // faqs
@@ -84,7 +88,12 @@ function Branding() {
 
   return (
     <div>
-      <div className="container uper-links"><a href="#">Home</a> &nbsp; &gt; &nbsp; Branding</div>
+     
+      {/*Breadcrumb*/}
+      <section>
+          <Breadcrumb />
+      </section>
+
       <section className="branding-hero">
         <div class="container">
           <div class="row">
@@ -93,7 +102,7 @@ function Branding() {
             <div class="col-12 col-md-4">{/* .. */}</div>
             <div class="col-12 col-md-8">
               <div className="talk-to-us-div">
-                <button className="talk-to-us">Talk to Us</button>
+                <button className="talk-to-us">Talk to Us<FontAwesomeIcon icon={faArrowRight} size="18px" className="fontAwesomeIcon-right-arrow" /></button>
               </div>
               <p>
                 Branding shapes the future of your business. It determines whether you will craft a legacy or simply fade into oblivion like many others. But what is branding and why is it so crucial? Want to know? Take this exciting branding journey with us – learn about branding, explore our portfolio, & go behind the scenes of our branding process. If you still have queries, check out our FAQs section.
@@ -480,6 +489,8 @@ function Branding() {
   </div>
 </section>
 
+{/* form */}
+      <Form />
 
     </div>
   )

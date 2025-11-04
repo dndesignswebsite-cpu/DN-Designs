@@ -82,7 +82,7 @@ function Service() {
             <div className="col-12 col-md-4">{/* .. */}</div>
             <div className="col-12 col-md-8">
               <div className="talk-to-us-div">
-                <button className="talk-to-us">Talk to Us<FontAwesomeIcon icon={faArrowRight} size="18px" /></button>
+                <button className="talk-to-us">Talk to Us<FontAwesomeIcon icon={faArrowRight} size="18px" className="fontAwesomeIcon-right-arrow" /></button>
               </div>
               <p>
                 Successful brands are not made in a day. They are a result of
