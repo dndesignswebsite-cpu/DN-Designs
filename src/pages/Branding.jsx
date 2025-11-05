@@ -257,7 +257,7 @@ function Branding() {
 
 
 
-{/* branding that */}
+{/* branding that horizontal scroll desktop view */}
 
 <section className='branding-that'>
   <div className='container'>
@@ -296,13 +296,134 @@ function Branding() {
       </section>
 
 
+      {/* branding that mobile view */}
+
+      <section className="mobile-view-branding-that">
+        <div className="container">
+          <div className="row">
+          <h2 className="text-center">Our Brand Journals</h2>
+          <div className="branding-that-mobile-all-div">
+            <div className="col-12 col-md-6 branding-that-mobile-div">
+              <img
+                src="https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg"
+                className="img-fluid"
+              />
+              <div className="branding-that-mobile-div-content">
+              <h3 className="mobile-view-branding-that-h3">Rithm’s Enlite</h3>
+              <div className="branding-that-mobile-btn-up">
+                <h4 className="branding-that-mobile-btn">Brand Identity</h4>
+                <h4 className="branding-that-mobile-btn">Packaging</h4>
+              </div>
+              <div>
+                <h4 className="branding-that-mobile-btn branding-that-mobile-btn-bottom text-center">
+                  Communication Design
+                </h4>
+              </div>
+              <p>
+                For Rithm’s Enlite, a brand with sparkling mineral water and
+                prebiotic drink range, we designed a thoughtful and eye-catching
+                brand identity, including can design, logo design and character
+                design. We created the character and the overall brand design
+                around the brand name to promote the refreshing and calming
+                properties of the product.
+              </p>
+            </div>
+            </div>
+             <div className="col-12 col-md-6 branding-that-mobile-div">
+              <video className="img-fluid" autoPlay muted loop playsInline>
+                  <source
+                    src="https://dndesigns.co.in/wp-content/uploads/2019/02/GIF_1_1.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              <div className="branding-that-mobile-div-content">
+              <h3 className="mobile-view-branding-that-h3">Rithm’s Enlite</h3>
+              <div className="branding-that-mobile-btn-up">
+                <h4 className="branding-that-mobile-btn">Brand Identity</h4>
+                <h4 className="branding-that-mobile-btn">Packaging</h4>
+              </div>
+               <div className="branding-that-mobile-btn-up">
+                <h4 className="branding-that-mobile-btn">Brand Identity</h4>
+                <h4 className="branding-that-mobile-btn">Packaging</h4>
+              </div>
+              <p>
+                For Rithm’s Enlite, a brand with sparkling mineral water and
+                prebiotic drink range, we designed a thoughtful and eye-catching
+                brand identity, including can design, logo design and character
+                design. We created the character and the overall brand design
+                around the brand name to promote the refreshing and calming
+                properties of the product.
+              </p>
+            </div>
+            </div>
+             <div className="col-12 col-md-6 branding-that-mobile-div">
+              <img
+                src="https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg"
+                className="img-fluid"
+              />
+              <div className="branding-that-mobile-div-content">
+              <h3 className="mobile-view-branding-that-h3">Rithm’s Enlite</h3>
+              <div className="branding-that-mobile-btn-up">
+                <h4 className="branding-that-mobile-btn">Brand Identity</h4>
+                <h4 className="branding-that-mobile-btn">Packaging</h4>
+              </div>
+              <div>
+                <h4 className="branding-that-mobile-btn branding-that-mobile-btn-bottom text-center">
+                  Communication Design
+                </h4>
+              </div>
+              <p>
+                For Rithm’s Enlite, a brand with sparkling mineral water and
+                prebiotic drink range, we designed a thoughtful and eye-catching
+                brand identity, including can design, logo design and character
+                design. We created the character and the overall brand design
+                around the brand name to promote the refreshing and calming
+                properties of the product.
+              </p>
+            </div>
+            </div>
+         <div className="col-12 col-md-6 branding-that-mobile-div">
+              <img
+                src="https://dndesigns.co.in/wp-content/uploads/2025/08/1.jpg"
+                className="img-fluid"
+              />
+              <div className="branding-that-mobile-div-content">
+              <h3 className="mobile-view-branding-that-h3">Rithm’s Enlite</h3>
+              <div className="branding-that-mobile-btn-up">
+                <h4 className="branding-that-mobile-btn">Brand Identity</h4>
+                <h4 className="branding-that-mobile-btn">Packaging</h4>
+              </div>
+              <div>
+                <h4 className="branding-that-mobile-btn our-brand-mobile-btn-bottom text-center">
+                  Communication Design
+                </h4>
+              </div>
+              <p>
+                For Rithm’s Enlite, a brand with sparkling mineral water and
+                prebiotic drink range, we designed a thoughtful and eye-catching
+                brand identity, including can design, logo design and character
+                design. We created the character and the overall brand design
+                around the brand name to promote the refreshing and calming
+                properties of the product.
+              </p>
+            </div>
+            </div>
+             </div>
+          </div>
+        </div>
+      </section>
+
+
+
       {/* branding identity */}
       <section className='branding-identity'>
       <div className='container'>
       {/* first row */}
         <div className='row brand-identity-div-row'>
        <h2 className='text-center'><span className='every-pr'>Branding </span> is   VALUE</h2> 
-          <div className='col-12 col-md-12 col-lg-4'>
+       
+          <div className='col-12 col-md-12 col-lg-4 identity-main-div'>
             <div className='identity-div'>
               <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/2-3.jpg' className='img-fluid'/>
               <div className='identity-div-content'>
@@ -311,21 +432,23 @@ function Branding() {
             </div>
              </div>
           </div>
-          <div className='col-12 col-md-12 col-lg-4 px-3'>
+         
+          
+          <div className='col-12 col-md-12 col-lg-4  identity-main-div'>
              <div className='identity-div'>
-              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/2-3.jpg' className='img-fluid'/>
+              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/3-3.jpg' className='img-fluid'/>
               <div className='identity-div-content'>
-              <h3>Brand Identity</h3>
-              <p>Let’s create an impactful brand identity for your business. Trust us, it’s important. It is how customers will recognise and connect with your product and distinguish it from others in the market.</p>
+              <h3>Brand Voice</h3>
+              <p>Understanding ‘what is brand voice’ is quite simple. It is your brand’s personality and the way it speaks with its target customers. Brand voice helps breathe life into your brand, and we help you find that voice.</p>
             </div>
              </div>
           </div>
-          <div className='col-12 col-md-12 col-lg-4 px-3'>
+          <div className='col-12 col-md-12 col-lg-4  identity-main-div'>
              <div className='identity-div'>
-              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/2-3.jpg' className='img-fluid'/>
+              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/7-1.jpg' className='img-fluid'/>
               <div className='identity-div-content'>
-              <h3>Brand Identity</h3>
-              <p>Let’s create an impactful brand identity for your business. Trust us, it’s important. It is how customers will recognise and connect with your product and distinguish it from others in the market.</p>
+              <h3>Brand Positioning</h3>
+              <p>Why should customers prefer your product over your competitors? What makes you so special and different? That’s what positioning is all about. It creates a place for your product in the market and your target audience’s mind. </p>
             </div>
              </div>
           </div>
@@ -333,30 +456,30 @@ function Branding() {
 
            {/* second row */}
            <div className='row brand-identity-div-row'> 
-          <div className='col-12 col-md-12 col-lg-4 '>
+          <div className='col-12 col-md-12 col-lg-4 identity-main-div'>
             <div className='identity-div'>
-              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/2-3.jpg' className='img-fluid'/>
+              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/6-1.jpg' className='img-fluid'/>
               <div className='identity-div-content'>
-              <h3>Brand Identity</h3>
-              <p>Let’s create an impactful brand identity for your business. Trust us, it’s important. It is how customers will recognise and connect with your product and distinguish it from others in the market.</p>
+              <h3>Brand Messaging</h3>
+              <p>Let’s help you develop a compelling brand message. Why is that important? Because, as a business, you have certain core values and a USP which need to reach your target audience. It fosters connection and inspires trust.</p>
             </div>
              </div>
           </div>
-          <div className='col-12 col-md-12 col-lg-4 px-3'>
+          <div className='col-12 col-md-12 col-lg-4  identity-main-div'>
              <div className='identity-div'>
-              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/2-3.jpg' className='img-fluid'/>
+              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/5-1.jpg' className='img-fluid'/>
               <div className='identity-div-content'>
-              <h3>Brand Identity</h3>
-              <p>Let’s create an impactful brand identity for your business. Trust us, it’s important. It is how customers will recognise and connect with your product and distinguish it from others in the market.</p>
+              <h3>Brand Value</h3>
+              <p>Businesses have certain values and beliefs that form the basis of and direct their functioning. For instance, transparency and sustainability are good examples of a company’s values. What’s your brand value?</p>
             </div>
              </div>
           </div>
-          <div className='col-12 col-md-12 col-lg-4 px-3'>
+          <div className='col-12 col-md-12 col-lg-4  identity-main-div'>
              <div className='identity-div'>
-              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/2-3.jpg' className='img-fluid'/>
+              <img src='https://dndesigns.co.in/wp-content/uploads/2025/06/4-3.jpg' className='img-fluid'/>
               <div className='identity-div-content'>
-              <h3>Brand Identity</h3>
-              <p>Let’s create an impactful brand identity for your business. Trust us, it’s important. It is how customers will recognise and connect with your product and distinguish it from others in the market.</p>
+              <h3>Rebranding</h3>
+              <p>Brands that appealed once may appear outdated today. Branding should, therefore, adapt and evolve with changing times to suit current market conditions and consumer expectations. Rebranding is the solution.</p>
             </div>
              </div>
           </div>
@@ -375,7 +498,7 @@ function Branding() {
                 </section>
 
 
-                {/* Creating Your Brand */}
+                {/* Creating Your Brand desktop view */}
                  <section className="creating-your-brand">
         <div class="container sticky-con">
           <h2 className="text-center our-brand-heading-a">Creating Your Brand Story,
@@ -383,7 +506,7 @@ function Branding() {
           <ul id="cards-create">
             <li class="card-create" id="card1-create">
               <div class="card-body-create row">
-                   <div className='col-2 create-number'>01</div>
+                   <div className='col-2 create-number text-center'>01</div>
                    <div className='col-10'>
                     <h2>Brand Understanding</h2>
                     <p>If anything has to stand the test of time, it needs to begin with a firm footing. In branding, this beginning is understanding the product/business. We sit down with you for a deep discussion to understand your product or service as well as your vision and mission. This helps us make a good start and prepares us for an exciting journey ahead.</p>
@@ -395,7 +518,7 @@ function Branding() {
 
             <li class="card-create" id="card2-create">
               <div class="card-body-create row">
-                   <div className='col-2 create-number'>02</div>
+                   <div className='col-2 create-number text-center'>02</div>
                    <div className='col-10'>
                     <h2>Competitor Analysis</h2>
                     <p>You are not alone in the market; there are several other products in the same category out there trying to build their presence. How do you craft your own little corner? Analysing competition is crucial, and this is what we, as a brand design company, do next. We conduct a thorough research of your competitors and understand your current position in the market to ensure that we have enough knowledge and data to take a step forward, creating your branding strategy.</p>
@@ -405,7 +528,7 @@ function Branding() {
 
                <li class="card-create" id="card3-create">
               <div class="card-body-create row">
-                   <div className='col-2 create-number'>03</div>
+                   <div className='col-2 create-number text-center'>03</div>
                    <div className='col-10'>
                     <h2>Planning Your Brand</h2>
                     <p>It’s now time to create your brand strategy. Every aspect of branding is carefully thought out and discussed with you - be it your brand personality, story, message, values, or even communication and website design. As a creative branding agency, we decide on these elements based on how we want the audience to perceive your brand.</p>
@@ -415,7 +538,7 @@ function Branding() {
 
             <li class="card-create" id="card4-create">
               <div class="card-body-create row">
-                   <div className='col-2 create-number'>04</div>
+                   <div className='col-2 create-number text-center'>04</div>
                    <div className='col-10'>
                     <h2>Implementing the Strategy</h2>
                     <p>Let’s turn words and ideas into action. We now sit down to do the actual work - naming your brand, designing your logo, creating your packaging design, crafting a tagline, composing your message, and much more. In addition, we design and develop your website too.</p>
@@ -426,7 +549,7 @@ function Branding() {
 
                <li class="card-create" id="card5-create">
               <div class="card-body-create row">
-                   <div className='col-2 create-number'>05</div>
+                   <div className='col-2 create-number text-center'>05</div>
                    <div className='col-10'>
                     <h2>Feedback & Launch</h2>
                     <p>The final stage in our branding journey, this is where we seek a review of our work. Based on your feedback, we make changes, and reseek your feedback. Once we receive a green light from you, we go ahead and launch your brand.</p>
@@ -435,6 +558,68 @@ function Branding() {
             </li> 
             </ul>
             </div>
+            </section>
+
+
+            {/* Creating Your Brand mobile view */}
+
+            <section className="creating-your-brand-mobile">
+              <div className="conatiner">
+               <h2 className="text-center our-brand-heading-a-mobile">Creating Your Brand Story,<span className='every-pr'> Your Way</span></h2>
+              <div className="row creating-brand-mobile-row">
+
+                <div className="col-12">
+                     <div className="creating-your-brand-mobile-box">
+                   <h3 className="create-number-mobile">01</h3>
+                   <div className="card-body-create-mobile">
+                    <h2>Brand Understanding</h2>
+                    <p>If anything has to stand the test of time, it needs to begin with a firm footing. In branding, this beginning is understanding the product/business. We sit down with you for a deep discussion to understand your product or service as well as your vision and mission. This helps us make a good start and prepares us for an exciting journey ahead.</p>
+                   </div>
+                  </div>
+                </div>
+
+                 <div className="col-12">
+                     <div className="creating-your-brand-mobile-box">
+                   <h3 className="create-number-mobile">02</h3>
+                   <div className="card-body-create-mobile">
+                    <h2>Competitor Analysis</h2>
+                    <p>You are not alone in the market; there are several other products in the same category out there trying to build their presence. How do you craft your own little corner? Analysing competition is crucial, and this is what we, as a brand design company, do next. We conduct a thorough research of your competitors and understand your current position in the market to ensure that we have enough knowledge and data to take a step forward, creating your branding strategy.</p>
+                   </div>
+                  </div>
+                </div>
+
+                 <div className="col-12">
+                     <div className="creating-your-brand-mobile-box">
+                   <h3 className="create-number-mobile">03</h3>
+                   <div className="card-body-create-mobile">
+                    <h2>Planning Your Brand</h2>
+                    <p>It’s now time to create your brand strategy. Every aspect of branding is carefully thought out and discussed with you - be it your brand personality, story, message, values, or even communication and website design. As a creative branding agency, we decide on these elements based on how we want the audience to perceive your brand.</p>
+                   </div>
+                  </div>
+                </div>
+
+                 <div className="col-12">
+                     <div className="creating-your-brand-mobile-box">
+                   <h3 className="create-number-mobile">04</h3>
+                   <div className="card-body-create-mobile">
+                     <h2>Implementing the Strategy</h2>
+                    <p>Let’s turn words and ideas into action. We now sit down to do the actual work - naming your brand, designing your logo, creating your packaging design, crafting a tagline, composing your message, and much more. In addition, we design and develop your website too.</p>
+                   </div>
+                  </div>
+                </div>
+
+                 <div className="col-12">
+                     <div className="creating-your-brand-mobile-box">
+                   <h3 className="create-number-mobile">05</h3>
+                   <div className="card-body-create-mobile">
+                   <h2>Feedback & Launch</h2>
+                    <p>The final stage in our branding journey, this is where we seek a review of our work. Based on your feedback, we make changes, and reseek your feedback. Once we receive a green light from you, we go ahead and launch your brand.</p>
+                   </div>
+                  </div>
+                </div>
+
+              </div>
+               </div>
             </section>
 
               {/* faqs */}

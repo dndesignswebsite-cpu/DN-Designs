@@ -6,7 +6,7 @@ function OurConstant() {
     <div>
         <section className="our-constant-companions">
         <div className="container text-center large-screen">
-         <h2 className="our-brand-heading">Our Constant Companions</h2>
+         <h2 className="our-brand-heading">Our <span className='our-constant-comapny-heqadg-red'>Constant Companions</span></h2>
           <div className="comapnies-logo-row">
            
              <div className="companies">

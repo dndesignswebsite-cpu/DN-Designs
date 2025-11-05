@@ -212,7 +212,7 @@
 }
 
 
-/* branding-that */
+/* branding-that desktop view */
 
 .branding-that {
   padding: 80px 0;
@@ -338,10 +338,111 @@
    flex-wrap: nowrap;
 }
 
-/*  branding identity  */
+.mobile-view-branding-that{
+  display: none;
+}
+@media(max-width:767px){
+  .branding-that{
+    display: none;
+  }
 
-.brand-identity-div-row{
+  .mobile-view-branding-that{
+    display: block;
+  }
+}
+
+
+/* branding-that mobile view */
+.mobile-view-branding-that{
+  padding: 80px 0;
+}
+
+.mobile-view-branding-that h2{
+  font-size: 40px;
+  font-family: "Corbert";
+  color: #000;
+}
+
+.mobile-view-branding-that-h3 {
+  color: #ca2734;
+  font-family: "Corbert", Sans-serif;
+  font-size: 32px;
+}
+
+.branding-that-mobile-all-div{
+   padding: 20px;
+}
+
+.branding-that-mobile-div{
+  border: 1px solid #A8A8A8;
+  border-radius: 12px;
+  padding: 0px;
   margin: 20px 0;
+}
+
+.branding-that-mobile-div img{
+  border-radius:12px 12px 0 0 ;
+}
+.branding-that-mobile-div video{
+  border-radius:12px 12px 0 0 ;
+}
+
+.branding-that-mobile-div-content{
+  padding: 10px;
+}
+
+
+.branding-that-mobile-btn {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #ca2734;
+  border-radius: 6px 6px 6px 6px;
+  padding: 5px;
+}
+
+.branding-that-mobile-btn-up{
+  display: flex;
+  gap: 10px;
+}
+
+.branding-that-mobile-btn-up h4 {
+  width: 50%;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Roboto";
+}
+.branding-that-mobile-btn-bottom {
+  width: 100%;
+  padding: 10px;
+}
+
+.branding-that-mobile-btn-bottom{
+  font-size: 15px;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.branding-that-mobile-div-content p{
+      color: #888888;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
+@media(max-width:767px){
+  .mobile-view-branding-that{
+  padding: 40px 0;
+}
+}
+
+
+
+
+/*  branding identity */
+
+
+.identity-main-div{
+  padding: 10px 10px;
 }
 
 .branding-identity{
@@ -360,13 +461,16 @@
    box-shadow: 0px 2px 11px -1px rgba(0, 0, 0, 0.1);
   padding: 20px;
    border-radius: 16px;
+   height: 100%;
 }
 
 .identity-div img{
   border-radius: 20px;
 }
 
-
+.identity-div-content{
+  padding-top:20px ;
+}
 
 .identity-div-content h3{
       color: #000000;
@@ -409,7 +513,7 @@
 }
 
 
-/* creating-your-brand */
+/* creating-your-brand desktop view*/
 .creating-your-brand{
   padding: 50px 0;
 }
@@ -493,14 +597,14 @@
 
 .create-number{
   color: #CA2734;
-    font-family: "corbert bold", Sans-serif;
+    font-family: "Corbert", Sans-serif;
     font-size: 85px;
     font-weight: 700;
 }
 
 .card-body-create h2{
       color: #000000;
-    font-family: "corbert bold", Sans-serif;
+    font-family: "Corbert", Sans-serif;
     font-size: 38px;
     font-weight: 700;
 }
@@ -536,12 +640,66 @@
 
 }
 
+.creating-your-brand-mobile{
+  display: none;
+}
 @media(max-width:767px){
 .creating-your-brand{
   display: none;
 }
+.creating-your-brand-mobile{
+  display: block;
+}
 }
 
+/* creating-your-brand mobile view*/
+
+.creating-your-brand-mobile{
+  padding: 50px 0;
+}
+
+.our-brand-heading-a-mobile{
+  color: #000000;
+  font-family: "Corbert", Sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.2em;
+  padding-bottom: 40px;
+}
+
+.creating-brand-mobile-row{
+  margin: 0;
+}
+
+.creating-your-brand-mobile-box{
+  box-shadow: 0px 2px 11px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.create-number-mobile{
+  color: #CA2734;
+    font-family: "Corbert bold", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.card-body-create-mobile h2{
+      color: #000000;
+    font-family: "Corbert", Sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.card-body-create-mobile p{
+  color: #888888;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+    padding: 5px 0px;
+}
 
 
 
