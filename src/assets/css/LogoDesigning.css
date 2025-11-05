@@ -332,7 +332,7 @@
 }
 
 
-/* creating-your-brand */
+/* creating-your-brand desktop view*/
 .creating-your-brand{
   padding: 50px 0;
 }
@@ -344,24 +344,24 @@
 }
 #card2-create {
   --index: 2;
-  top: 220px;
+  top: 210px;
   margin-top: 20px;
 }
 #card3-create {
   --index: 3;
-  top: 270px;
+  top: 260px;
   margin-top: 20px;
 }
 #card4-create {
   --index: 4;
-  top: 320px;
+  top: 310px;
   margin-top: 20px;
 }
 
 
 #card5-create {
   --index: 5;
-  top: 370px;
+  top: 360px;
   margin-top: 20px;
 }
 
@@ -388,7 +388,10 @@
   align-items: center;
   transition: all 0.5s;
   padding: 0;
-  position: relative;  
+  position: relative; 
+  display: flex;
+  align-items: center;
+  justify-content:center; 
 }
 
 .our-brand-heading-a {
@@ -416,14 +419,14 @@
 
 .create-number{
   color: #CA2734;
-    font-family: "corbert bold", Sans-serif;
+    font-family: "Corbert", Sans-serif;
     font-size: 85px;
     font-weight: 700;
 }
 
 .card-body-create h2{
       color: #000000;
-    font-family: "corbert bold", Sans-serif;
+    font-family: "Corbert", Sans-serif;
     font-size: 38px;
     font-weight: 700;
 }
@@ -459,8 +462,63 @@
 
 }
 
+.creating-your-brand-mobile{
+  display: none;
+}
 @media(max-width:767px){
 .creating-your-brand{
   display: none;
 }
+.creating-your-brand-mobile{
+  display: block;
+}
+}
+
+/* creating-your-brand mobile view*/
+
+.creating-your-brand-mobile{
+  padding: 50px 0;
+}
+
+.our-brand-heading-a-mobile{
+  color: #000000;
+  font-family: "Corbert", Sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.2em;
+  padding-bottom: 40px;
+}
+
+.creating-brand-mobile-row{
+  margin: 0;
+}
+
+.creating-your-brand-mobile-box{
+  box-shadow: 0px 2px 11px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.create-number-mobile{
+  color: #CA2734;
+    font-family: "Corbert bold", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.card-body-create-mobile h2{
+      color: #000000;
+    font-family: "Corbert", Sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.card-body-create-mobile p{
+  color: #888888;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+    padding: 5px 0px;
 }

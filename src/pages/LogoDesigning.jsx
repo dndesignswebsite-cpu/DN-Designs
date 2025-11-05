@@ -339,7 +339,7 @@ function LogoDesigning() {
 
 
 
-      {/* Creating Your Brand */}
+      {/* Creating Your Brand desktop view */}
                  <section className="creating-your-brand">
         <div class="container sticky-con">
           <h2 className="text-center our-brand-heading-a">Creating Your Brand Story,
@@ -347,7 +347,7 @@ function LogoDesigning() {
           <ul id="cards-create">
             <li class="card-create" id="card1-create">
               <div class="card-body-create row">
-                   <div className='col-2 create-number'>01</div>
+                   <div className='col-2 create-number text-center'>01</div>
                    <div className='col-10'>
                     <h2>Brand Understanding</h2>
                     <p>If anything has to stand the test of time, it needs to begin with a firm footing. In branding, this beginning is understanding the product/business. We sit down with you for a deep discussion to understand your product or service as well as your vision and mission. This helps us make a good start and prepares us for an exciting journey ahead.</p>
@@ -359,7 +359,7 @@ function LogoDesigning() {
 
             <li class="card-create" id="card2-create">
               <div class="card-body-create row">
-                   <div className='col-2 create-number'>02</div>
+                   <div className='col-2 create-number text-center'>02</div>
                    <div className='col-10'>
                     <h2>Competitor Analysis</h2>
                     <p>You are not alone in the market; there are several other products in the same category out there trying to build their presence. How do you craft your own little corner? Analysing competition is crucial, and this is what we, as a brand design company, do next. We conduct a thorough research of your competitors and understand your current position in the market to ensure that we have enough knowledge and data to take a step forward, creating your branding strategy.</p>
@@ -369,7 +369,7 @@ function LogoDesigning() {
 
                <li class="card-create" id="card3-create">
               <div class="card-body-create row">
-                   <div className='col-2 create-number'>03</div>
+                   <div className='col-2 create-number text-center'>03</div>
                    <div className='col-10'>
                     <h2>Planning Your Brand</h2>
                     <p>It’s now time to create your brand strategy. Every aspect of branding is carefully thought out and discussed with you - be it your brand personality, story, message, values, or even communication and website design. As a creative branding agency, we decide on these elements based on how we want the audience to perceive your brand.</p>
@@ -379,7 +379,7 @@ function LogoDesigning() {
 
             <li class="card-create" id="card4-create">
               <div class="card-body-create row">
-                   <div className='col-2 create-number'>04</div>
+                   <div className='col-2 create-number text-center'>04</div>
                    <div className='col-10'>
                     <h2>Implementing the Strategy</h2>
                     <p>Let’s turn words and ideas into action. We now sit down to do the actual work - naming your brand, designing your logo, creating your packaging design, crafting a tagline, composing your message, and much more. In addition, we design and develop your website too.</p>
@@ -390,7 +390,7 @@ function LogoDesigning() {
 
                <li class="card-create" id="card5-create">
               <div class="card-body-create row">
-                   <div className='col-2 create-number'>05</div>
+                   <div className='col-2 create-number text-center'>05</div>
                    <div className='col-10'>
                     <h2>Feedback & Launch</h2>
                     <p>The final stage in our branding journey, this is where we seek a review of our work. Based on your feedback, we make changes, and reseek your feedback. Once we receive a green light from you, we go ahead and launch your brand.</p>
@@ -399,6 +399,68 @@ function LogoDesigning() {
             </li> 
             </ul>
             </div>
+            </section>
+
+
+            {/* Creating Your Brand mobile view */}
+
+            <section className="creating-your-brand-mobile">
+              <div className="conatiner">
+               <h2 className="text-center our-brand-heading-a-mobile">Creating Your Brand Story,<span className='every-pr'> Your Way</span></h2>
+              <div className="row creating-brand-mobile-row">
+
+                <div className="col-12">
+                     <div className="creating-your-brand-mobile-box">
+                   <h3 className="create-number-mobile">01</h3>
+                   <div className="card-body-create-mobile">
+                    <h2>Brand Understanding</h2>
+                    <p>If anything has to stand the test of time, it needs to begin with a firm footing. In branding, this beginning is understanding the product/business. We sit down with you for a deep discussion to understand your product or service as well as your vision and mission. This helps us make a good start and prepares us for an exciting journey ahead.</p>
+                   </div>
+                  </div>
+                </div>
+
+                 <div className="col-12">
+                     <div className="creating-your-brand-mobile-box">
+                   <h3 className="create-number-mobile">02</h3>
+                   <div className="card-body-create-mobile">
+                    <h2>Competitor Analysis</h2>
+                    <p>You are not alone in the market; there are several other products in the same category out there trying to build their presence. How do you craft your own little corner? Analysing competition is crucial, and this is what we, as a brand design company, do next. We conduct a thorough research of your competitors and understand your current position in the market to ensure that we have enough knowledge and data to take a step forward, creating your branding strategy.</p>
+                   </div>
+                  </div>
+                </div>
+
+                 <div className="col-12">
+                     <div className="creating-your-brand-mobile-box">
+                   <h3 className="create-number-mobile">03</h3>
+                   <div className="card-body-create-mobile">
+                    <h2>Planning Your Brand</h2>
+                    <p>It’s now time to create your brand strategy. Every aspect of branding is carefully thought out and discussed with you - be it your brand personality, story, message, values, or even communication and website design. As a creative branding agency, we decide on these elements based on how we want the audience to perceive your brand.</p>
+                   </div>
+                  </div>
+                </div>
+
+                 <div className="col-12">
+                     <div className="creating-your-brand-mobile-box">
+                   <h3 className="create-number-mobile">04</h3>
+                   <div className="card-body-create-mobile">
+                     <h2>Implementing the Strategy</h2>
+                    <p>Let’s turn words and ideas into action. We now sit down to do the actual work - naming your brand, designing your logo, creating your packaging design, crafting a tagline, composing your message, and much more. In addition, we design and develop your website too.</p>
+                   </div>
+                  </div>
+                </div>
+
+                 <div className="col-12">
+                     <div className="creating-your-brand-mobile-box">
+                   <h3 className="create-number-mobile">05</h3>
+                   <div className="card-body-create-mobile">
+                   <h2>Feedback & Launch</h2>
+                    <p>The final stage in our branding journey, this is where we seek a review of our work. Based on your feedback, we make changes, and reseek your feedback. Once we receive a green light from you, we go ahead and launch your brand.</p>
+                   </div>
+                  </div>
+                </div>
+
+              </div>
+               </div>
             </section>
 
 
