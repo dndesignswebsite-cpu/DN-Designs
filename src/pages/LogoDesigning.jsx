@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "../assets/css/LogoDesigning.css";
 import Form from "../components/Form";
 import Breadcrumb from "../components/Breadcrumb";
@@ -6,6 +6,64 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function LogoDesigning() {
+   const [activeIndex_f, setActiveIndex_f] = useState(null);
+    const [activeIndex_s, setActiveIndex_s] = useState(null);
+  
+    const toggleAccordion_f = (index) => {
+      if (activeIndex_f === index) {
+        setActiveIndex_f(null);
+      } else {
+        setActiveIndex_f(index);
+      }
+    };
+  
+    const toggleAccordion_s = (index) => {
+      if (activeIndex_s === index) {
+        setActiveIndex_s(null);
+      } else {
+        setActiveIndex_s(index);
+      }
+    };
+  
+    const sheet_one = [
+      {
+        title: "What services does DN Designs Offer",
+        content:
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      {
+        title: " do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        content:
+          "Ut enim ad minim veniam, quis nostrud do eiusmod tempor incididunt ut labore et dolore magna aliqua. exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      },
+      {
+        title: " do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        content:
+          "Duis aute irure dolor in do eiusmod tempor incididunt ut labore et dolore magna aliqua. reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      },
+    ];
+  
+    const sheet_two = [
+      {
+        title:
+          "Section do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        content:
+          "Lorem ipsum dolor do eiusmod tempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      {
+        title:
+          "Section do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        content:
+          "Ut enim ad minim  do eiusmod tempor incididunt ut labore et dolore magna aliqua.veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      },
+      {
+        title:
+          "Section  do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        content:
+          "Duis aute irure do eiusmod tempor incididunt ut labore et dolore magna aliqua. dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      },
+    ];
+  
   return (
     <div>
       {/*Breadcrumb*/}
@@ -463,6 +521,326 @@ function LogoDesigning() {
                </div>
             </section>
 
+
+
+
+
+<section>
+      <div class="container logo-brand-parent">
+        <h2 class="text-center fw-bold brand-logo-heading">Types of Brand Identity <span>Logos We Design</span></h2>
+        <div class="row logo-brand1">
+            <div class="col-12 col-lg-5 col-md-12">
+                <h2 class="fw-bold logo-brand-title">Monogram</h2>
+                <h6 class="logo-type">Lettermark</h6>
+                <p class="logo-brand-paragraph">This combines the initial letters of the brand name to create an abbreviated version. Think of ESPN (Entertainment and Sports Programming Network) and P&G (Procter & Gamble). Companies with longer names prefer this type of design to make their logo compact and memorable.</p>
+            </div>
+            <div class="col-12 col-lg-7 col-12 com-md-12 logo-list">
+                <div class="row">
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/16.png" alt="HBO logo" class="img-fluid logo"/>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/13.png" alt="IBM logo" class="img-fluid"/>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/8.png" alt="NASA logo" class="img-fluid"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row logo-brand2">
+            <div class="col-12 col-lg-5 col-md-12">
+                <h2 class="fw-bold logo-brand-title">Wordmarks</h2>
+                <h6 class="logo-type">Logotype</h6>
+                <p class="logo-brand-paragraph">This comprises solely the brand name. Examples include Google, L’oreal and ebay. Brands with concise names and a strong persona pick this type of logo. Custom typography and styling that reflect brand identity make these logos memorable.</p>
+            </div>
+            <div class="col-12 col-lg-7 col-md-12 logo-list">
+                <div class="row">
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/22.png" alt="Visa logo" class="img-fluid logo"/>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/18.png" alt="Coca-Cola logo" class="img-fluid"/>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/4.png" alt="Google logo" class="img-fluid"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row logo-brand3">
+            <div class="col-12 col-lg-5 col-md-12">
+                <h2 class="fw-bold logo-brand-title">Pictorial</h2>
+                <h6 class="logo-type">Brandmark/Symbol</h6>
+                <p class="logo-brand-paragraph">As per its name, this type of logo draws on graphics, images, icons and symbols from the real world. The best example of this is Apple. This type of logo is best when brands can find pictures or symbols that appropriately present their business, whether literally or figuratively. This is very easy to recognise.</p>
+            </div>
+            <div class="col-12 col-lg-7 col-md-12 logo-list">
+                <div class="row">
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/2-1.png" alt="Apple logo" class="img-fluid logo"/>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/9.png" alt="X logo" class="img-fluid"/>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/14.png" alt="Pinterest logo" class="img-fluid"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row logo-brand4">
+            <div class="col-12 col-lg-5 col-md-12">
+                <h2 class="fw-bold logo-brand-title">Abstract</h2>
+                <h6 class="logo-type">Represent Your Brand</h6>
+                <p class="logo-brand-paragraph">In contrast to pictorial logos that use images from the real world, abstract logos use geometric shapes and colours to convey the right message and emotion. Few brands that use this type of logo include Mastercard, Pepsi and Mitsubishi. Brands that want a timeless logo that breaks cultural and language barriers (and thus has a global appeal) opt for an abstract logo.</p>
+            </div>
+            <div class="col-12 col-lg-7 col-md-12 logo-list">
+                <div class="row">
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/15.png" alt="adidas logo" class="img-fluid logo"/>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/11.png" alt="BP logo" class="img-fluid"/>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/7.png" alt="Pepsi logo" class="img-fluid"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row logo-brand5">
+            <div class="col-12 col-lg-5 col-md-12">
+                <h2 class="fw-bold logo-brand-title">Mascots</h2>
+                <h6 class="logo-type">Characters</h6>
+                <p class="logo-brand-paragraph">Brands that want to evoke a more fun and friendly emotion opt for this type of logo. Remember the logos of KFC and Amul? This type of logo has an illustrated character that represents the brand and fosters a strong emotional connection with the customers.</p>
+            </div>
+            <div class="col-12 col-lg-7 col-md-12 logo-list">
+                <div class="row">
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/5.png" alt="KFC logo" class="img-fluid logo"/>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/19.png" alt="Pringles logo" class="img-fluid"/>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/1-1.png" alt="Amul logo" class="img-fluid"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row logo-brand6">
+            <div class="col-12 col-lg-5 col-md-12">
+                <h2 class="fw-bold logo-brand-title">Combination</h2>
+                <h6 class="logo-type">Text and Pictures</h6>
+                <p class="logo-brand-paragraph">This logo combines text with symbol, image, mascot and shape to create a unique identity for the brand. It is adaptable, giving brands a scope to split the main logo and carve out variations from it. Few examples of this type of logos include Puma, Jaguar and Burger King.</p>
+            </div>
+            <div class="col-12 col-lg-7 col-md-12 logo-list">
+                <div class="row">
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/3.png" alt="Doritos logo" class="img-fluid logo"/>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/12.png" alt="Burger King logo" class="img-fluid"/>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/17.png" alt="Lacoste logo" class="img-fluid"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row logo-brand7">
+            <div class="col-12 col-lg-5 col-md-12">
+                <h2 class="fw-bold logo-brand-title">The Emblem</h2>
+                <h6 class="logo-type">Badge</h6>
+                <p class="logo-brand-paragraph">Businesses that wish to convey an air of legacy, prestige and tradition usually go for an emblem logo. These logos include a shape that encompasses text, image or symbol. Some of the best examples of this type of logos are Harley-Davidson, Starbucks, Harvard University and Oxford University.</p>
+            </div>
+            <div class="col-12 col-lg-7 col-md-12 logo-list">
+                <div class="row">
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/logo.png" alt="Harley-Davidson logo" class="img-fluid logo"/>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/6.png" alt="Harvard logo" class="img-fluid"/>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-4">
+                        <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/21.png" alt="Starbucks logo" class="img-fluid"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container logo-design-parent">
+        <h2 class="text-center fw-bold logo-design-heading">
+            The Wow-Making Elements Of <br/>
+            <span>Professional Logo Design</span>
+        </h2>
+
+        <div class="row logo-design-section">
+            <div class="col-lg-8 col-md-7 position-relative logo-hover-wrapper">
+            <img
+                src="https://dndesigns.co.in/wp-content/uploads/2025/04/1-3.jpg"
+                alt="Nectarpure"
+                class="img-fluid logo-design-img"
+            />
+
+            
+            <img
+                src="https://dndesigns.co.in/wp-content/uploads/2019/02/nec.jpg"
+                alt="Slide Overlay"
+                class="img-fluid logo-overlay-img"
+            />
+            </div>
+
+            <div class="col-lg-4 col-md-5 mb-sm-4 image-stack">
+                <div class="row mb-4">
+                    <div class="col-lg-12">
+                    <img
+                        src="https://dndesigns.co.in/wp-content/uploads/2025/06/wordmark-2048x1078.png"
+                        alt=""
+                        class="img-fluid logo-design-img2"
+                    />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                    <img
+                        src="https://dndesigns.co.in/wp-content/uploads/2025/06/nectarpure-1-2048x1078.jpg"
+                        alt=""
+                        class="img-fluid logo-design-img2"
+                    />
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <div class="container logo-tabs-container mt-5 tabs-section">
+        <ul class="nav nav-tabs custom-tabs" id="logoTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="style-tab" data-bs-toggle="tab" data-bs-target="#style" type="button" role="tab">Logo Style</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="palette-tab" data-bs-toggle="tab" data-bs-target="#palette" type="button" role="tab">Colour palette</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="typography-tab" data-bs-toggle="tab" data-bs-target="#typography" type="button" role="tab">Typography</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="shape-tab" data-bs-toggle="tab" data-bs-target="#shape" type="button" role="tab">Shape</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="layout-tab" data-bs-toggle="tab" data-bs-target="#layout" type="button" role="tab">Layout</button>
+            </li>
+        </ul>
+
+        <div class="tab-content custom-tab-content" id="logoTabsContent">
+            <div class="tab-pane fade show active" id="style" role="tabpanel">
+            <p>
+                Type/Style is all about how your logo appears in totality. As the best logo design company in India, we invest a lot of thought and carefully select the logo style for your brand depending on your requirements. We take into consideration your brand identity, personality, voice and how you want to be perceived by your audience, and match it up with the best logo type. These styles include combination marks, wordmarks, letter marks, abstract, emblems and dynamic.      </p>
+            </div>
+
+            <div class="tab-pane fade" id="palette" role="tabpanel">
+            <p>Colours convey certain emotions, and hence are a crucial design element. Our creative logo designers in Noida choose a colour palette that perfectly reflects your brand’s personality and emotions. To ensure the right selection and usage of colours, we – a logo design agency in Delhi NCR – research your target audience and market and additionally decide which colour will effectively communicate your brand’s USP.</p>
+            </div>
+
+            <div class="tab-pane fade" id="typography" role="tabpanel">
+            <p>Like colours, typography, too, conveys the brand identity – its message, voice and tone. Whether your brand voice is more polished and professional or it is warm and friendly, whether it is inspiring and uplifting or leans more towards authority, your typography can reveal all. As a logo design agency, we can create a premium logo design that communicates your brand voice accurately.</p>
+            </div>
+
+            <div class="tab-pane fade" id="shape" role="tabpanel">
+            <p>Like colours and typography, shapes too have a psychological effect on customers. These are silent messengers of brand personality, values and tone. For example, shapes like circles and ovals convey a feeling of inclusiveness and community. On the other hand, squares and rectangles evoke a sense of stability and reliability. Designers at a logo designing agency know this and hence select an appropriate shape for your creative company logo.</p>
+            </div>
+
+            <div class="tab-pane fade" id="layout" role="tabpanel">
+            <p>Anything in the background doesn’t have much value. This could perhaps be true for a lot of things, but not logo design. Think of the red background of the McDonald’s logo. The feel of the brand is not complete without this background. As a logo design agency, we understand the importance of this design element and therefore create a layout that enhances the effect of your logo. While deciding the layout, we consider the need to incorporate a symbol or a tagline as well.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mobile-tabs mt-5">
+        <h2 class="mobile-tab-heading fw-bold">Logo Style</h2>
+        <p class="mobile-tab-paragraph mt-4">Type/Style is all about how your logo appears in totality. As the best logo design company in India, we invest a lot of thought and carefully select the logo style for your brand depending on your requirements. We take into consideration your brand identity, personality, voice and how you want to be perceived by your audience, and match it up with the best logo type. These styles include combination marks, wordmarks, letter marks, abstract, emblems and dynamic.</p>
+    
+        <h2 class="mobile-tab-heading fw-bold mt-5">Colour palette</h2>
+        <p class="mobile-tab-paragraph mt-4">Colours convey certain emotions, and hence are a crucial design element. Our creative logo designers in Noida choose a colour palette that perfectly reflects your brand’s personality and emotions. To ensure the right selection and usage of colours, we – a logo design agency in Delhi NCR – research your target audience and market and additionally decide which colour will effectively communicate your brand’s USP.
+        </p>
+
+        <h2 class="mobile-tab-heading fw-bold mt-5">Typography</h2>
+        <p class="mobile-tab-paragraph mt-4">Like colours, typography, too, conveys the brand identity – its message, voice and tone. Whether your brand voice is more polished and professional or it is warm and friendly, whether it is inspiring and uplifting or leans more towards authority, your typography can reveal all. As a logo design agency, we can create a premium logo design that communicates your brand voice accurately.</p>
+    
+        <h2 class="mobile-tab-heading fw-bold mt-5">Shape</h2>
+        <p class="mobile-tab-paragraph mt-4">Like colours and typography, shapes too have a psychological effect on customers. These are silent messengers of brand personality, values and tone. For example, shapes like circles and ovals convey a feeling of inclusiveness and community. On the other hand, squares and rectangles evoke a sense of stability and reliability. Designers at a logo designing agency know this and hence select an appropriate shape for your creative company logo.</p>
+    
+        <h2 class="mobile-tab-heading fw-bold mt-5">Layout</h2>
+        <p class="mobile-tab-paragraph mt-4">Anything in the background doesn’t have much value. This could perhaps be true for a lot of things, but not logo design. Think of the red background of the McDonald’s logo. The feel of the brand is not complete without this background. As a logo design agency, we understand the importance of this design element and therefore create a layout that enhances the effect of your logo. While deciding the layout, we consider the need to incorporate a symbol or a tagline as well.</p>
+    </div>
+</section>
+
+
+
+{/* faqs */}
+      <section className="faqs">
+        <div className="container">
+          <div className="row">
+            <h2 className="text-center">Frequently Asked Questions</h2>
+
+            <div className="col-12 col-md-12 col-lg-6">
+              <div className="all_faqs">
+                {sheet_one.map((first_sheet, index) => (
+                  <div className="faq_unit" key={index}>
+                    <button
+                      className={`accordion ${activeIndex_f === index ? "active" : ""
+                        }`}
+                      onClick={() => toggleAccordion_f(index)}
+                    >
+                      {first_sheet.title}
+                    </button>
+                    <div
+                      className={`panel ${activeIndex_f === index ? "open" : ""
+                        }`}
+                    >
+                      <p>{first_sheet.content}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="col-12 col-md-12 col-lg-6">
+              <div className="all_faqs">
+                {sheet_two.map((second_sheet, index) => (
+                  <div className="faq_unit" key={index}>
+                    <button
+                      className={`accordion ${activeIndex_s === index ? "active" : ""
+                        }`}
+                      onClick={() => toggleAccordion_s(index)}
+                    >
+                      {second_sheet.title}
+                    </button>
+                    <div
+                      className={`panel ${activeIndex_s === index ? "open" : ""
+                        }`}
+                    >
+                      <p>{second_sheet.content}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      {/* form */}
+       <Form/>
 
     </div>
   );
