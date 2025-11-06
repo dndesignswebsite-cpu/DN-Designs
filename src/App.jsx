@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Branding from "./pages/Branding";
 import LogoDesigning from "./pages/LogoDesigning";
+import PackagingDesign from "./pages/PackagingDesign";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route path="/services" element={<Services/>}/>
       <Route path="/branding" element={<Branding/>}/>
       <Route path="/logo-designing" element={<LogoDesigning/>}/>
+      <Route path="/packaging-design" element={<PackagingDesign/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

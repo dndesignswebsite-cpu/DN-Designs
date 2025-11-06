@@ -87,6 +87,7 @@ function header() {
                         <li><NavLink to="/services" onClick={handleLinkClick}>Services</NavLink></li>
                         <li><NavLink to="/branding" onClick={handleLinkClick}>Branding</NavLink></li>
                         <li><NavLink to="/logo-designing" onClick={handleLinkClick}>Logo Designing</NavLink></li>
+                        <li><NavLink to="/packaging-design" onClick={handleLinkClick}>Packaging Design</NavLink></li>
                     </ul>
                    
                 </div>

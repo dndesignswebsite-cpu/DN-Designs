@@ -57,13 +57,17 @@
   .logo-designing-hero h1 {
     font-size: 40px;
   }
+  .logo-designing-hero h3 {
+    padding-top: 10px;
+  font-size: 24px;
+}
 
   .talk-to-us-div {
     display: none !important;
   }
 
   .logo-designing-hero p {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 30px;
   }
 
@@ -78,7 +82,7 @@
 
 
 
-/* Our Portfolio */
+/*brand identity*/
 
 .port-row {
   padding: 10px 0;
