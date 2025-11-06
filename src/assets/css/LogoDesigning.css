@@ -526,7 +526,7 @@
 
 
 
-/* hreudfg */
+/* Types of Brand  */
 
 .brand-logo-heading{
     font-size: 50px;
@@ -535,19 +535,26 @@
     top: 0;
     z-index: 7;
     background: #fff;
+    font-family: "Corbert";
 }
 .logo-brand-title{
     font-size: 60px;
+    font-family: "Corbert";
+    color: #000;
+    font-weight: 300;
 }
 .logo-type{
     font-weight: 400;
     font-size: 24px;
+    font-family: "Roboto";
+    color: #000;
 }
 .logo-brand-paragraph{
     line-height: 32px;
     font-size: 16px;
     margin-top: 20px;
     color: #000;
+    font-family: "Roboto";
 }
 .logo-brand1,
 .logo-brand2,
@@ -574,6 +581,7 @@
 
 .logo-design-parent{
     padding-top: 120px;
+    padding-bottom: 50px;
 }
 
 .logo-design-img2{
@@ -584,6 +592,8 @@
 .logo-design-heading{
     font-size: 50px;
     padding: 0;
+    font-family: "Corbert";
+    text-align: center;
 }
 
 .logo-design-section{
@@ -624,7 +634,7 @@
 
 .custom-tabs .nav-link {
   border: none;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid #000;
   color: #000;
   font-weight: 700;
   padding: 15px 120px 15px 30px;
@@ -638,6 +648,7 @@
   font-weight: 700;
   border: 1px solid #000;
   border-bottom: 1px solid #fff; 
+ 
 }
 
 .custom-tabs .nav-link:hover {
@@ -657,11 +668,17 @@
   color: #000;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.7em;
+  font-family: "Roboto";
 }
 
 .mobile-tabs{
     display: none;
+}
+
+.tab-btn{
+  font-family: "Corbert";
+  font-size: 18px;
 }
 
 
@@ -702,6 +719,12 @@
     .image-stack{
         margin-top: 20px;
     }
+}
+
+.image-stack{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media (max-width: 1024px){
@@ -751,9 +774,16 @@
     }
 }
 
+.logo-brand-row{
+margin:0 !important;
+}
+
+.red-headg{
+  color: #ca2734;
+}
+
 .custom-tabs .nav-link {
     border: none;
-    border-bottom: 1px solid transparent;
     color: #000;
     font-weight: 700;
     padding: 14px 60px 15px 10px;
@@ -768,6 +798,10 @@
   .custom-tabs .nav-link {
     padding: 14px 30px 15px 10px;  
 }
+}
+
+.logo-brand1, .logo-brand2, .logo-brand3, .logo-brand4, .logo-brand5, .logo-brand6, .logo-brand7{
+  padding: 100px 0;
 }
 
 

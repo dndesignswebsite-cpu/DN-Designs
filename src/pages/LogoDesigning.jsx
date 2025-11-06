@@ -524,18 +524,18 @@ function LogoDesigning() {
 
 
 
-
+{/* Types of Brand  */}
 <section>
       <div class="container logo-brand-parent">
-        <h2 class="text-center fw-bold brand-logo-heading">Types of Brand Identity <span>Logos We Design</span></h2>
+        <h2 class="text-center brand-logo-heading">Types of Brand Identity <span className="red-headg">Logos We Design</span></h2>
         <div class="row logo-brand1">
             <div class="col-12 col-lg-5 col-md-12">
-                <h2 class="fw-bold logo-brand-title">Monogram</h2>
+                <h2 class="logo-brand-title">Monogram</h2>
                 <h6 class="logo-type">Lettermark</h6>
                 <p class="logo-brand-paragraph">This combines the initial letters of the brand name to create an abbreviated version. Think of ESPN (Entertainment and Sports Programming Network) and P&G (Procter & Gamble). Companies with longer names prefer this type of design to make their logo compact and memorable.</p>
             </div>
             <div class="col-12 col-lg-7 col-12 com-md-12 logo-list">
-                <div class="row">
+                <div class="row logo-brand-row">
                     <div class="col-4 col-lg-4 col-md-4">
                         <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/16.png" alt="HBO logo" class="img-fluid logo"/>
                     </div>
@@ -556,7 +556,7 @@ function LogoDesigning() {
                 <p class="logo-brand-paragraph">This comprises solely the brand name. Examples include Google, L’oreal and ebay. Brands with concise names and a strong persona pick this type of logo. Custom typography and styling that reflect brand identity make these logos memorable.</p>
             </div>
             <div class="col-12 col-lg-7 col-md-12 logo-list">
-                <div class="row">
+                <div class="row logo-brand-row">
                     <div class="col-4 col-lg-4 col-md-4">
                         <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/22.png" alt="Visa logo" class="img-fluid logo"/>
                     </div>
@@ -577,7 +577,7 @@ function LogoDesigning() {
                 <p class="logo-brand-paragraph">As per its name, this type of logo draws on graphics, images, icons and symbols from the real world. The best example of this is Apple. This type of logo is best when brands can find pictures or symbols that appropriately present their business, whether literally or figuratively. This is very easy to recognise.</p>
             </div>
             <div class="col-12 col-lg-7 col-md-12 logo-list">
-                <div class="row">
+                <div class="row logo-brand-row">
                     <div class="col-4 col-lg-4 col-md-4">
                         <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/2-1.png" alt="Apple logo" class="img-fluid logo"/>
                     </div>
@@ -598,7 +598,7 @@ function LogoDesigning() {
                 <p class="logo-brand-paragraph">In contrast to pictorial logos that use images from the real world, abstract logos use geometric shapes and colours to convey the right message and emotion. Few brands that use this type of logo include Mastercard, Pepsi and Mitsubishi. Brands that want a timeless logo that breaks cultural and language barriers (and thus has a global appeal) opt for an abstract logo.</p>
             </div>
             <div class="col-12 col-lg-7 col-md-12 logo-list">
-                <div class="row">
+                <div class="row logo-brand-row">
                     <div class="col-4 col-lg-4 col-md-4">
                         <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/15.png" alt="adidas logo" class="img-fluid logo"/>
                     </div>
@@ -619,7 +619,7 @@ function LogoDesigning() {
                 <p class="logo-brand-paragraph">Brands that want to evoke a more fun and friendly emotion opt for this type of logo. Remember the logos of KFC and Amul? This type of logo has an illustrated character that represents the brand and fosters a strong emotional connection with the customers.</p>
             </div>
             <div class="col-12 col-lg-7 col-md-12 logo-list">
-                <div class="row">
+                <div class="row logo-brand-row">
                     <div class="col-4 col-lg-4 col-md-4">
                         <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/5.png" alt="KFC logo" class="img-fluid logo"/>
                     </div>
@@ -640,7 +640,7 @@ function LogoDesigning() {
                 <p class="logo-brand-paragraph">This logo combines text with symbol, image, mascot and shape to create a unique identity for the brand. It is adaptable, giving brands a scope to split the main logo and carve out variations from it. Few examples of this type of logos include Puma, Jaguar and Burger King.</p>
             </div>
             <div class="col-12 col-lg-7 col-md-12 logo-list">
-                <div class="row">
+                <div class="row logo-brand-row">
                     <div class="col-4 col-lg-4 col-md-4">
                         <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/3.png" alt="Doritos logo" class="img-fluid logo"/>
                     </div>
@@ -661,7 +661,7 @@ function LogoDesigning() {
                 <p class="logo-brand-paragraph">Businesses that wish to convey an air of legacy, prestige and tradition usually go for an emblem logo. These logos include a shape that encompasses text, image or symbol. Some of the best examples of this type of logos are Harley-Davidson, Starbucks, Harvard University and Oxford University.</p>
             </div>
             <div class="col-12 col-lg-7 col-md-12 logo-list">
-                <div class="row">
+                <div class="row logo-brand-row">
                     <div class="col-4 col-lg-4 col-md-4">
                         <img src="https://dndesigns.co.in/wp-content/uploads/2024/09/logo.png" alt="Harley-Davidson logo" class="img-fluid logo"/>
                     </div>
@@ -675,12 +675,18 @@ function LogoDesigning() {
             </div>
         </div>
     </div>
+    </section>
 
-    <div class="container logo-design-parent">
-        <h2 class="text-center fw-bold logo-design-heading">
-            The Wow-Making Elements Of <br/>
-            <span>Professional Logo Design</span>
+{/* The Wow-Making */}
+<section>
+    <div class="container logo-design-parent ">
+    <div className="row text-center">
+<h2 class="text-center  logo-design-heading">
+            The Wow-Making Elements Of 
+            <span className="red-headg"><br/> Professional Logo Design</span>
         </h2>
+    </div>
+        
 
         <div class="row logo-design-section">
             <div class="col-lg-8 col-md-7 position-relative logo-hover-wrapper">
@@ -699,7 +705,7 @@ function LogoDesigning() {
             </div>
 
             <div class="col-lg-4 col-md-5 mb-sm-4 image-stack">
-                <div class="row mb-4">
+                <div class="row">
                     <div class="col-lg-12">
                     <img
                         src="https://dndesigns.co.in/wp-content/uploads/2025/06/wordmark-2048x1078.png"
@@ -720,14 +726,18 @@ function LogoDesigning() {
             </div>
         </div>  
     </div>
+    </section>
 
+
+{/* tabs desktop */}
+    <section>
     <div class="container logo-tabs-container mt-5 tabs-section">
         <ul class="nav nav-tabs custom-tabs" id="logoTabs" role="tablist">
             <li class="nav-item" role="presentation">
             <button class="nav-link active" id="style-tab" data-bs-toggle="tab" data-bs-target="#style" type="button" role="tab">Logo Style</button>
             </li>
             <li class="nav-item" role="presentation">
-            <button class="nav-link" id="palette-tab" data-bs-toggle="tab" data-bs-target="#palette" type="button" role="tab">Colour palette</button>
+            <button class="nav-link tab-btn" id="palette-tab" data-bs-toggle="tab" data-bs-target="#palette" type="button" role="tab">Colour palette</button>
             </li>
             <li class="nav-item" role="presentation">
             <button class="nav-link" id="typography-tab" data-bs-toggle="tab" data-bs-target="#typography" type="button" role="tab">Typography</button>
@@ -763,7 +773,12 @@ function LogoDesigning() {
             </div>
         </div>
     </div>
+    </section>
 
+
+
+{/* tabs mobile */}
+<section>
     <div class="container mobile-tabs mt-5">
         <h2 class="mobile-tab-heading fw-bold">Logo Style</h2>
         <p class="mobile-tab-paragraph mt-4">Type/Style is all about how your logo appears in totality. As the best logo design company in India, we invest a lot of thought and carefully select the logo style for your brand depending on your requirements. We take into consideration your brand identity, personality, voice and how you want to be perceived by your audience, and match it up with the best logo type. These styles include combination marks, wordmarks, letter marks, abstract, emblems and dynamic.</p>
@@ -781,7 +796,8 @@ function LogoDesigning() {
         <h2 class="mobile-tab-heading fw-bold mt-5">Layout</h2>
         <p class="mobile-tab-paragraph mt-4">Anything in the background doesn’t have much value. This could perhaps be true for a lot of things, but not logo design. Think of the red background of the McDonald’s logo. The feel of the brand is not complete without this background. As a logo design agency, we understand the importance of this design element and therefore create a layout that enhances the effect of your logo. While deciding the layout, we consider the need to incorporate a symbol or a tagline as well.</p>
     </div>
-</section>
+    </section>
+
 
 
 
