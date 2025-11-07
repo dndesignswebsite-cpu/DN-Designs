@@ -1,0 +1,74 @@
+import React, { useState, useRef, useEffect } from "react";
+import "../assets/css/Faqs.css";
+
+function AccordionItem({ question, answer, isOpen, onClick }) {
+  const contentRef = useRef(null);
+  const [height, setHeight] = useState("0px");
+
+  useEffect(() => {
+    setHeight(isOpen ? `${contentRef.current.scrollHeight}px` : "0px");
+  }, [isOpen]);
+
+  return (
+    <div className={`accordion-item ${isOpen ? "open" : ""}`}>
+      <button className="accordion-link" onClick={onClick}>
+        <div className="flex">
+          <h3>{question}</h3>
+        </div>
+        <i
+          className={`icon ${
+            isOpen ? "ion-md-arrow-down" : "ion-md-arrow-forward"
+          }`}
+        ></i>
+      </button>
+
+      <div ref={contentRef} className="answer" style={{ maxHeight: height }}>
+        <p>{answer}</p>
+      </div>
+    </div>
+  );
+}
+
+export default function Faqs({ leftFaqs, rightFaqs, title = "FAQs" }) {
+  const [leftActive, setLeftActive] = useState(null);
+  const [rightActive, setRightActive] = useState(null);
+
+  return (
+    <section className="faq-section">
+      <div className="container">
+        <div className="row">
+
+          {/* Left Column */}
+          <div className="col">
+            {leftFaqs.map((item, index) => (
+              <AccordionItem
+                key={`left-${index}`}
+                question={item.question}
+                answer={item.answer}
+                isOpen={leftActive === index}
+                onClick={() =>
+                  setLeftActive(leftActive === index ? null : index)
+                }
+              />
+            ))}
+          </div>
+
+          {/* Right Column */}
+          <div className="col">
+            {rightFaqs.map((item, index) => (
+              <AccordionItem
+                key={`right-${index}`}
+                question={item.question}
+                answer={item.answer}
+                isOpen={rightActive === index}
+                onClick={() =>
+                  setRightActive(rightActive === index ? null : index)
+                }
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
