@@ -6,67 +6,32 @@ import Form from "../components/Form"
  import Breadcrumb from "../components/Breadcrumb";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import Faqs from '../components/Faqs';
 
 function Branding() {
   // faqs
-  const [activeIndex_f, setActiveIndex_f] = useState(null);
-    const [activeIndex_s, setActiveIndex_s] = useState(null);
-  
-    const toggleAccordion_f = (index) => {
-      if (activeIndex_f === index) {
-        setActiveIndex_f(null);
-      } else {
-        setActiveIndex_f(index);
-      }
-    };
-  
-    const toggleAccordion_s = (index) => {
-      if (activeIndex_s === index) {
-        setActiveIndex_s(null);
-      } else {
-        setActiveIndex_s(index);
-      }
-    };
-  
-    const sheet_one = [
-      {
-        title: "What services does DN Designs Offer",
-        content:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      },
-      {
-        title: " do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        content:
-          "Ut enim ad minim veniam, quis nostrud do eiusmod tempor incididunt ut labore et dolore magna aliqua. exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      },
-      {
-        title: " do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        content:
-          "Duis aute irure dolor in do eiusmod tempor incididunt ut labore et dolore magna aliqua. reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      },
-    ];
-  
-    const sheet_two = [
-      {
-        title:
-          "Section do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        content:
-          "Lorem ipsum dolor do eiusmod tempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      },
-      {
-        title:
-          "Section do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        content:
-          "Ut enim ad minim  do eiusmod tempor incididunt ut labore et dolore magna aliqua.veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      },
-      {
-        title:
-          "Section  do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        content:
-          "Duis aute irure do eiusmod tempor incididunt ut labore et dolore magna aliqua. dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      },
-    ];
-  
+   const leftFaqs = [
+    {
+      question: "How can I contact your team?",
+      answer: "You can use the contact form or call us directly at +91-9999999999.",
+    },
+    {
+      question: "Do you offer remote consultation?",
+      answer: "Yes! We do virtual meetings over Zoom, Google Meet, or Microsoft Teams.",
+    },
+  ];
+
+  const rightFaqs = [
+    {
+      question: "Where is your office located?",
+      answer: "We are based in Noida, India, but work with clients worldwide.",
+    },
+    {
+      question: "What is your response time?",
+      answer: "We usually reply within 24 hours of receiving your query.",
+    },
+  ];
+
 // horizontal scroll
   const slidesData = [
     { title: "The Bobalist", img: 'https://dndesigns.co.in/wp-content/uploads/2025/06/14.jpg',
@@ -624,60 +589,19 @@ function Branding() {
 
               {/* faqs */}
                 <section className="faqs">
-  <div className="container">
-    <div className="row">
-      <h2 className="text-center">Frequently Asked Questions</h2>
-
-      <div className="col-12 col-md-12 col-lg-6">
-        <div className="all_faqs">
-          {sheet_one.map((first_sheet, index) => (
-            <div className="faq_unit" key={index}>
-              <button
-                className={`accordion ${
-                  activeIndex_f === index ? "active" : ""
-                }`}
-                onClick={() => toggleAccordion_f(index)}
-              >
-                {first_sheet.title}
-              </button>
-              <div
-                className={`panel ${
-                  activeIndex_f === index ? "open" : ""
-                }`}
-              >
-                <p>{first_sheet.content}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <div className="col-12 col-md-12 col-lg-6">
-        <div className="all_faqs">
-          {sheet_two.map((second_sheet, index) => (
-            <div className="faq_unit" key={index}>
-              <button
-                className={`accordion ${
-                  activeIndex_s === index ? "active" : ""
-                }`}
-                onClick={() => toggleAccordion_s(index)}
-              >
-                {second_sheet.title}
-              </button>
-              <div
-                className={`panel ${
-                  activeIndex_s === index ? "open" : ""
-                }`}
-              >
-                <p>{second_sheet.content}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+                     <div className="container">
+                       <div className="row text-center">
+                         <h2>Frequently Asked Questions</h2>
+                       </div>
+                     </div>
+                           <Faqs
+                             title="CONTACT FAQs"
+                             leftFaqs={leftFaqs}
+                             rightFaqs={rightFaqs}
+                           />
+                     </section>
+                      
+               
 
 {/* form */}
       <Form />

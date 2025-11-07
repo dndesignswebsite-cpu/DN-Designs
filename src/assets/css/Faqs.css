@@ -29,6 +29,18 @@
   background-color: #fff;
 }
 
+.dd::after{
+  content: " \002D";
+   font-size: 30px;
+   color: #ca2734;
+}
+
+.aa::after{
+  content: "\002B ";
+  font-size: 30px;
+  color: #ca2734;
+}
+
 
 
 .accordion-link h3 {
@@ -42,11 +54,6 @@
   font-size: 20px;
   transition: transform 0.3s ease;
 }
-
-.accordion-item.open .icon {
-  transform: rotate(90deg);
-}
-
 
 .answer {
   max-height: 0;

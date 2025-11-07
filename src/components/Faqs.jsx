@@ -17,7 +17,7 @@ function AccordionItem({ question, answer, isOpen, onClick }) {
         </div>
         <i
           className={`icon ${
-            isOpen ? "ion-md-arrow-down" : "ion-md-arrow-forward"
+            isOpen ? "dd" : "aa"
           }`}
         ></i>
       </button>
