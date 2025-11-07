@@ -10,10 +10,10 @@ function CatalogueDesigning() {
     <div> 
 {/*Breadcrumb*/}
       <section>
-        <Breadcrumb />
+        <Breadcrumb/>
       </section>
 
-      {/* Hero section */}
+      {/*Hero section*/}
 
       <section className="catalogue-designing-hero">
         <div className="container">
@@ -248,6 +248,28 @@ function CatalogueDesigning() {
 
 
             </div>
+        </div>
+      </section>
+
+
+
+      {/* E-Catalogues */}
+
+      <section className='e-catalogues'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col'>
+            <div className='e-catalogues-left'>
+              <h4>E-Catalogues</h4>
+              <h3>Make Your Catalogues More Accessible, Interactive And Shareable</h3>
+              <p>Conveniently share and update information about your company, products and services through online brochures and catalogues. These are downloadable and enable customers to place an order right there.</p>
+            <div className='e-catalogues-left-btn-div'><button>Get in Touch</button>
+            </div>  
+            </div>
+            </div>
+
+            <div className='col e-catalogues-right'></div>
+          </div>
         </div>
       </section>
 

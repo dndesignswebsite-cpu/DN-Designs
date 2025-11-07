@@ -178,5 +178,57 @@
 }
 
 
+/* E-Catalogues */
+
+.e-catalogues{
+  padding: 50px 0;
+}
+
+.e-catalogues-left{
+  background-color: #ca2734;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.e-catalogues-left h4{
+  font-family: "Corbert";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.e-catalogues-left h3{
+      color: #FFFFFF;
+    font-family: "corbert bold", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.e-catalogues-left p{
+          color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+    padding-top: 20px;
+}
+
+.e-catalogues-left-btn-div{
+  display: flex;
+  justify-content: end;
+  padding-top: 10px;
+}
+
+.e-catalogues-left button{
+      color: #000;
+      background-color: #fff;
+    font-family: "Corbert", Sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+
 
 
