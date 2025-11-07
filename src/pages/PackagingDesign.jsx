@@ -541,7 +541,7 @@ function PackagingDesign() {
         <span style={{ color: "#CA2734" }}>Design Services</span>
       </h2>
 
-      <div className="row g-5">
+      <div className="row g-5 standalone-packaging-mobile  ">
         <div className="col-md-6 col-12">
           <img
             src="https://dndesigns.co.in/wp-content/uploads/2025/06/smart-adult-caucasi.jpg"

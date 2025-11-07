@@ -8,6 +8,7 @@ import Services from "./pages/Services";
 import Branding from "./pages/Branding";
 import LogoDesigning from "./pages/LogoDesigning";
 import PackagingDesign from "./pages/PackagingDesign";
+import CatalogueDesigning from "./pages/CatalogueDesigning";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Route path="/branding" element={<Branding/>}/>
       <Route path="/logo-designing" element={<LogoDesigning/>}/>
       <Route path="/packaging-design" element={<PackagingDesign/>}/>
+      <Route path="/catalogue-designing" element={<CatalogueDesigning/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>
