@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Faqs from '../components/Faqs';
 import Form from "../components/Form.jsx"
+import HTMLFlipBook from "react-pageflip";
 
 
 function PackagingDesign() {
@@ -634,6 +635,42 @@ function PackagingDesign() {
               rightFaqs={rightFaqs}
             />
       </section>
+
+
+      {/* sjnd */}
+
+     <section>
+       <div className='container text-center'>
+       <div className='row'>
+        <div className='col-12 col-md-6 px-2'>
+                <HTMLFlipBook width={300} height={500}
+                showCover={true}>
+          <div className="demoPage1">
+            <img src='https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg' className='img-fluid'/>
+          </div>
+          <div className="demoPage2"><img src='https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg' className='img-fluid'/></div>
+          <div className="demoPage3"><img src='https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg' className='img-fluid'/></div>
+          <div className="demoPage4"><img src='https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg' className='img-fluid'/></div>
+          <div className="demoPage5"><img src='https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg' className='img-fluid'/></div>
+          <div className="demoPage6"><img src='https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg' className='img-fluid'/></div>
+          <div className="demoPage6"><img src='https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg' className='img-fluid'/></div>
+        </HTMLFlipBook>
+        </div>
+          <div className='col-12 col-md-6 px-2'>
+                <HTMLFlipBook width={300} height={500}>
+          <div className="demoPage1">Page 1 Content</div>
+          <div className="demoPage2">Page 2 Content</div>
+          <div className="demoPage3">Page 3 Content</div>
+          <div className="demoPage4">Page 4 Content</div>
+          <div className="demoPage5">Page 4 Content</div>
+          <div className="demoPage6">Page 4 Content</div>
+          <div className="demoPage6">Page 4 Content</div>
+        </HTMLFlipBook>
+        </div>
+       </div>
+      
+    </div>
+    </section>
        
 
       {/* form */}
