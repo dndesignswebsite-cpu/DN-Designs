@@ -120,13 +120,13 @@
         font-weight: 300;
         font-size: 18px;
 }
-.form-main-content.animate{
+/* .form-main-content.animate{
   opacity: 0;
   transform: translateX(-100px); 
   animation: fadeInLeft 1s ease-out forwards;
-}
+} */
 
-@keyframes fadeInLeft {
+/* @keyframes fadeInLeft {
   0% {
     opacity: 0;
     transform: translateX(-100px); 
@@ -135,7 +135,7 @@
     opacity: 1;
     transform: translateX(0); 
   }
-}
+} */
 
 
 @media(max-width:1025px){

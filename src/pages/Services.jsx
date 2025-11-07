@@ -20,6 +20,10 @@ function Service() {
       question: "Do you offer remote consultation?",
       answer: "Yes! We do virtual meetings over Zoom, Google Meet, or Microsoft Teams.",
     },
+       {
+      question: "Do you offer remote consultation?",
+      answer: "Yes! We do virtual meetings over Zoom, Google Meet, or Microsoft Teams.",
+    },
   ];
 
   const rightFaqs = [

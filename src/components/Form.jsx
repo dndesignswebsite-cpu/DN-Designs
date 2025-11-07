@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../assets/css/Form.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Form() {
   const [name, setName] = useState("");
@@ -12,31 +14,11 @@ function Form() {
     alert(name + " " + email + " " + mobilenumber + " " + message);
   };
 
-
-  // animation
-const formcontentRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
-
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const entry = entries[0];
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.unobserve(entry.target);
-        }
-      },
-      {
-        threshold: 0.4,
-      }
-    );
-
-    if (formcontentRef.current) observer.observe(formcontentRef.current);
-
-    return () => {
-      if (formcontentRef.current) observer.unobserve(formcontentRef.current);
-    };
+    AOS.init({ duration: 1000 });
   }, []);
+
+
 
   return (
     <div>
@@ -45,8 +27,9 @@ const formcontentRef = useRef(null);
           <div className="row form-row">
             <div className="col-12 col-md-12 col-lg-5 form-left-content">
             <div className="form-content-wrapper">
-            <div className={`form-main-content ${isVisible ? "animate" : ""}`} ref={formcontentRef}>
-
+            
+           
+            <div data-aos="fade-right" className="form-main-content">
               <h3>Let’s Discuss Over a Cup of Coffee</h3>
               <p>
                 Some brands simply stand out! You recognise them, you trust them
@@ -62,6 +45,7 @@ const formcontentRef = useRef(null);
                 something others love and envy.
               </p>
               </div>
+
             </div>
             </div>
 
