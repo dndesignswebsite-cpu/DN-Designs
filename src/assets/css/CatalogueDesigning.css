@@ -228,6 +228,16 @@
     border-radius: 50px;
     border: none;
 }
+.e-catalogues-right-row{
+  margin-top: 20px;
+}
+
+.e-catalogues-right img{
+      border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #CCCCCC;
+    border-radius: 16px 16px 16px 16px;
+}
 
 
 

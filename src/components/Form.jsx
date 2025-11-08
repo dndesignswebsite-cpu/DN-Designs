@@ -14,9 +14,23 @@ function Form() {
     alert(name + " " + email + " " + mobilenumber + " " + message);
   };
 
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
+  
+     useEffect(() => {
+  const handleLoad = () => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      mirror: false,
+    });
+    AOS.refresh();
+  };
+  window.addEventListener("load", handleLoad);
+  return () => {
+    window.removeEventListener("load", handleLoad);
+  };
+}, []);
+
+  
 
 
 

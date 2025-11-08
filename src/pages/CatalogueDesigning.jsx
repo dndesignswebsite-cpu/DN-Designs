@@ -258,7 +258,7 @@ function CatalogueDesigning() {
       <section className='e-catalogues'>
         <div className='container'>
           <div className='row'>
-            <div className='col'>
+            <div className='col-12 col-md-6'>
             <div className='e-catalogues-left'>
               <h4>E-Catalogues</h4>
               <h3>Make Your Catalogues More Accessible, Interactive And Shareable</h3>
@@ -268,7 +268,29 @@ function CatalogueDesigning() {
             </div>
             </div>
 
-            <div className='col e-catalogues-right'></div>
+            <div className='col-12 col-md-6 '>
+
+            <div className='e-catalogues-right'>
+                 <div className='row '>
+                  <div className='col-6'>
+                    <img src='https://dndesigns.co.in/wp-content/uploads/2025/02/1.jpg' className='img-fluid'/>
+                  </div>
+                  <div className='col-6'>
+                    <img src='https://dndesigns.co.in/wp-content/uploads/2025/02/1.jpg' className='img-fluid'/>
+                  </div>
+                 </div>
+
+                 <div className='row e-catalogues-right-row'>
+                  <div className='col-6'>
+                    <img src='https://dndesigns.co.in/wp-content/uploads/2025/02/1.jpg' className='img-fluid'/>
+                  </div>
+                  <div className='col-6'>
+                    <img src='https://dndesigns.co.in/wp-content/uploads/2025/02/1.jpg' className='img-fluid'/>
+                  </div>
+                 </div>
+            </div>
+
+            </div>
           </div>
         </div>
       </section>
