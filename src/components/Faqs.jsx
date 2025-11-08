@@ -10,9 +10,9 @@ function AccordionItem({ question, answer, isOpen, onClick }) {
   }, [isOpen]);
 
   return (
-    <div className={`accordion-item ${isOpen ? "open" : ""}`}>
-      <button className="accordion-link" onClick={onClick}>
-        <div className="flex">
+    <div className={`accordio-item ${isOpen ? "open" : ""}`}>
+      <button className="accordio-link" onClick={onClick}>
+        <div className="flex quesion">
           <h3>{question}</h3>
         </div>
         <i
@@ -39,7 +39,7 @@ export default function Faqs({ leftFaqs, rightFaqs, title = "FAQs" }) {
         <div className="row">
 
           {/* Left Column */}
-          <div className="col">
+          <div className="col-12 col-md-6">
             {leftFaqs.map((item, index) => (
               <AccordionItem
                 key={`left-${index}`}
@@ -54,7 +54,7 @@ export default function Faqs({ leftFaqs, rightFaqs, title = "FAQs" }) {
           </div>
 
           {/* Right Column */}
-          <div className="col">
+          <div className="col-12 col-md-6">
             {rightFaqs.map((item, index) => (
               <AccordionItem
                 key={`right-${index}`}
