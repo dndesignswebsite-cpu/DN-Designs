@@ -15,19 +15,34 @@ function Form() {
   };
 
   
-     useEffect(() => {
-  const handleLoad = () => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-      mirror: false,
-    });
+//      useEffect(() => {
+//   const handleLoad = () => {
+//     AOS.init({
+//       duration: 1000,
+//       once: true,
+//       mirror: false,
+//     });
+//     AOS.refresh();
+//   };
+//   window.addEventListener("load", handleLoad);
+//   return () => {
+//     window.removeEventListener("load", handleLoad);
+//   };
+// }, []);
+
+
+
+useEffect(() => {
+  AOS.init({
+    duration: 1000,
+    once: true,
+    mirror: false,
+  });
+
+  // Wait for React rendering to finish before refreshing AOS
+  setTimeout(() => {
     AOS.refresh();
-  };
-  window.addEventListener("load", handleLoad);
-  return () => {
-    window.removeEventListener("load", handleLoad);
-  };
+  }, 500);
 }, []);
 
   
