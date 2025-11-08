@@ -3,8 +3,39 @@ import Breadcrumb from "../components/Breadcrumb";
 import "../assets/css/BrandNameSuggestion.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import Faqs from '../components/Faqs';
+import Form from '../components/Form';
 
 function BrandNameSuggestion() {
+ const leftFaqs = [
+    {
+      question: "How can I contact your team?",
+      answer: "You can use the contact form or call us directly at +91-9999999999.",
+    },
+    {
+      question: "Do you offer remote consultation?",
+      answer: "Yes! We do virtual meetings over Zoom, Google Meet, or Microsoft Teams.",
+    },
+       {
+      question: "Do you offer remote consultation?",
+      answer: "Yes! We do virtual meetings over Zoom, Google Meet, or Microsoft Teams.",
+    },
+  ];
+
+  const rightFaqs = [
+    {
+      question: "Where is your office located?",
+      answer: "We are based in Noida, India, but work with clients worldwide.",
+    },
+    {
+      question: "What is your response time?",
+      answer: "We usually reply within 24 hours of receiving your query.",
+    },
+  ];
+
+
+
+
   return (
     <div>
       {/*Breadcrumb*/}
@@ -334,18 +365,73 @@ function BrandNameSuggestion() {
 
       {/* Winning Brand Names - Crafted By Us */}
       <section className="winning-brand-names">
-      <div className="conatiner">
+      <div className="container">
         <div className="row">
         <div className="winning-brand-names-heading-div">
-          
+          <h2>Winning Brand Names - Crafted By Us</h2>
+          <div className="winning-brand-names-btn-div">
+          <button className="talk-to-us">
+                  Talk to Us
+                  <FontAwesomeIcon
+                    icon={faArrowRight}
+                    size="18px"
+                    className="fontAwesomeIcon-right-arrow"
+                  />
+                </button>
+                </div>
         </div>
-          <div className="col">
+        <p>Brand names evoke a feeling. If this feeling is positive, rest assured, your business is already on its winning path. At DN Designs, we come up with creative product or business name ideas that leave a positive first impression and set you on a path to success.</p>
 
+          <div className="winning-brand-companies-col">
+               <div className="row">
+               <div className="col-12 col-md-6 col-lg-3">
+               <div className="winning-brand-companies">
+               <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/fluke.png" className="img-fluid"/>
+               </div>
+               </div>
+               <div className="col-12 col-md-6 col-lg-3">
+               <div className="winning-brand-companies">
+               <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/site-icon-1.png" className="img-fluid"/>
+               </div>
+               </div>
+               <div className="col-12 col-md-6 col-lg-3">
+               <div className="winning-brand-companies">
+               <img src="https://dndesigns.co.in/wp-content/uploads/2025/07/mr-bomzy.png" className="img-fluid"/>
+               </div>
+               </div>
+               <div className="col-12 col-md-6 col-lg-3">
+               <div className="winning-brand-companies">
+               <img src="https://dndesigns.co.in/wp-content/uploads/2025/06/bobalist.png" className="img-fluid"/>
+               </div>
+               </div>
+               </div>
           </div>
         </div>
       </div>
-
       </section>
+
+
+
+
+    {/* faqs */}
+
+      <section className="faqs">
+      <div className="container">
+        <div className="row text-center">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+      </div>
+            <Faqs
+              title="CONTACT FAQs"
+              leftFaqs={leftFaqs}
+              rightFaqs={rightFaqs}
+            />
+      </section>
+
+
+        {/* form */}
+      <Form />
+
     </div>
   );
 }

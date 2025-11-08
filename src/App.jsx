@@ -10,6 +10,7 @@ import LogoDesigning from "./pages/LogoDesigning";
 import PackagingDesign from "./pages/PackagingDesign";
 import CatalogueDesigning from "./pages/CatalogueDesigning";
 import BrandNameSuggestion from "./pages/BrandNameSuggestion";
+import Animation from "./pages/Animation";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <Route path="/packaging-design" element={<PackagingDesign/>}/>
       <Route path="/catalogue-designing" element={<CatalogueDesigning/>}/>
       <Route path="/brand-name-suggestion" element={<BrandNameSuggestion/>}/>
+      <Route path="/animation" element={<Animation/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>
