@@ -3,7 +3,6 @@ import "../assets/css/CatalogueDesigning.css";
 import Breadcrumb from "../components/Breadcrumb";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import HTMLFlipBook from "react-pageflip";
 import Faqs from '../components/Faqs';
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,6 +10,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import Form from '../components/Form';
+import BookModel from "../components/BookModel";
 
 function CatalogueDesigning() {
 
@@ -68,13 +68,7 @@ function CatalogueDesigning() {
                 </button>
               </div>
               <p>
-                Packaging design is similar to a movie teaser. If it doesn’t
-                capture the audience’s interest, they will spend their time and
-                money elsewhere. Packaging design is, therefore, crucial to make
-                the first impactful impression on customers that will eventually
-                lead to sales. As a creative design agency in India, we offer
-                you just that. Stay with us as we walk you through our work
-                portfolio and structured work process.
+               Catalogues are essential marketing collateral that are meant to raise brand recognition, engagement and trust as well as sales and revenue. As a brochure and catalogue design agency, we strive to create professional, pleasing and engrossing catalogues for your business. Do you want us to elaborate on what makes a catalogue or brochure effective and how exactly we create one for you? Stay with us as we cover everything for you. Also, browse through our FAQs to gain further clarity on the topic and our catalogue design services.
               </p>
               <button className="talk-to-us talk-to-us-mobile">
                 Talk to Us
@@ -90,72 +84,7 @@ function CatalogueDesigning() {
       </section>
 
       {/* Our Work Portfolio */}
-
-      <section className="our-work-portfolio">
-        <div className="our-work-portfolio-custom-container">
-
-        <h2 className="text-center">Our <span className="every-pr">Work Portfolio</span></h2>
-
-          <div className="our-work-portfolio-custom-row">
-            <div className="our-work-portfolio-custom-col">
-              <img
-                src="https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg"
-                className="img-fluid"
-              />
-            </div>
-            <div className="our-work-portfolio-custom-col">
-               {/* <HTMLFlipBook showCover={true}>
-                <div className="demoPage1">
-                  <img
-                    src="https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="demoPage2">
-                  <img
-                    src="https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="demoPage3">
-                  <img
-                    src="https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="demoPage4">
-                  <img
-                    src="https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="demoPage5">
-                  <img
-                    src="https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="demoPage6">
-                  <img
-                    src="https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="demoPage6">
-                  <img
-                    src="https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg"
-                    className="img-fluid"
-                  />
-                </div>
-              </HTMLFlipBook>  */}
-               <img
-                    src="https://dndesigns.co.in/wp-content/uploads/2025/01/1.jpg"
-                    className="img-fluid"
-                  />
-            </div>
-          </div>
-        </div>
-      </section>
+      <BookModel/>
 
       {/*The Protagonists */}
 

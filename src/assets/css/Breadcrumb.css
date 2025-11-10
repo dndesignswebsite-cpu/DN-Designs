@@ -8,3 +8,11 @@
     font-family: "Corbert";
     color: #434347;
 }
+
+.breadCrump-prev{
+    font-family: "Corbert";
+        color: #A5A4B0;
+        font-size: 16px;
+        padding: 0 5px;
+        font-weight: 800;
+}

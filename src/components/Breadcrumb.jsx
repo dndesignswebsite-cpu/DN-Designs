@@ -17,7 +17,7 @@ const Breadcrumb = () => {
         const fullPath = `/${paths.slice(0, index + 1).join("/")}`;
         return (
           <span key={index}>
-            {" > "}
+           <span className="breadCrump-prev">{" > "}</span> 
             <Link className="Bread-sub" to={fullPath}>{value.charAt(0).toUpperCase() + value.slice(1)}</Link>
           </span>
         );

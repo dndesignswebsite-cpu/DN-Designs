@@ -48,8 +48,8 @@ function BrandNameSuggestion() {
       <section className="brand-name-suggestion-hero">
         <div className="container">
           <div className="row">
-            <h1>Strategic Packaging Design Agency</h1>
-            <h3>Get Noticed, Build Connection and Drive Sales</h3>
+            <h1>Brand Name Suggestion</h1>
+            <h3>Crafting Memorable Names For Your Business</h3>
             <div className="col-12 col-md-4">{/* .. */}</div>
             <div className="col-12 col-md-8">
               <div className="talk-to-us-div">
@@ -63,13 +63,7 @@ function BrandNameSuggestion() {
                 </button>
               </div>
               <p>
-                Packaging design is similar to a movie teaser. If it doesn’t
-                capture the audience’s interest, they will spend their time and
-                money elsewhere. Packaging design is, therefore, crucial to make
-                the first impactful impression on customers that will eventually
-                lead to sales. As a creative design agency in India, we offer
-                you just that. Stay with us as we walk you through our work
-                portfolio and structured work process.
+                Brand names are an integral part of brand identity, which, in turn, is crucial for the brand’s success. Brand naming, therefore, has tremendous significance in the entire branding process. Names should be distinctive, memorable, enduring and legally available. Want to know more about what other criteria make a good brand name and what kind of naming suggestions we can make for your business? Continue reading, as we have got everything covered for you here. Do check out FAQs, as we have answered questions that you may have.
               </p>
               <button className="talk-to-us talk-to-us-mobile">
                 Talk to Us
@@ -86,29 +80,29 @@ function BrandNameSuggestion() {
 
       {/* Characteristics of Good Brand Name? */}
 
-      <section className="top-cap">
+      <section className="characteristics-of-good">
         <div className="container">
           {/* 1st row */}
           <div className="row">
             <h2 className="text-center headg">
-              But Why Your<span className="every-pr"> Logo Even Matters?</span>
+              Characteristics of <span className="every-pr"> Good Brand Name?</span>
             </h2>
-            <div className="col-12 col-md-6 col-lg-3 px-2 top-cap-main-div">
-              <div className=" top-cap-div m-3">
+            <div className="col-12 col-md-6 col-lg-3 px-2 characteristics-of-good-main-div">
+              <div className=" characteristics-of-good-div m-3">
                 <div className="text-center m-5">
                   <img
                     src="https://dndesigns.co.in/wp-content/uploads/2025/07/design.svg"
                     className="cap-img"
                   ></img>
                 </div>
-                <div className="top-cap-btm">
+                <div className="characteristics-of-good-btm">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and we excel in it. Be it the overall
                     brand design, website design or content design
                   </p>
                 </div>
-                <div className="top-cap-back-content">
+                <div className="characteristics-of-good-back-content">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and Designing is our core, and we
@@ -122,27 +116,27 @@ function BrandNameSuggestion() {
                 </div>
               </div>
               <img
-                className="top-cap-check-eye"
+                className="characteristics-of-good-check-eye"
                 src="https://dndesigns.co.in/wp-content/uploads/2025/06/Frame-427324112.png"
               />
             </div>
 
-            <div className="col-12 col-md-6 col-lg-3 px-2 top-cap-main-div">
-              <div className=" top-cap-div m-3">
+            <div className="col-12 col-md-6 col-lg-3 px-2 characteristics-of-good-main-div">
+              <div className=" characteristics-of-good-div m-3">
                 <div className="text-center m-5">
                   <img
                     src="https://dndesigns.co.in/wp-content/uploads/2025/07/design.svg"
                     className="cap-img"
                   ></img>
                 </div>
-                <div className="top-cap-btm">
+                <div className="characteristics-of-good-btm">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and we excel in it. Be it the overall
                     brand design, website design or content design
                   </p>
                 </div>
-                <div className="top-cap-back-content">
+                <div className="characteristics-of-good-back-content">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and Designing is our core, and we
@@ -156,27 +150,27 @@ function BrandNameSuggestion() {
                 </div>
               </div>
               <img
-                className="top-cap-check-eye"
+                className="characteristics-of-good-check-eye"
                 src="https://dndesigns.co.in/wp-content/uploads/2025/06/Frame-427324112.png"
               />
             </div>
 
-            <div className="col-12 col-md-6 col-lg-3 px-2 top-cap-main-div">
-              <div className="p-3 top-cap-div m-3">
+            <div className="col-12 col-md-6 col-lg-3 px-2 characteristics-of-good-main-div">
+              <div className="p-3 characteristics-of-good-div m-3">
                 <div className="text-center m-5">
                   <img
                     src="https://dndesigns.co.in/wp-content/uploads/2025/07/design.svg"
                     className="cap-img"
                   ></img>
                 </div>
-                <div className="top-cap-btm">
+                <div className="characteristics-of-good-btm">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and we excel in it. Be it the overall
                     brand design, website design or content design
                   </p>
                 </div>
-                <div className="top-cap-back-content">
+                <div className="characteristics-of-good-back-content">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and we excel in it. Be it the overall
@@ -188,27 +182,27 @@ function BrandNameSuggestion() {
                 </div>
               </div>
               <img
-                className="top-cap-check-eye"
+                className="characteristics-of-good-check-eye"
                 src="https://dndesigns.co.in/wp-content/uploads/2025/06/Frame-427324112.png"
               />
             </div>
 
-            <div className="col-12 col-md-6 col-lg-3 px-2 top-cap-main-div">
-              <div className="p-3 top-cap-div m-3">
+            <div className="col-12 col-md-6 col-lg-3 px-2 characteristics-of-good-main-div">
+              <div className="p-3 characteristics-of-good-div m-3">
                 <div className="text-center m-5">
                   <img
                     src="https://dndesigns.co.in/wp-content/uploads/2025/07/design.svg"
                     className="cap-img"
                   ></img>
                 </div>
-                <div className="top-cap-btm">
+                <div className="characteristics-of-good-btm">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and we excel in it. Be it the overall
                     brand design, website design or content design
                   </p>
                 </div>
-                <div className="top-cap-back-content">
+                <div className="characteristics-of-good-back-content">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and we excel in it. Be it the overall
@@ -220,7 +214,7 @@ function BrandNameSuggestion() {
                 </div>
               </div>
               <img
-                className="top-cap-check-eye"
+                className="characteristics-of-good-check-eye"
                 src="https://dndesigns.co.in/wp-content/uploads/2025/06/Frame-427324112.png"
               />
             </div>
@@ -228,22 +222,22 @@ function BrandNameSuggestion() {
 
           {/* 2nd row */}
           <div className="row">
-            <div className="col-12 col-md-6 col-lg-3 px-2 top-cap-main-div">
-              <div className=" top-cap-div m-3">
+            <div className="col-12 col-md-6 col-lg-3 px-2 characteristics-of-good-main-div">
+              <div className=" characteristics-of-good-div m-3">
                 <div className="text-center m-5">
                   <img
                     src="https://dndesigns.co.in/wp-content/uploads/2025/07/design.svg"
                     className="cap-img"
                   ></img>
                 </div>
-                <div className="top-cap-btm">
+                <div className="characteristics-of-good-btm">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and we excel in it. Be it the overall
                     brand design, website design or content design
                   </p>
                 </div>
-                <div className="top-cap-back-content">
+                <div className="characteristics-of-good-back-content">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and Designing is our core, and we
@@ -257,27 +251,27 @@ function BrandNameSuggestion() {
                 </div>
               </div>
               <img
-                className="top-cap-check-eye"
+                className="characteristics-of-good-check-eye"
                 src="https://dndesigns.co.in/wp-content/uploads/2025/06/Frame-427324112.png"
               />
             </div>
 
-            <div className="col-12 col-md-6 col-lg-3 px-2 top-cap-main-div">
-              <div className=" top-cap-div m-3">
+            <div className="col-12 col-md-6 col-lg-3 px-2 characteristics-of-good-main-div">
+              <div className=" characteristics-of-good-div m-3">
                 <div className="text-center m-5">
                   <img
                     src="https://dndesigns.co.in/wp-content/uploads/2025/07/design.svg"
                     className="cap-img"
                   ></img>
                 </div>
-                <div className="top-cap-btm">
+                <div className="characteristics-of-good-btm">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and we excel in it. Be it the overall
                     brand design, website design or content design
                   </p>
                 </div>
-                <div className="top-cap-back-content">
+                <div className="characteristics-of-good-back-content">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and Designing is our core, and we
@@ -291,27 +285,27 @@ function BrandNameSuggestion() {
                 </div>
               </div>
               <img
-                className="top-cap-check-eye"
+                className="characteristics-of-good-check-eye"
                 src="https://dndesigns.co.in/wp-content/uploads/2025/06/Frame-427324112.png"
               />
             </div>
 
-            <div className="col-12 col-md-6 col-lg-3 px-2 top-cap-main-div">
-              <div className="p-3 top-cap-div m-3">
+            <div className="col-12 col-md-6 col-lg-3 px-2 characteristics-of-good-main-div">
+              <div className="p-3 characteristics-of-good-div m-3">
                 <div className="text-center m-5">
                   <img
                     src="https://dndesigns.co.in/wp-content/uploads/2025/07/design.svg"
                     className="cap-img"
                   ></img>
                 </div>
-                <div className="top-cap-btm">
+                <div className="characteristics-of-good-btm">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and we excel in it. Be it the overall
                     brand design, website design or content design
                   </p>
                 </div>
-                <div className="top-cap-back-content">
+                <div className="characteristics-of-good-back-content">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and we excel in it. Be it the overall
@@ -323,27 +317,27 @@ function BrandNameSuggestion() {
                 </div>
               </div>
               <img
-                className="top-cap-check-eye"
+                className="characteristics-of-good-check-eye"
                 src="https://dndesigns.co.in/wp-content/uploads/2025/06/Frame-427324112.png"
               />
             </div>
 
-            <div className="col-12 col-md-6 col-lg-3 px-2 top-cap-main-div">
-              <div className="p-3 top-cap-div m-3">
+            <div className="col-12 col-md-6 col-lg-3 px-2 characteristics-of-good-main-div">
+              <div className="p-3 characteristics-of-good-div m-3">
                 <div className="text-center m-5">
                   <img
                     src="https://dndesigns.co.in/wp-content/uploads/2025/07/design.svg"
                     className="cap-img"
                   ></img>
                 </div>
-                <div className="top-cap-btm">
+                <div className="characteristics-of-good-btm">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and we excel in it. Be it the overall
                     brand design, website design or content design
                   </p>
                 </div>
-                <div className="top-cap-back-content">
+                <div className="characteristics-of-good-back-content">
                   <h3>Design</h3>
                   <p>
                     Designing is our core, and we excel in it. Be it the overall
@@ -355,7 +349,7 @@ function BrandNameSuggestion() {
                 </div>
               </div>
               <img
-                className="top-cap-check-eye"
+                className="characteristics-of-good-check-eye"
                 src="https://dndesigns.co.in/wp-content/uploads/2025/06/Frame-427324112.png"
               />
             </div>
@@ -368,7 +362,7 @@ function BrandNameSuggestion() {
       <div className="container">
         <div className="row">
         <div className="winning-brand-names-heading-div">
-          <h2>Winning Brand Names - Crafted By Us</h2>
+          <h2>Winning Brand Names -<span className="every-pr"> Crafted By Us</span></h2>
           <div className="winning-brand-names-btn-div">
           <button className="talk-to-us">
                   Talk to Us
