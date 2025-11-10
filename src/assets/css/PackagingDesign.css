@@ -1,4 +1,4 @@
-/* logo desining hero */
+/* packing desining hero */
 .package-design-hero {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -203,6 +203,13 @@
 
 .port-main-div{
   margin-top: 10px;
+}
+
+.portfolio h2{
+  font-size:40px ;
+}
+.portfolio {
+  padding: 50px 0;
 }
 }
 
@@ -537,14 +544,19 @@
 }
 .packaging-point-number{
   font-size: 50px;
+  font-family: "Corbert";
+  color: #000;
 }
 .packaging-points-title{
   font-size: 23px;
   margin-bottom: 10px;
+  font-family: "Corbert";
+  color: #000;
 }
 .packaging-points-para{
   color: #888;
   font-size: 16px;
+  font-family: "Roboto";
 }
 .packaging-cards:hover{
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
@@ -560,6 +572,7 @@
   .packaging-points-title{
     font-size: 25px;
     margin-bottom: 0;
+    font-family: "Corbert";
   }
   .packaging-heading{
     font-size: 40px;
@@ -570,12 +583,11 @@
   .packaging-points-title{
     font-size: 25px;
     margin-bottom: 0;
+    font-family: "Corbert";
+    text-align: center;
   }
 }
 
-/* .row{
-  margin: 0 !important;
-} */
 
 
 /* faqs */
@@ -586,31 +598,4 @@
     font-weight: 700;
     color: rgb(0, 0, 0);
 }
-
-
-/* ewjd */
-
-.demoPage1{
-    background-color: red;
-}
-
-
-.demoPage2{
-    background-color: green;
-}
-
-.demoPage3{
-    background-color: blue;
-}
-
-.demoPage4{
-    background-color: yellow;
-}
-.demoPage5{
-    background-color: gray;
-}
-.demoPage6{
-    background-color: orange;
-}
-
 

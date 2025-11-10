@@ -84,7 +84,6 @@ function PackagingDesign() {
       </section>
 
       {/* Hero section */}
-
       <section className="package-design-hero">
         <div className="container">
           <div className="row">
@@ -124,7 +123,7 @@ function PackagingDesign() {
       <section className='portfolio'>
       <div className='container'>
       <h2 className="text-center">
-              Brand Identity<span className="every-pr"> We Created</span>
+              Our <span className="every-pr"> Work Portfolio</span>
             </h2>
         <div className='row port-row'>
             <div className='col-12 col-md-6 px-2 port-main-div '>
@@ -542,7 +541,7 @@ function PackagingDesign() {
         <span style={{ color: "#CA2734" }}>Design Services</span>
       </h2>
 
-      <div className="row g-5 standalone-packaging-mobile  ">
+      <div className="row  standalone-packaging-mobile  ">
         <div className="col-md-6 col-12">
           <img
             src="https://dndesigns.co.in/wp-content/uploads/2025/06/smart-adult-caucasi.jpg"
@@ -582,7 +581,7 @@ function PackagingDesign() {
         </div>
       </div>
 
-      <div className="row g-5 mt-2">
+      <div className="row  mt-2">
         <div className="col-md-6 col-12">
           <img
             src="https://dndesigns.co.in/wp-content/uploads/2025/06/Untitled-1.jpg"
@@ -635,44 +634,6 @@ function PackagingDesign() {
               rightFaqs={rightFaqs}
             />
       </section>
-
-
-      {/* sjnd */}
-
-     <section>
-       <div className='container text-center'>
-       <div className='row'>
-        <div className='col-12 col-md-6 px-2'>
-                <HTMLFlipBook width={300} height={500}
-                showCover={true}>
-          <div className="demoPage1">
-            <img src='https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg' className='img-fluid'/>
-          </div>
-          <div className="demoPage2"><img src='https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg' className='img-fluid'/></div>
-          <div className="demoPage3"><img src='https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg' className='img-fluid'/></div>
-          <div className="demoPage4"><img src='https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg' className='img-fluid'/></div>
-          <div className="demoPage5"><img src='https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg' className='img-fluid'/></div>
-          <div className="demoPage6"><img src='https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg' className='img-fluid'/></div>
-          <div className="demoPage6"><img src='https://dndesigns.co.in/wp-content/uploads/2025/01/Green-Horn-Catalogue.jpg' className='img-fluid'/></div>
-        </HTMLFlipBook>
-        </div>
-          <div className='col-12 col-md-6 px-2'>
-                <HTMLFlipBook width={300} height={500}>
-          <div className="demoPage1">Page 1 Content</div>
-          <div className="demoPage2">Page 2 Content</div>
-          <div className="demoPage3">Page 3 Content</div>
-          <div className="demoPage4">Page 4 Content</div>
-          <div className="demoPage5">Page 4 Content</div>
-          <div className="demoPage6">Page 4 Content</div>
-          <div className="demoPage6">Page 4 Content</div>
-        </HTMLFlipBook>
-        </div>
-       </div>
-      
-    </div>
-    </section>
-       
-
       {/* form */}
       <Form/>
  

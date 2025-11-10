@@ -80,15 +80,45 @@
   }
 }
 
-/* ejkndfjk */
+/* our-work-portfolio-custom- */
 
+.our-work-portfolio{
+  padding: 80px 0;
+}
 
-.demoPage1{
-    background-color: red;
+.our-work-portfolio h2{
+  font-size: 50px;
+  font-family: "Corbert";
+  color: #000;
+  padding: 40px 0;
+}
+
+.our-work-portfolio-custom-container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.our-work-portfolio-custom-row{
+  display: flex;
+  width: 100%;
 }
 
 
 
+.our-work-portfolio-custom-col {
+  flex: 1; /* equal width columns */
+  width: 50%;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .our-work-portfolio-custom-row {
+    flex-direction: column;
+  }
+  .our-work-portfolio-custom-col {
+    width: 100%;
+  }
+}
 
 /* The Protagonists  */
 
@@ -165,6 +195,10 @@
   font-family: "Roboto-Regular";
 }
 
+.app-pro-div-up{
+  margin-left: 20px;
+}
+
 @media (max-width: 767px) {
   .appr-pro {
     padding-top: 40px;
@@ -175,6 +209,9 @@
   .appr-pro p {
     width: 100%;
   }
+ .appr-pro .appr-pro-main-head {
+  font-size: 40px;
+}
 }
 
 
@@ -253,12 +290,19 @@
 
 .e-catalogues-main-col{
   display: flex;
+  margin-top: 20px;
 }
 
 .e-catalogues-left,
 .e-catalogues-right {
   flex: 1; 
 } 
+
+@media(max-width:991.98px){
+  .e-cata-right-img{
+  margin-top:20px ;
+}
+}
 
 
 /* Creative Catalogue Designing - Our Process desktop view */
@@ -456,7 +500,7 @@
 /* Creative Brochure Design But With A Twist */
 
 .creative-brochure{
-  padding: 50px 0;
+  padding: 120px 0;
 }
 
 .swipper-slide-div-brochure img{
@@ -464,6 +508,22 @@
   box-shadow: 0px 4px 15px -5px rgba(0, 0, 0, 0.2);
   margin: 50px 20px;
   padding: 30px;
+}
+
+.creative-brochure-div h2{
+  font-size: 50px;
+  font-family: "Corbert";
+  color: #000;
+  padding: 0 20px;
+}
+
+@media(max-width:767px){
+  .creative-brochure-div h2{
+  font-size: 40px;
+}
+.creative-brochure{
+  padding: 50px 0;
+}
 }
 
 
