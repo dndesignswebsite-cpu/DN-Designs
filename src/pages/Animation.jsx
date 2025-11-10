@@ -172,6 +172,248 @@ function Animation() {
         </Modal>
         </div>
       </section>
+
+
+
+{/* We Are The Leading Video */}
+      <section className="we-are-the-leading">
+      <div className="container">
+        <div className="row">
+            <h3>We Are The Leading Video
+            Production Company For Brands</h3>
+            <div className="col-12 col-md-6 we-are-the-leading-para" >
+              <p>A video shouldn’t just play; it should pull its viewer in (well, figuratively speaking). It should fulfil its objective (educate, promote or entertain), communicate brand value, build trust and inspire customers to convert. As a business animation studio in Noida, we provide you just that. It doesn’t matter whether you are an emerging start-up or an established brand; we work with equal enthusiasm.</p>
+            </div>
+            <div className="col-12 col-md-6 we-are-the-leading-para">
+              <p>We focus on your objectives and vision and pair them up with our creative and technical skills. Our studio is teeming with strategists, scriptwriters, cinematographers, editors, social media experts and production team – all of whom pool in their special talents to transform your vision into reality. Want us to create a compelling video that grabs attention, evokes emotion and enhances engagement? Just get in touch with us.</p>
+            </div>
+        </div>
+      </div>
+        
+      </section>
+
+
+
+
+
+
+
+      {/* Characteristics of Good Brand Name? */}
+
+      <section className="characteristics-of-good">
+        <div className="container">
+          {/* 1st row */}
+          <div className="row">
+            <h2 className="text-center headg">
+              Characteristics of <span className="every-pr"> Good Brand Name?</span>
+            </h2>
+            <div className="col-12 col-md-6 col-lg-4 px-2 characteristics-of-good-main-div">
+              <div className=" characteristics-of-good-div m-3">
+                <div className="text-center m-5">
+                  <img
+                    src="https://dndesigns.co.in/wp-content/uploads/2025/07/design.svg"
+                    className="cap-img"
+                  ></img>
+                </div>
+                <div className="characteristics-of-good-btm">
+                  <h3>Design</h3>
+                  <p>
+                    Designing is our core, and we excel in it. Be it the overall
+                    brand design, website design or content design
+                  </p>
+                </div>
+                <div className="characteristics-of-good-back-content">
+                  <h3>Design</h3>
+                  <p>
+                    Designing is our core, and Designing is our core, and we
+                    excel in it. BeDesigning is our core, and we excel in it.
+                    BeDesigning is our core, and we excel in it. Bewe excel in
+                    it. Be it the overall brand design, website design or
+                    content design – we have expertise and experience in all. We
+                    understand your vision and create a design that boosts your
+                    brand value and increases ROI.
+                  </p>
+                </div>
+              </div>
+              <img
+                className="characteristics-of-good-check-eye"
+                src="https://dndesigns.co.in/wp-content/uploads/2025/06/Frame-427324112.png"
+              />
+            </div>
+
+            <div className="col-12 col-md-6 col-lg-4 px-2 characteristics-of-good-main-div">
+              <div className=" characteristics-of-good-div m-3">
+                <div className="text-center m-5">
+                  <img
+                    src="https://dndesigns.co.in/wp-content/uploads/2025/07/design.svg"
+                    className="cap-img"
+                  ></img>
+                </div>
+                <div className="characteristics-of-good-btm">
+                  <h3>Design</h3>
+                  <p>
+                    Designing is our core, and we excel in it. Be it the overall
+                    brand design, website design or content design
+                  </p>
+                </div>
+                <div className="characteristics-of-good-back-content">
+                  <h3>Design</h3>
+                  <p>
+                    Designing is our core, and Designing is our core, and we
+                    excel in it. BeDesigning is our core, and we excel in it.
+                    BeDesigning is our core, and we excel in it. Bewe excel in
+                    it. Be it the overall brand design, website design or
+                    content design – we have expertise and experience in all. We
+                    understand your vision and create a design that boosts your
+                    brand value and increases ROI.
+                  </p>
+                </div>
+              </div>
+              <img
+                className="characteristics-of-good-check-eye"
+                src="https://dndesigns.co.in/wp-content/uploads/2025/06/Frame-427324112.png"
+              />
+            </div>
+
+            <div className="col-12 col-md-6 col-lg-4 px-2 characteristics-of-good-main-div">
+              <div className="p-3 characteristics-of-good-div m-3">
+                <div className="text-center m-5">
+                  <img
+                    src="https://dndesigns.co.in/wp-content/uploads/2025/07/design.svg"
+                    className="cap-img"
+                  ></img>
+                </div>
+                <div className="characteristics-of-good-btm">
+                  <h3>Design</h3>
+                  <p>
+                    Designing is our core, and we excel in it. Be it the overall
+                    brand design, website design or content design
+                  </p>
+                </div>
+                <div className="characteristics-of-good-back-content">
+                  <h3>Design</h3>
+                  <p>
+                    Designing is our core, and we excel in it. Be it the overall
+                    brand design, website design or content design – we have
+                    expertise and experience in all. We understand your vision
+                    and create a design that boosts your brand value and
+                    increases ROI.
+                  </p>
+                </div>
+              </div>
+              <img
+                className="characteristics-of-good-check-eye"
+                src="https://dndesigns.co.in/wp-content/uploads/2025/06/Frame-427324112.png"
+              />
+            </div>
+
+          </div>
+
+          {/* 2nd row */}
+          <div className="row">
+            <div className="col-12 col-md-6 col-lg-4 px-2 characteristics-of-good-main-div">
+              <div className=" characteristics-of-good-div m-3">
+                <div className="text-center m-5">
+                  <img
+                    src="https://dndesigns.co.in/wp-content/uploads/2025/07/design.svg"
+                    className="cap-img"
+                  ></img>
+                </div>
+                <div className="characteristics-of-good-btm">
+                  <h3>Design</h3>
+                  <p>
+                    Designing is our core, and we excel in it. Be it the overall
+                    brand design, website design or content design
+                  </p>
+                </div>
+                <div className="characteristics-of-good-back-content">
+                  <h3>Design</h3>
+                  <p>
+                    Designing is our core, and Designing is our core, and we
+                    excel in it. BeDesigning is our core, and we excel in it.
+                    BeDesigning is our core, and we excel in it. Bewe excel in
+                    it. Be it the overall brand design, website design or
+                    content design – we have expertise and experience in all. We
+                    understand your vision and create a design that boosts your
+                    brand value and increases ROI.
+                  </p>
+                </div>
+              </div>
+              <img
+                className="characteristics-of-good-check-eye"
+                src="https://dndesigns.co.in/wp-content/uploads/2025/06/Frame-427324112.png"
+              />
+            </div>
+
+            <div className="col-12 col-md-6 col-lg-4 px-2 characteristics-of-good-main-div">
+              <div className=" characteristics-of-good-div m-3">
+                <div className="text-center m-5">
+                  <img
+                    src="https://dndesigns.co.in/wp-content/uploads/2025/07/design.svg"
+                    className="cap-img"
+                  ></img>
+                </div>
+                <div className="characteristics-of-good-btm">
+                  <h3>Design</h3>
+                  <p>
+                    Designing is our core, and we excel in it. Be it the overall
+                    brand design, website design or content design
+                  </p>
+                </div>
+                <div className="characteristics-of-good-back-content">
+                  <h3>Design</h3>
+                  <p>
+                    Designing is our core, and Designing is our core, and we
+                    excel in it. BeDesigning is our core, and we excel in it.
+                    BeDesigning is our core, and we excel in it. Bewe excel in
+                    it. Be it the overall brand design, website design or
+                    content design – we have expertise and experience in all. We
+                    understand your vision and create a design that boosts your
+                    brand value and increases ROI.
+                  </p>
+                </div>
+              </div>
+              <img
+                className="characteristics-of-good-check-eye"
+                src="https://dndesigns.co.in/wp-content/uploads/2025/06/Frame-427324112.png"
+              />
+            </div>
+
+            <div className="col-12 col-md-6 col-lg-4 px-2 characteristics-of-good-main-div">
+              <div className="p-3 characteristics-of-good-div m-3">
+                <div className="text-center m-5">
+                  <img
+                    src="https://dndesigns.co.in/wp-content/uploads/2025/07/design.svg"
+                    className="cap-img"
+                  ></img>
+                </div>
+                <div className="characteristics-of-good-btm">
+                  <h3>Design</h3>
+                  <p>
+                    Designing is our core, and we excel in it. Be it the overall
+                    brand design, website design or content design
+                  </p>
+                </div>
+                <div className="characteristics-of-good-back-content">
+                  <h3>Design</h3>
+                  <p>
+                    Designing is our core, and we excel in it. Be it the overall
+                    brand design, website design or content design – we have
+                    expertise and experience in all. We understand your vision
+                    and create a design that boosts your brand value and
+                    increases ROI.
+                  </p>
+                </div>
+              </div>
+              <img
+                className="characteristics-of-good-check-eye"
+                src="https://dndesigns.co.in/wp-content/uploads/2025/06/Frame-427324112.png"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }
