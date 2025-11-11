@@ -414,6 +414,128 @@ function Animation() {
         </div>
       </section>
 
+
+       {/*The Protagonists */}
+
+      <section className="appr-pro">
+        <div className="container">
+
+          <div className="">
+            <div className="row appr-pro-row-main">
+              <div className="col-12 col-md-12 col-lg-6 mt-3">
+                <h2 className="appr-pro-main-head">
+                  The Protagonists of
+                  <span className="every-pr"> Catalogue Design</span>
+                </h2>
+              </div>
+
+             <div className="col-12 col-md-6 col-lg-3 mt-3">
+              <div className=" app-pro-div app-pro-div-white">
+                <div>
+                  <h3>Discovery & Planning</h3>
+                  <p>
+                    The fundamentals come first - understanding the product, its
+                    USP, the brand’s vision, its target audience and
+                    competitors. Solid research leads to a solid foundation upon
+                    which we base our strategic plan.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+              <div className="col-12 col-md-6 col-lg-3 mt-3">
+              <div className=" app-pro-div app-pro-div-white">
+                <div>
+                  <h3>Discovery & Planning</h3>
+                  <p>
+                    The fundamentals come first - understanding the product, its
+                    USP, the brand’s vision, its target audience and
+                    competitors. Solid research leads to a solid foundation upon
+                    which we base our strategic plan.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            </div>
+          </div>
+
+          <div className="row appr-pro-row-main">
+            <div className="col-12 col-md-6 col-lg-3 mt-3">
+              <div className=" app-pro-div app-pro-div-white">
+                <div>
+                  <h3>Discovery & Planning</h3>
+                  <p>
+                    The fundamentals come first - understanding the product, its
+                    USP, the brand’s vision, its target audience and
+                    competitors. Solid research leads to a solid foundation upon
+                    which we base our strategic plan.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6 col-lg-3 mt-3">
+              <div className="app-pro-div app-pro-div-gray">
+                <div>
+                  <h3>Design, Development & Execution</h3>
+                  <p>
+                    Designing and developing practical options follows. A
+                    crucial aspect of this step is revision and refinement. We
+                    work on and modify our designs to ensure they match your
+                    vision.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6 col-lg-3 mt-3">
+              <div className=" app-pro-div app-pro-div-white">
+                <div>
+                  <h3>Testing & Launch</h3>
+                  <p>
+                    Once everything is ready, it’s time to test it. For us,
+                    testing is important both before and after the product
+                    launch. This is to ensure that everything works smoothly at
+                    both stages.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6 col-lg-3 mt-3">
+              <div className=" app-pro-div app-pro-div-gray">
+                <div>
+                  <h3>Ongoing Support</h3>
+                  <p>
+                    We provide our clients with ongoing support even after the
+                    project is over. If you face problems post-completion of the
+                    work, we are there to resolve them.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+{/* The Power of Animation */}
+<section className="power-of-animation">
+  <diV className="container">
+    <div className="row text-center">
+    <h3>The Power of Animation</h3>
+    <p>Spark Interest & Build Engagement</p>
+      <div className="col">
+        <img src="https://dndesigns.co.in/wp-content/uploads/2019/02/11.jpg" className="img-fluid"></img>
+      </div>
+      <div className="col">
+        <img src="https://dndesigns.co.in/wp-content/uploads/2019/02/22.jpg" className="img-fluid"></img>
+      </div>
+    </div>
+  </diV>
+</section>
+
     </div>
   );
 }
